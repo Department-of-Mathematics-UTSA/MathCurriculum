@@ -1,0 +1,291 @@
+
+(1 rows affected)
+
+(1 rows affected)
+
+(7 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(26 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(0 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(0 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(30 rows affected)
+
+(0 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(1 rows affected)
+
+(15 rows affected)
+
+(28 rows affected)
+
+(4 rows affected)
+
+(1 rows affected)
+lines                                                                                                                                                                                                                                                           
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="iso-8859-1"?><doc>                                                                                                                                                                                                                
+<labels>                                                                                                                                                                                                                                                        
+<label><id_opus_category>1</id_opus_category><id_opus_label>Neuro/Dev/Regen</id_opus_label></label>                                                                                                                                                             
+<label><id_opus_category>2</id_opus_category><id_opus_label>Engineering</id_opus_label></label>                                                                                                                                                                 
+<label><id_opus_category>3</id_opus_category><id_opus_label>Earth and Planetary</id_opus_label></label>                                                                                                                                                         
+<label><id_opus_category>4</id_opus_category><id_opus_label>Integrative Biology</id_opus_label></label>                                                                                                                                                         
+<label><id_opus_category>5</id_opus_category><id_opus_label>Mathematics</id_opus_label></label>                                                                                                                                                                 
+<label><id_opus_category>6</id_opus_category><id_opus_label>Mol. Microbio/Immuno</id_opus_label></label>                                                                                                                                                        
+<label><id_opus_category>7</id_opus_category><id_opus_label>Physics and Astronom</id_opus_label></label>                                                                                                                                                        
+</labels>                                                                                                                                                                                                                                                       
+<pagina_id_>1</pagina_id_>                                                                                                                                                                                                                                      
+<symbolum>8EDA247D-6FFC-4B42-8268-03548A48A9F7</symbolum>                                                                                                                                                                                                       
+<id_category_interest_base>5</id_category_interest_base>                                                                                                                                                                                                        
+<pagina_sec><pagina_title><![CDATA[Algebraic Properties]]></pagina_title><id_cap>cap1</id_cap><id>cap1</id></pagina_sec>                                                                                                                                        
+<pagina_sec><pagina_title><![CDATA[Fractions]]></pagina_title><id_cap>cap2</id_cap><id>cap2</id></pagina_sec>                                                                                                                                                   
+<pagina_sec><pagina_title><![CDATA[Factoring Polynomials]]></pagina_title><id_cap>cap3</id_cap><id>cap3</id></pagina_sec>                                                                                                                                       
+<pagina_sec><pagina_title><![CDATA[Linear Equations]]></pagina_title><id_cap>cap4</id_cap><id>cap4</id></pagina_sec>                                                                                                                                            
+<pagina_sec><pagina_title><![CDATA[Systems of Equations in Two Variables]]></pagina_title><id_cap>cap5</id_cap><id>cap5</id></pagina_sec>                                                                                                                       
+<pagina_sec><pagina_title><![CDATA[Functions]]></pagina_title><id_cap>cap6</id_cap><id>cap6</id></pagina_sec>                                                                                                                                                   
+<pagina_sec><pagina_title><![CDATA[Function Notation]]></pagina_title><id_cap>cap7</id_cap><id>cap7</id></pagina_sec>                                                                                                                                           
+<pagina_sec><pagina_title><![CDATA[Domain of a Function]]></pagina_title><id_cap>cap8</id_cap><id>cap8</id></pagina_sec>                                                                                                                                        
+<pagina_sec><pagina_title><![CDATA[Range of a Function]]></pagina_title><id_cap>cap9</id_cap><id>cap9</id></pagina_sec>                                                                                                                                         
+<pagina_sec><pagina_title><![CDATA[Toolkit Functions]]></pagina_title><id_cap>cap10</id_cap><id>cap10</id></pagina_sec>                                                                                                                                         
+<pagina_sec><pagina_title><![CDATA[Composition of Functions]]></pagina_title><id_cap>cap11</id_cap><id>cap11</id></pagina_sec>                                                                                                                                  
+<pagina_sec><pagina_title><![CDATA[Inverse Functions]]></pagina_title><id_cap>cap12</id_cap><id>cap12</id></pagina_sec>                                                                                                                                         
+<pagina_sec><pagina_title><![CDATA[Exponential Properties]]></pagina_title><id_cap>cap13</id_cap><id>cap13</id></pagina_sec>                                                                                                                                    
+<pagina_sec><pagina_title><![CDATA[Exponential Functions]]></pagina_title><id_cap>cap14</id_cap><id>cap14</id></pagina_sec>                                                                                                                                     
+<pagina_sec><pagina_title><![CDATA[Logarithmic Properties]]></pagina_title><id_cap>cap15</id_cap><id>cap15</id></pagina_sec>                                                                                                                                    
+<pagina_sec><pagina_title><![CDATA[Logarithmic Functions]]></pagina_title><id_cap>cap16</id_cap><id>cap16</id></pagina_sec>                                                                                                                                     
+<pagina_sec><pagina_title><![CDATA[Quadratic Equations]]></pagina_title><id_cap>cap17</id_cap><id>cap17</id></pagina_sec>                                                                                                                                       
+<pagina_sec><pagina_title><![CDATA[Quadratic Functions]]></pagina_title><id_cap>cap18</id_cap><id>cap18</id></pagina_sec>                                                                                                                                       
+<pagina_sec><pagina_title><![CDATA[Dividing Polynomials]]></pagina_title><id_cap>cap19</id_cap><id>cap19</id></pagina_sec>                                                                                                                                      
+<pagina_sec><pagina_title><![CDATA[Zeros of Polynomials]]></pagina_title><id_cap>cap20</id_cap><id>cap20</id></pagina_sec>                                                                                                                                      
+<pagina_sec><pagina_title><![CDATA[Power and Polynomial Functions]]></pagina_title><id_cap>cap21</id_cap><id>cap21</id></pagina_sec>                                                                                                                            
+<pagina_sec><pagina_title><![CDATA[Graphs of Polynomials]]></pagina_title><id_cap>cap22</id_cap><id>cap22</id></pagina_sec>                                                                                                                                     
+<pagina_sec><pagina_title><![CDATA[Rational Expressions]]></pagina_title><id_cap>cap23</id_cap><id>cap23</id></pagina_sec>                                                                                                                                      
+<pagina_sec><pagina_title><![CDATA[Graphs of Rational Functions]]></pagina_title><id_cap>cap24</id_cap><id>cap24</id></pagina_sec>                                                                                                                              
+<pagina_sec><pagina_title><![CDATA[Single Transformations of Functions]]></pagina_title><id_cap>cap25</id_cap><id>cap25</id></pagina_sec>                                                                                                                       
+<pagina_sec><pagina_title><![CDATA[Multiple Transformations of Functions]]></pagina_title><id_cap>cap26</id_cap><id>cap26</id></pagina_sec>                                                                                                                     
+NULL                                                                                                                                                                                                                                                            
+<id_chorus>10193</id_chorus>                                                                                                                                                                                                                                    
+<files>                                                                                                                                                                                                                                                         
+</files>                                                                                                                                                                                                                                                        
+<ds_survey></ds_survey>                                                                                                                                                                                                                                         
+<artifex_name>biomath</artifex_name>                                                                                                                                                                                                                            
+<id_opus>1073</id_opus><id_pagina>1</id_pagina><artifex_id>1</artifex_id><id_nauta>164</id_nauta><ds_opus>MAT1073: Algebra for Scientists and Engineers</ds_opus><cd_opus>LITERATRONIC</cd_opus><cd_new_id>26E119C7-E151-41B3-8163-0CF2F26A2A0D</cd_new_id>     
+<take>0</take>                                                                                                                                                                                                                                                  
+<pag_title><![CDATA[Algebraic Properties]]></pag_title><ds_pdf><![CDATA[https://drive.google.com/file/d/1lY9uU10PuvkNgoUyj9xBDtuKyS3ezWWb/preview]]></ds_pdf><ds_wiki><![CDATA[]]></ds_wiki><ds_youtube><![CDATA[]]></ds_youtube><ds_assess><![CDATA[]]></ds_ass
+<pag_prv>26</pag_prv>                                                                                                                                                                                                                                           
+<pag_nxt>2</pag_nxt>                                                                                                                                                                                                                                            
+<page_name>Pagina.aspx</page_name>                                                                                                                                                                                                                              
+<matrix_edges>1,2,10 ,2,3,10 ,3,4,10 ,4,5,10 ,5,6,10 ,6,7,10 ,7,8,10 ,8,9,10 ,9,10,10 ,10,11,10 ,11,12,10 ,12,13,10 ,13,14,10 ,14,15,10 ,15,16,10 ,16,17,10 ,17,18,10 ,18,19,10 ,19,20,10 ,20,21,10 ,21,22,10 ,22,23,10 ,23,24,10 ,24,25,10 ,25,26,10</matrix_ed
+<matrix_personalize>1,2,99 ,2,3,99 ,3,4,99 ,4,5,99 ,5,6,99 ,6,7,99 ,7,8,99 ,8,9,99 ,9,10,99 ,10,11,99 ,11,12,99 ,12,13,99 ,13,14,99 ,14,15,99 ,15,16,99 ,16,17,99 ,17,18,99 ,18,19,99 ,19,20,99 ,20,21,99 ,21,23,99 ,21,25,99 ,21,23,99 ,21,32,99 ,21,23,99 ,21,
+<matrix_mni>,1,2,2 ,1,3,2 ,1,4,3 ,1,5,4 ,1,6,5 ,1,7,6 ,1,8,7 ,1,9,8 ,1,10,9 ,1,11,10 ,1,12,11 ,1,13,12 ,1,14,13 ,1,15,14 ,1,16,15 ,1,17,16 ,1,18,17 ,1,19,18 ,1,20,19 ,1,21,20 ,1,22,21 ,1,23,22 ,1,24,23 ,1,25,24 ,1,26,25 ,2,3,3 ,2,4,3 ,2,5,4 ,2,6,5 ,2,7,6 ,
+<pagina_name><id>1</id><name><![CDATA[Algebraic Properties]]></name><pagina_type>ROOT</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                                   
+<pagina_name><id>2</id><name><![CDATA[Fractions]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                                           
+<pagina_name><id>3</id><name><![CDATA[Factoring Polynomials]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                               
+<pagina_name><id>4</id><name><![CDATA[Linear Equations]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                                    
+<pagina_name><id>5</id><name><![CDATA[Systems of Equations in Two Variables]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                               
+<pagina_name><id>6</id><name><![CDATA[Functions]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                                           
+<pagina_name><id>7</id><name><![CDATA[Function Notation]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                                   
+<pagina_name><id>8</id><name><![CDATA[Domain of a Function]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                                
+<pagina_name><id>9</id><name><![CDATA[Range of a Function]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                                 
+<pagina_name><id>10</id><name><![CDATA[Toolkit Functions]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                                  
+<pagina_name><id>11</id><name><![CDATA[Composition of Functions]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                           
+<pagina_name><id>12</id><name><![CDATA[Inverse Functions]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                                  
+<pagina_name><id>13</id><name><![CDATA[Exponential Properties]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                             
+<pagina_name><id>14</id><name><![CDATA[Exponential Functions]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                              
+<pagina_name><id>15</id><name><![CDATA[Logarithmic Properties]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                             
+<pagina_name><id>16</id><name><![CDATA[Logarithmic Functions]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                              
+<pagina_name><id>17</id><name><![CDATA[Quadratic Equations]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                                
+<pagina_name><id>18</id><name><![CDATA[Quadratic Functions]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                                
+<pagina_name><id>19</id><name><![CDATA[Dividing Polynomials]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                               
+<pagina_name><id>20</id><name><![CDATA[Zeros of Polynomials]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                               
+<pagina_name><id>21</id><name><![CDATA[Power and Polynomial Functions]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                     
+<pagina_name><id>22</id><name><![CDATA[Graphs of Polynomials]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>true</submit><color>yellow</color></pagina_name>                                            
+<pagina_name><id>23</id><name><![CDATA[Rational Expressions]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                               
+<pagina_name><id>24</id><name><![CDATA[Graphs of Rational Functions]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                       
+<pagina_name><id>25</id><name><![CDATA[Single Transformations of Functions]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>                                
+<pagina_name><id>26</id><name><![CDATA[Multiple Transformations of Functions]]></name><pagina_type>ROOT</pagina_type><pagina_cat>1</pagina_cat><capstone>true</capstone><submit>false</submit><color>red</color></pagina_name>                                  
+<positions_graph>,1,-1727,-242#,2,-1725,135#,3,-1635,411#,4,-1407,676#,5,-1158,841#,6,-755,1023#,7,-416,1106#,8,-258,1151#,9,-121,1201#,10,36,1253#,11,145,1239#,12,306,1269#,13,469,1275#,14,656,1169#,15,793,1089#,16,887,1028#,17,991,856#,18,1059,736#,19,11
+<id_category_interest_base>5</id_category_interest_base>                                                                                                                                                                                                        
+<TAB_WIKI><![CDATA[Wiki]]></TAB_WIKI>                                                                                                                                                                                                                           
+<TAB_PDF><![CDATA[PDF]]></TAB_PDF>                                                                                                                                                                                                                              
+<TAB_MEDIA><![CDATA[Video]]></TAB_MEDIA>                                                                                                                                                                                                                        
+<TAB_LIVESCRIBE><![CDATA[LiveScribe]]></TAB_LIVESCRIBE>                                                                                                                                                                                                         
+<TAB_INTRO><![CDATA[Intro]]></TAB_INTRO>                                                                                                                                                                                                                        
+<TAB_MAPPA><![CDATA[Map]]></TAB_MAPPA>                                                                                                                                                                                                                          
+<TAB_SCRUTINIUM><![CDATA[Test]]></TAB_SCRUTINIUM>                                                                                                                                                                                                               
+<TAB_FONS_CODEX><![CDATA[Code]]></TAB_FONS_CODEX>                                                                                                                                                                                                               
+<TAB_INTRO><![CDATA[Intro]]></TAB_INTRO>                                                                                                                                                                                                                        
+<L_NEXT><![CDATA[Next]]></L_NEXT>                                                                                                                                                                                                                               
+<L_PREVIOUS><![CDATA[Previous]]></L_PREVIOUS>                                                                                                                                                                                                                   
+<L_LINK_PENDING><![CDATA[Adaptive Links <SPAN class=MEDIUM>(Higher percentages indicate greater cognitive continuity)</SPAN>]]></L_LINK_PENDING>                                                                                                                
+<L_LINK_VISITED><![CDATA[Related Lessons Already Visited]]></L_LINK_VISITED>                                                                                                                                                                                    
+<L_BOOK><![CDATA[Course]]></L_BOOK>                                                                                                                                                                                                                             
+<L_CHAPTER><![CDATA[Page]]></L_CHAPTER>                                                                                                                                                                                                                         
+<L_PAGE><![CDATA[Page]]></L_PAGE>                                                                                                                                                                                                                               
+<L_SEE_SB_HM><![CDATA[See submitted homework for all lessons.]]></L_SEE_SB_HM>                                                                                                                                                                                  
+<L_SEE_HM><![CDATA[See my homework.]]></L_SEE_HM>                                                                                                                                                                                                               
+<L_UPLOADED_HM><![CDATA[You have uploaded you homework for this lesson.]]></L_UPLOADED_HM>                                                                                                                                                                      
+<L_Graded_><![CDATA[Graded]]></L_Graded_>                                                                                                                                                                                                                       
+<L_pending><![CDATA[Pending]]></L_pending>                                                                                                                                                                                                                      
+<L_READ><![CDATA[Read]]></L_READ>                                                                                                                                                                                                                               
+<L_set_known><![CDATA[Set As Known]]></L_set_known>                                                                                                                                                                                                             
+<next_lesson>3</next_lesson>                                                                                                                                                                                                                                    
+<page_counter><id_opus>1073</id_opus><ds_opus>MAT1073: Algebra for Scientists and Engineers</ds_opus><cd_opus>LITERATRONIC</cd_opus>                                                                                                                            
+<percentage_g>3</percentage_g><percentage>3</percentage><perc_diff>0</perc_diff><perct_incomplete>96</perct_incomplete><total_read>3</total_read>                                                                                                               
+</page_counter>                                                                                                                                                                                                                                                 
+<vertex><id_vertex>1,2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 , 21 , 22 , 23 , 24 , 25 , 26,1</id_vertex></vertex>                                                                                                  
+<pending>                                                                                                                                                                                                                                                       
+<link><id_pagina>2</id_pagina><ds_title><![CDATA[Fractions]]></ds_title><ds_tag><![CDATA[Fractions]]></ds_tag><score>90</score></link>                                                                                                                          
+</pending>                                                                                                                                                                                                                                                      
+<param>                                                                                                                                                                                                                                                         
+<language>BRITANNIA</language>                                                                                                                                                                                                                                  
+<opus_type></opus_type>                                                                                                                                                                                                                                         
+<page_code>P_INDEX</page_code>                                                                                                                                                                                                                                  
+<user_logon>juan.gutierrez3</user_logon>                                                                                                                                                                                                                        
+<page_name>Pagina.aspx</page_name>                                                                                                                                                                                                                              
+<id_opus></id_opus>                                                                                                                                                                                                                                             
+<user_name>juan.gutierrez3</user_name>                                                                                                                                                                                                                          
+<user_status>3</user_status>                                                                                                                                                                                                                                    
+<user_role_name>Administrator</user_role_name>                                                                                                                                                                                                                  
+<user_role_code>ADMIN</user_role_code>                                                                                                                                                                                                                          
+<user_id>164</user_id>                                                                                                                                                                                                                                          
+</param>                                                                                                                                                                                                                                                        
+<constants>                                                                                                                                                                                                                                                     
+</constants>                                                                                                                                                                                                                                                    
+<top_menu>                                                                                                                                                                                                                                                      
+<html_header>                                                                                                                                                                                                                                                   
+<T_PAGE_TITLE>Courses</T_PAGE_TITLE>                                                                                                                                                                                                                            
+<T_META_KEYWRD>ALICE,Adaptive,Learning,Interdisciplinary,Collaborative,Environments,juan b. gutierrez</T_META_KEYWRD>                                                                                                                                           
+<T_META_DESCR>ALICE - Adaptive Learning for Interdisciplinary Collaborative Environments</T_META_DESCR>                                                                                                                                                         
+<L_LITERATRONIC>ALICE</L_LITERATRONIC>                                                                                                                                                                                                                          
+</html_header>                                                                                                                                                                                                                                                  
+<P_FORUM>Forums</P_FORUM>                                                                                                                                                                                                                                       
+<P_INITIUM>Home</P_INITIUM>                                                                                                                                                                                                                                     
+<P_INDEX selected = "true">Courses</P_INDEX>                                                                                                                                                                                                                    
+<P_TRACTUS>Map</P_TRACTUS>                                                                                                                                                                                                                                      
+<P_HISTORIA>History</P_HISTORIA>                                                                                                                                                                                                                                
+<P_COLLABORATORIUM>Collaboratorium</P_COLLABORATORIUM>                                                                                                                                                                                                          
+<P_NAUTA>My Profile</P_NAUTA>                                                                                                                                                                                                                                   
+<P_INDICIUM>About...</P_INDICIUM>                                                                                                                                                                                                                               
+<sa_menu>Administrator</sa_menu>                                                                                                                                                                                                                                
+<L_LOGOUT>Logout</L_LOGOUT>                                                                                                                                                                                                                                     
+<L_USER>User</L_USER>                                                                                                                                                                                                                                           
+<L_OLD_USER>Login</L_OLD_USER>                                                                                                                                                                                                                                  
+<L_NEW_USER>New User</L_NEW_USER>                                                                                                                                                                                                                               
+<F_SEARCH>Search</F_SEARCH>                                                                                                                                                                                                                                     
+<L_SEARCH>Search</L_SEARCH>                                                                                                                                                                                                                                     
+<ERR_SRCH_LEN>The minimum length of the search string is four (4) characters.</ERR_SRCH_LEN>                                                                                                                                                                    
+<L_NUMBER_ASSETS_PART1>The number of assets in this tab is</L_NUMBER_ASSETS_PART1>                                                                                                                                                                              
+<L_NUMBER_ASSETS_PART2>You might need to scroll down to access all assets in this tab.</L_NUMBER_ASSETS_PART2>                                                                                                                                                  
+<L_DYNAMIC>Adaptive Hypertext</L_DYNAMIC>                                                                                                                                                                                                                       
+<L_STATIC>Static Hypertext</L_STATIC>                                                                                                                                                                                                                           
+</top_menu>                                                                                                                                                                                                                                                     
+<footer>                                                                                                                                                                                                                                                        
+<L_COPYRIGHT>© Juan B. Gutierrez</L_COPYRIGHT>                                                                                                                                                                                                                  
+<L_PRIVACY>Privacy Statement</L_PRIVACY>                                                                                                                                                                                                                        
+</footer>                                                                                                                                                                                                                                                       
+</doc>                                                                                                                                                                                                                                                          
+
+(161 rows affected)
