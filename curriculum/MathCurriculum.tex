@@ -1,0 +1,26 @@
+\documentclass[letterpaper,12pt]{report}
+\newcommand{\TheTitle}{CURRICULUM}
+\newcommand{\TheSubtitle}{Department of Mathematics}
+\newcommand{\TheAuthor}{Departmental Faculty}
+\newcommand{\ThePageCount}{39}
+\newcommand{\TheDate}{2026}
+\newcommand{\TheObsolescenceDate}{August 31, 2026}
+%-----------------------------
+\input{../common/MathConfig}
+
+\begin{document}
+	\input{../common/MathFrontMatter.tex}
+	\setcounter{page}{1}
+	\tableofcontents \newpage
+
+    \input{unit1_ethics.tex}
+    \input{unit2_dataMgmt.tex}
+    \input{unit3_statistics.tex}
+    \input{unit4_predictive.tex}
+    \input{unit5_workflows.tex}
+    \input{unit6_meta-analysis.tex}
+    \input{unit7_LLMs.tex}
+    \input{unit8_JHS.tex}
+
+
+\end{document}

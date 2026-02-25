@@ -1,0 +1,296 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Unit 4: Designing Interpretable Predictive Models}
+\label{chap:unit4}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textbf{Total Time: 5 hours} \\
+\textbf{Instructional Time: 3.5 hours} \\
+\textbf{Unit Project Work Time: 1.5 hours}
+
+This unit will introduce the foundations of supervised machine learning models, with a focus on interpretability and communicating decision-making.
+
+%================================================================
+\section{Pre-reading Materials}
+\label{sec:4.0}
+%================================================================
+
+These pre-reading materials focus on foundational concepts in statistics and machine learning.
+
+\subsection{Learning Objectives}
+
+Learners will be able to:
+\begin{enumerate}
+    \item Understand ideas from introductory statistics, including measures of central tendency and variability, visualization techniques, and lines of best fit.
+    \item Understand how to fit a basic machine learning model in Python using sklearn and real data.
+    \item Understand TRIPOD guidelines pertinent to this session.
+\end{enumerate}
+
+\subsection{Assessment Instrument}
+
+Learners will be asked to load a dataset into sklearn, fit a linear regression model, and report the model's mean squared error.
+
+%================================================================
+\section{Foundations of Supervised Learning}
+\label{sec:4.1}
+%================================================================
+
+\textbf{Time: 1.5 hours (Instructional: 70 minutes)}
+
+We will start by providing a broad overview of the landscape of machine learning, and practice the general workflow for building a model, starting from raw data.
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Understand the landscape of possible machine learning models (supervised vs. unsupervised, regression vs. classification).
+    \item Build a linear regression model, understanding how its optimal parameters were chosen and how they can be interpreted.
+    \item Practice the workflow for performing a train-test split, training a model on training data, evaluating a model on held-out test data, and the role of cross-validation.
+    \item Understand the risks of overfitting and data leakage.
+\end{enumerate}
+
+\subsection{Assessment Instrument (20 minutes)}
+
+Learners will build a basic linear regression model using the Vital Statistics dataset, which will serve as a baseline for future work.
+
+%================================================================
+\section{Feature Engineering}
+\label{sec:4.2}
+%================================================================
+
+\textbf{Time: 1 hour (Instructional: 60 minutes)}
+
+Next, we will cover how linear regression can be extended to a variety of other tasks, and how to create new features that capture trends in the data.
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Practice interpreting the coefficients of fit models.
+    \item Use visualizations to spot patterns in the data that inform feature engineering decisions, while keeping in mind the risks of overfitting.
+    \item Understand the differences between encoding strategies (one hot encoding vs. ordinal encoding).
+\end{enumerate}
+
+\subsection{Assessment Instrument (20 minutes)}
+
+Learners will be given a practical task and will need to build a small feature engineering Pipeline in sklearn and be asked to document their decision-making process.
+
+%================================================================
+\section{Feature Selection and Model Explainability}
+\label{sec:4.3}
+%================================================================
+
+\textbf{Time: 1.5 hours (Instructional: 60 minutes)}
+
+Building upon Section~\ref{sec:4.2}, students will gain an understanding of the statistical approaches involved in selecting features.
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Understand mutual information as a feature selection criterion.
+    \item Understand how to apply statistically appropriate techniques to select and justify features, e.g., Pearson, Spearman, and Cram\'er's V correlations, Variance Inflation Factor, multiple $R^2$.
+    \item Understand the role of interaction terms.
+\end{enumerate}
+
+\subsection{Assessment Instrument (30 minutes)}
+
+Learners will practice generating feature importance analyses and documenting their feature selection rationale.
+
+%================================================================
+\section{Model Evaluation, Comparison, and Reporting}
+\label{sec:4.4}
+%================================================================
+
+\textbf{Time: 1 hour (Instructional: 30 minutes)}
+
+Finally, students will practice communicating the performance and design decisions behind a model to external stakeholders.
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Understand how to report and compare different models on the same task (e.g., MSE/RMSE/MAE for regression models, accuracy vs. precision vs. recall vs. ROC-AUC vs. F1 for classification models).
+    \item Practice communicating modeling choices and model behavior.
+\end{enumerate}
+
+\subsection{Assessment Instrument (30 minutes)}
+
+Students will write a short report documenting and comparing the performances of two models, including relevant visualizations.
+
+% Required packages (add to your preamble if not already there):
+% \usepackage{longtable}
+% \usepackage{booktabs}
+% \usepackage{ragged2e}
+% \usepackage{array}
+% \usepackage{pdflscape}
+
+\begin{landscape}
+
+    \section{Evaluation Rubric}
+
+    {\footnotesize
+
+    \begin{longtable}{%
+        >{\RaggedRight\arraybackslash}p{2.5cm}   % Component
+        >{\RaggedRight\arraybackslash}p{4.5cm}   % Excellent
+        >{\RaggedRight\arraybackslash}p{4.2cm}   % Good
+        >{\RaggedRight\arraybackslash}p{4.2cm}   % Satisfactory
+        >{\RaggedRight\arraybackslash}p{4.5cm}}  % Needs Improvement
+
+    \toprule
+    \textbf{Component} &
+    \textbf{Excellent (90--100\%)} &
+    \textbf{Good (80--89\%)} &
+    \textbf{Satisfactory (70--79\%)} &
+    \textbf{Needs Improvement ($<$70\%)} \\
+    \midrule
+    \endfirsthead
+
+    \toprule
+    \textbf{Component} &
+    \textbf{Excellent (90--100\%)} &
+    \textbf{Good (80--89\%)} &
+    \textbf{Satisfactory (70--79\%)} &
+    \textbf{Needs Improvement ($<$70\%)} \\
+    \midrule
+    \endhead
+
+    \midrule
+    \multicolumn{5}{r}{\textit{Continued on next page}} \\
+    \endfoot
+
+    \bottomrule
+    \endlastfoot
+
+    % Row 1
+    \textbf{1.\ Pre-Reading Foundations}
+    \newline\textbf{(10\%)}
+    &
+    Demonstrates clear understanding of core statistical concepts (central
+    tendency, variability, visuals, best-fit lines); correctly loads data,
+    fits sklearn linear regression, and accurately reports MSE; strong grasp
+    of TRIPOD-relevant principles.
+    &
+    Minor errors in interpretation or MSE reporting; overall understanding
+    solid; TRIPOD concepts mostly correct.
+    &
+    Basic understanding demonstrated; errors in implementation or conceptual
+    explanation; shaky grasp of TRIPOD elements.
+    &
+    Incorrect or incomplete implementation; misunderstanding of statistical
+    foundations; missing or incorrect MSE.
+    \\
+    \midrule
+
+    % Row 2
+    \textbf{2.\ Supervised Learning Foundations}
+    \newline\textbf{(20\%)}
+    &
+    Clearly distinguishes supervised vs.\ unsupervised, regression
+    vs.\ classification; correctly performs train-test split, trains model,
+    evaluates it, and explains cross-validation; demonstrates strong
+    understanding of overfitting and data leakage.
+    &
+    Good workflow with minor errors in reasoning or terminology;
+    overfitting/data leakage described but not deeply.
+    &
+    Workflow partially correct; inconsistent understanding of splits,
+    evaluation metrics, or model fitting.
+    &
+    Incorrect or incomplete workflow; poor understanding of model evaluation,
+    overfitting, or data leakage.
+    \\
+    \midrule
+
+    % Row 3
+    \textbf{3.\ Generalized Linear \& Non-Parametric Models}
+    \newline\textbf{(15\%)}
+    &
+    Accurately explains and applies linear, logistic, and Poisson regression;
+    correctly interprets coefficients; demonstrates understanding of
+    assumptions; incorporates tree-based ideas if relevant.
+    &
+    Mostly correct application and interpretation; minor gaps in assumptions
+    or coefficient explanations.
+    &
+    Partial understanding; misinterprets coefficients or uses GLMs
+    incorrectly; assumptions' role unclear.
+    &
+    Major misunderstandings of regression types, assumptions, or
+    interpretations; incomplete or incorrect analysis.
+    \\
+    \midrule
+
+    % Row 4
+    \textbf{4.\ Feature Engineering}
+    \newline\textbf{(15\%)}
+    &
+    Insightfully uses visualizations to identify trends; appropriately applies
+    encoding, scaling, and interaction terms; builds a clear sklearn Pipeline;
+    thoroughly documents decisions and rationales.
+    &
+    Good feature engineering with minor justification gaps; Pipeline mostly
+    correct; documentation adequate.
+    &
+    Basic feature creation with limited insight; Pipeline incomplete or
+    justification superficial.
+    &
+    Poor or incorrect feature engineering; missing Pipeline; unclear or
+    unjustified decisions.
+    \\
+    \midrule
+
+    % Row 5
+    \textbf{5.\ Feature Selection \& Explainability}
+    \newline\textbf{(20\%)}
+    &
+    Correctly applies correlation measures (Pearson/Spearman/Cram\'er's V),
+    VIF, R\textsuperscript{2}; thoughtfully justifies feature selection;
+    generates accurate SHAP explanations and interprets them clearly for model
+    behavior.
+    &
+    Most statistical techniques applied correctly; SHAP computed with minor
+    interpretation issues.
+    &
+    Partial or inconsistent application of selection methods; SHAP produced
+    but poorly interpreted.
+    &
+    Incorrect statistical methods; missing or incorrect SHAP analysis; no
+    justification of selected features.
+    \\
+    \midrule
+
+    % Row 6
+    \textbf{6.\ Model Evaluation, Comparison \& Reporting}
+    \newline\textbf{(20\%)}
+    &
+    Accurately computes and compares regression/classification metrics
+    (MSE/RMSE/MAE, accuracy, precision, recall, ROC-AUC, F1); report is
+    clear, well-structured, and communicates model design decisions and
+    behavior with professional visuals.
+    &
+    Metrics computed correctly with minor errors; comparison and explanation
+    clear; visuals mostly appropriate.
+    &
+    Metrics included but inconsistently computed or interpreted; limited
+    explanation; visuals basic or unclear.
+    &
+    Metrics missing or incorrect; report unclear or incomplete; explanations
+    not aligned with results.
+    \\
+    \midrule
+
+    % Row 7
+    \textbf{7.\ Overall Professionalism, Clarity, and Documentation}
+    &
+    Writing polished and well-organized; notebooks/scripts clean,
+    reproducible, and well-commented; outputs easy to interpret.
+    &
+    Mostly clear with minor structural or formatting issues; code readable.
+    &
+    Understandable but inconsistent structure or documentation.
+    &
+    Poorly organized, unclear writing, missing documentation, or sloppy code.
+    \\
+
+    \end{longtable}
+
+    } % end \footnotesize
+
+\end{landscape}
