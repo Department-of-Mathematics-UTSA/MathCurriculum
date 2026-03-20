@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="iso-8859-1"?><doc>
+<labels>
+<label><id_opus_category>1</id_opus_category><id_opus_label>Neuro/Des/Regen</id_opus_label></label>
+<label><id_opus_category>2</id_opus_category><id_opus_label>Ingenier&#237;a</id_opus_label></label>
+<label><id_opus_category>3</id_opus_category><id_opus_label>Ciencias de la Tierra y Planetarias</id_opus_label></label>
+<label><id_opus_category>4</id_opus_category><id_opus_label>Biolog&#237;a Integrativa</id_opus_label></label>
+<label><id_opus_category>5</id_opus_category><id_opus_label>Matem&#225;ticas</id_opus_label></label>
+<label><id_opus_category>6</id_opus_category><id_opus_label>Microbio. Mol./Inmuno</id_opus_label></label>
+<label><id_opus_category>7</id_opus_category><id_opus_label>F&#237;sica y Astronom&#237;a</id_opus_label></label>
+</labels>
+<pagina_id_>1</pagina_id_>
+<symbolum>8EDA247D-6FFC-4B42-8268-03548A48A9F7</symbolum>
+<id_category_interest_base>5</id_category_interest_base>
+<pagina_sec><pagina_title><![CDATA[Propiedades Algebraicas]]></pagina_title><id_cap>cap1</id_cap><id>cap1</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Fracciones]]></pagina_title><id_cap>cap2</id_cap><id>cap2</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Factorizaci&#243;n de Polinomios]]></pagina_title><id_cap>cap3</id_cap><id>cap3</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Ecuaciones Lineales]]></pagina_title><id_cap>cap4</id_cap><id>cap4</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Sistemas de Ecuaciones en Dos Variables]]></pagina_title><id_cap>cap5</id_cap><id>cap5</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Funciones]]></pagina_title><id_cap>cap6</id_cap><id>cap6</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Notaci&#243;n de Funciones]]></pagina_title><id_cap>cap7</id_cap><id>cap7</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Dominio de una Funci&#243;n]]></pagina_title><id_cap>cap8</id_cap><id>cap8</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Rango de una Funci&#243;n]]></pagina_title><id_cap>cap9</id_cap><id>cap9</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Funciones B&#225;sicas]]></pagina_title><id_cap>cap10</id_cap><id>cap10</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Composici&#243;n de Funciones]]></pagina_title><id_cap>cap11</id_cap><id>cap11</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Funciones Inversas]]></pagina_title><id_cap>cap12</id_cap><id>cap12</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Propiedades Exponenciales]]></pagina_title><id_cap>cap13</id_cap><id>cap13</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Funciones Exponenciales]]></pagina_title><id_cap>cap14</id_cap><id>cap14</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Propiedades Logar&#237;tmicas]]></pagina_title><id_cap>cap15</id_cap><id>cap15</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Funciones Logar&#237;tmicas]]></pagina_title><id_cap>cap16</id_cap><id>cap16</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Ecuaciones Cuadr&#225;ticas]]></pagina_title><id_cap>cap17</id_cap><id>cap17</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Funciones Cuadr&#225;ticas]]></pagina_title><id_cap>cap18</id_cap><id>cap18</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Divisi&#243;n de Polinomios]]></pagina_title><id_cap>cap19</id_cap><id>cap19</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Ceros de Polinomios]]></pagina_title><id_cap>cap20</id_cap><id>cap20</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Funciones de Potencia y Polinomiales]]></pagina_title><id_cap>cap21</id_cap><id>cap21</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Gr&#225;ficas de Polinomios]]></pagina_title><id_cap>cap22</id_cap><id>cap22</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Expresiones Racionales]]></pagina_title><id_cap>cap23</id_cap><id>cap23</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Gr&#225;ficas de Funciones Racionales]]></pagina_title><id_cap>cap24</id_cap><id>cap24</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Transformaciones Simples de Funciones]]></pagina_title><id_cap>cap25</id_cap><id>cap25</id></pagina_sec>
+<pagina_sec><pagina_title><![CDATA[Transformaciones M&#250;ltiples de Funciones]]></pagina_title><id_cap>cap26</id_cap><id>cap26</id></pagina_sec>
+NULL
+<id_chorus>10193</id_chorus>
+<files>
+</files>
+<ds_survey></ds_survey>
+<artifex_name>biomath</artifex_name>
+<id_opus>1073</id_opus><id_pagina>1</id_pagina><artifex_id>1</artifex_id><id_nauta>164</id_nauta><ds_opus>MAT1073: &#193;lgebra para Cient&#237;ficos e Ingenieros</ds_opus><cd_opus>LITERATRONIC</cd_opus><cd_new_id>26E119C7-E151-41B3-8163-0CF2F26A2A0D</cd_new_id>
+<take>0</take>
+<pag_title><![CDATA[Propiedades Algebraicas]]></pag_title><ds_pdf><![CDATA[https://drive.google.com/file/d/1lY9uU10PuvkNgoUyj9xBDtuKyS3ezWWb/preview]]></ds_pdf><ds_wiki><![CDATA[]]></ds_wiki><ds_youtube><![CDATA[]]></ds_youtube><ds_assess><![CDATA[]]></ds_assess>
+<pag_prv>26</pag_prv>
+<pag_nxt>2</pag_nxt>
+<page_name>Pagina.aspx</page_name>
+<matrix_edges>1,2,10 ,2,3,10 ,3,4,10 ,4,5,10 ,5,6,10 ,6,7,10 ,7,8,10 ,8,9,10 ,9,10,10 ,10,11,10 ,11,12,10 ,12,13,10 ,13,14,10 ,14,15,10 ,15,16,10 ,16,17,10 ,17,18,10 ,18,19,10 ,19,20,10 ,20,21,10 ,21,22,10 ,22,23,10 ,23,24,10 ,24,25,10 ,25,26,10</matrix_edges>
+<matrix_personalize>1,2,99 ,2,3,99 ,3,4,99 ,4,5,99 ,5,6,99 ,6,7,99 ,7,8,99 ,8,9,99 ,9,10,99 ,10,11,99 ,11,12,99 ,12,13,99 ,13,14,99 ,14,15,99 ,15,16,99 ,16,17,99 ,17,18,99 ,18,19,99 ,19,20,99 ,20,21,99 ,21,23,99 ,21,25,99 ,21,23,99 ,21,32,99 ,21,23,99 ,21,25,99</matrix_personalize>
+<matrix_mni>,1,2,2 ,1,3,2 ,1,4,3 ,1,5,4 ,1,6,5 ,1,7,6 ,1,8,7 ,1,9,8 ,1,10,9 ,1,11,10 ,1,12,11 ,1,13,12 ,1,14,13 ,1,15,14 ,1,16,15 ,1,17,16 ,1,18,17 ,1,19,18 ,1,20,19 ,1,21,20 ,1,22,21 ,1,23,22 ,1,24,23 ,1,25,24 ,1,26,25 ,2,3,3 ,2,4,3 ,2,5,4 ,2,6,5 ,2,7,6</matrix_mni>
+<pagina_name><id>1</id><name><![CDATA[Propiedades Algebraicas]]></name><pagina_type>ROOT</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>2</id><name><![CDATA[Fracciones]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>3</id><name><![CDATA[Factorizaci&#243;n de Polinomios]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>4</id><name><![CDATA[Ecuaciones Lineales]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>5</id><name><![CDATA[Sistemas de Ecuaciones en Dos Variables]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>6</id><name><![CDATA[Funciones]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>7</id><name><![CDATA[Notaci&#243;n de Funciones]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>8</id><name><![CDATA[Dominio de una Funci&#243;n]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>9</id><name><![CDATA[Rango de una Funci&#243;n]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>10</id><name><![CDATA[Funciones B&#225;sicas]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>11</id><name><![CDATA[Composici&#243;n de Funciones]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>12</id><name><![CDATA[Funciones Inversas]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>13</id><name><![CDATA[Propiedades Exponenciales]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>14</id><name><![CDATA[Funciones Exponenciales]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>15</id><name><![CDATA[Propiedades Logar&#237;tmicas]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>16</id><name><![CDATA[Funciones Logar&#237;tmicas]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>17</id><name><![CDATA[Ecuaciones Cuadr&#225;ticas]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>18</id><name><![CDATA[Funciones Cuadr&#225;ticas]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>19</id><name><![CDATA[Divisi&#243;n de Polinomios]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>20</id><name><![CDATA[Ceros de Polinomios]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>21</id><name><![CDATA[Funciones de Potencia y Polinomiales]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>22</id><name><![CDATA[Gr&#225;ficas de Polinomios]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>true</submit><color>yellow</color></pagina_name>
+<pagina_name><id>23</id><name><![CDATA[Expresiones Racionales]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>24</id><name><![CDATA[Gr&#225;ficas de Funciones Racionales]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>25</id><name><![CDATA[Transformaciones Simples de Funciones]]></name><pagina_type>PRE-REQ</pagina_type><pagina_cat>1</pagina_cat><capstone>false</capstone><submit>false</submit><color>red</color></pagina_name>
+<pagina_name><id>26</id><name><![CDATA[Transformaciones M&#250;ltiples de Funciones]]></name><pagina_type>ROOT</pagina_type><pagina_cat>1</pagina_cat><capstone>true</capstone><submit>false</submit><color>red</color></pagina_name>
+<positions_graph>,1,-1727,-242#,2,-1725,135#,3,-1635,411#,4,-1407,676#,5,-1158,841#,6,-755,1023#,7,-416,1106#,8,-258,1151#,9,-121,1201#,10,36,1253#,11,145,1239#,12,306,1269#,13,469,1275#,14,656,1169#,15,793,1089#,16,887,1028#,17,991,856#,18,1059,736#,19,1115,600#</positions_graph>
+<id_category_interest_base>5</id_category_interest_base>
+<TAB_WIKI><![CDATA[Wiki]]></TAB_WIKI>
+<TAB_PDF><![CDATA[PDF]]></TAB_PDF>
+<TAB_MEDIA><![CDATA[Video]]></TAB_MEDIA>
+<TAB_LIVESCRIBE><![CDATA[LiveScribe]]></TAB_LIVESCRIBE>
+<TAB_INTRO><![CDATA[Introducci&#243;n]]></TAB_INTRO>
+<TAB_MAPPA><![CDATA[Mapa]]></TAB_MAPPA>
+<TAB_SCRUTINIUM><![CDATA[Examen]]></TAB_SCRUTINIUM>
+<TAB_FONS_CODEX><![CDATA[C&#243;digo]]></TAB_FONS_CODEX>
+<TAB_INTRO><![CDATA[Introducci&#243;n]]></TAB_INTRO>
+<L_NEXT><![CDATA[Siguiente]]></L_NEXT>
+<L_PREVIOUS><![CDATA[Anterior]]></L_PREVIOUS>
+<L_LINK_PENDING><![CDATA[Enlaces Adaptativos <SPAN class=MEDIUM>(Porcentajes m&#225;s altos indican mayor continuidad cognitiva)</SPAN>]]></L_LINK_PENDING>
+<L_LINK_VISITED><![CDATA[Lecciones Relacionadas Ya Visitadas]]></L_LINK_VISITED>
+<L_BOOK><![CDATA[Curso]]></L_BOOK>
+<L_CHAPTER><![CDATA[P&#225;gina]]></L_CHAPTER>
+<L_PAGE><![CDATA[P&#225;gina]]></L_PAGE>
+<L_SEE_SB_HM><![CDATA[Ver tareas enviadas de todas las lecciones.]]></L_SEE_SB_HM>
+<L_SEE_HM><![CDATA[Ver mi tarea.]]></L_SEE_HM>
+<L_UPLOADED_HM><![CDATA[Has subido tu tarea para esta lecci&#243;n.]]></L_UPLOADED_HM>
+<L_Graded_><![CDATA[Calificado]]></L_Graded_>
+<L_pending><![CDATA[Pendiente]]></L_pending>
+<L_READ><![CDATA[Le&#237;do]]></L_READ>
+<L_set_known><![CDATA[Marcar Como Conocido]]></L_set_known>
+<next_lesson>3</next_lesson>
+<page_counter><id_opus>1073</id_opus><ds_opus>MAT1073: &#193;lgebra para Cient&#237;ficos e Ingenieros</ds_opus><cd_opus>LITERATRONIC</cd_opus>
+<percentage_g>3</percentage_g><percentage>3</percentage><perc_diff>0</perc_diff><perct_incomplete>96</perct_incomplete><total_read>3</total_read>
+</page_counter>
+<vertex><id_vertex>1,2,3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 , 21 , 22 , 23 , 24 , 25 , 26,1</id_vertex></vertex>
+<pending>
+<link><id_pagina>2</id_pagina><ds_title><![CDATA[Fracciones]]></ds_title><ds_tag><![CDATA[Fracciones]]></ds_tag><score>90</score></link>
+</pending>
+<param>
+<language>HISPANIA</language>
+<opus_type></opus_type>
+<page_code>P_INDEX</page_code>
+<user_logon>juan.gutierrez3</user_logon>
+<page_name>Pagina.aspx</page_name>
+<id_opus></id_opus>
+<user_name>juan.gutierrez3</user_name>
+<user_status>3</user_status>
+<user_role_name>Administrador</user_role_name>
+<user_role_code>ADMIN</user_role_code>
+<user_id>164</user_id>
+</param>
+<constants>
+</constants>
+<top_menu>
+<html_header>
+<T_PAGE_TITLE>Cursos</T_PAGE_TITLE>
+<T_META_KEYWRD>ALICE,Adaptativo,Aprendizaje,Interdisciplinario,Colaborativo,Entornos,juan b. gutierrez</T_META_KEYWRD>
+<T_META_DESCR>ALICE - Aprendizaje Adaptativo para Entornos Colaborativos Interdisciplinarios</T_META_DESCR>
+<L_LITERATRONIC>ALICE</L_LITERATRONIC>
+</html_header>
+<P_FORUM>Foros</P_FORUM>
+<P_INITIUM>Inicio</P_INITIUM>
+<P_INDEX selected = "true">Cursos</P_INDEX>
+<P_TRACTUS>Mapa</P_TRACTUS>
+<P_HISTORIA>Historial</P_HISTORIA>
+<P_COLLABORATORIUM>Colaboratorio</P_COLLABORATORIUM>
+<P_NAUTA>Mi Perfil</P_NAUTA>
+<P_INDICIUM>Acerca de...</P_INDICIUM>
+<sa_menu>Administrador</sa_menu>
+<L_LOGOUT>Cerrar Sesi&#243;n</L_LOGOUT>
+<L_USER>Usuario</L_USER>
+<L_OLD_USER>Iniciar Sesi&#243;n</L_OLD_USER>
+<L_NEW_USER>Nuevo Usuario</L_NEW_USER>
+<F_SEARCH>Buscar</F_SEARCH>
+<L_SEARCH>Buscar</L_SEARCH>
+<ERR_SRCH_LEN>La longitud m&#237;nima de la cadena de b&#250;squeda es de cuatro (4) caracteres.</ERR_SRCH_LEN>
+<L_NUMBER_ASSETS_PART1>El n&#250;mero de recursos en esta pesta&#241;a es</L_NUMBER_ASSETS_PART1>
+<L_NUMBER_ASSETS_PART2>Es posible que necesite desplazarse hacia abajo para acceder a todos los recursos en esta pesta&#241;a.</L_NUMBER_ASSETS_PART2>
+<L_DYNAMIC>Hipertexto Adaptativo</L_DYNAMIC>
+<L_STATIC>Hipertexto Est&#225;tico</L_STATIC>
+</top_menu>
+<footer>
+<L_COPYRIGHT>&#169; Juan B. Gutierrez</L_COPYRIGHT>
+<L_PRIVACY>Declaraci&#243;n de Privacidad</L_PRIVACY>
+</footer>
+</doc>

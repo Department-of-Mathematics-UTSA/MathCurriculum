@@ -1,0 +1,728 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opus>
+  <pagina id_pagina="1" pagina_type="ROOT">
+    <title>Ethical issues in biomedical data science: What are Ethics? </title>
+    <short_description>Ethical issues in biomedical data science. This is an overview of the topic and sets up the conceptual framework of the training program.</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="2" pagina_type="ROOT">
+    <title>Ethical issues in biomedical data science: Informed Consent &amp; Assent</title>
+    <short_description>Ethical issues in biomedical data science. This is an overview of the topic and sets up the conceptual framework of the training program.</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="3" pagina_type="ROOT">
+    <title>Ethical issues in biomedical data science: Privacy</title>
+    <short_description>Ethical issues in biomedical data science. This is an overview of the topic and sets up the conceptual framework of the training program.</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="4" pagina_type="PRE-REQ">
+    <title>Ethical issues in biomedical data science: Fairness</title>
+    <short_description>Ethical issues in biomedical data science. This is an overview of the topic and sets up the conceptual framework of the training program.</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="5" pagina_type="ROOT">
+    <title>Configuration Management: Data Management</title>
+    <short_description>Data management, including the management and sharing of sensitive data, for reproducibility.</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="6" pagina_type="ROOT">
+    <title>Configuration Management: Data Sharing</title>
+    <short_description>Data management, including the management and sharing of sensitive data, for reproducibility.</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="7" pagina_type="ROOT">
+    <title>Configuration Management: Data Representation</title>
+    <short_description>Data management, including the management and sharing of sensitive data, for reproducibility.</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="8" pagina_type="ROOT">
+    <title>Rigorous Statistical Design: Key Elements - Why?</title>
+    <short_description>Rigorous Statistical Design</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="9" pagina_type="ROOT">
+    <title>Rigorous Statistical Design: Case Studies</title>
+    <short_description>Rigorous Statistical Design</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="10" pagina_type="ROOT">
+    <title>Rigorous Statistical Design: Key Elements - How?</title>
+    <short_description>Rigorous Statistical Design</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="11" pagina_type="ROOT">
+    <title>Design and reporting of predictive models: Review</title>
+    <short_description>Design and reporting of predictive models.</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="12" pagina_type="ROOT">
+    <title>Design and reporting of predictive models: Data Preparation</title>
+    <short_description>Design and reporting of predictive models.</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="13" pagina_type="ROOT">
+    <title>Design and reporting of predictive models: Modeling Tools</title>
+    <short_description>Design and reporting of predictive models.</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="14" pagina_type="ROOT">
+    <title>Design and reporting of predictive models: Bias and Fairness</title>
+    <short_description>Design and reporting of predictive models.</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="15" pagina_type="ROOT">
+    <title>Design and reporting of predictive models: Reporting Results</title>
+    <short_description>Design and reporting of predictive models.</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="16" pagina_type="ROOT">
+    <title>Design and reporting of predictive models: Machine Learning</title>
+    <short_description>Design and reporting of predictive models.</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="17" pagina_type="ROOT">
+    <title>Reproducible workflow: Case Studies</title>
+    <short_description>Reproducible workflow</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="18" pagina_type="ROOT">
+    <title>Reproducible workflow: Goals</title>
+    <short_description>Reproducible workflow</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="19" pagina_type="ROOT">
+    <title>Reproducible workflow: Tools</title>
+    <short_description>Reproducible workflow</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="20" pagina_type="ROOT">
+    <title>Reproducible workflow: Example</title>
+    <short_description>Reproducible workflow</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="21" pagina_type="ROOT">
+    <title>Rigor: Do results have expected distribution under the null hypothesis?</title>
+    <short_description>Rigor - type I error rate.</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="22" pagina_type="ROOT">
+    <title>Rigor: Significance Threshold</title>
+    <short_description>Rigor - type I error rate.</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="23" pagina_type="ROOT">
+    <title>Meta-Analysis: Should I believe my results? </title>
+    <short_description>Meta-analysis.</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="24" pagina_type="ROOT">
+    <title>Meta-Analysis: Meta-Analysis </title>
+    <short_description>Meta-analysis.</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="25" pagina_type="ROOT">
+    <title>CAPSTONE: Data management</title>
+    <short_description>Capstone experience</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="26" pagina_type="ROOT">
+    <title>CAPSTONE: Predictive modeling</title>
+    <short_description>Capstone experience</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="27" pagina_type="ROOT">
+    <title>CAPSTONE: Statistical methods</title>
+    <short_description>Capstone experience</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="28" pagina_type="ROOT">
+    <title>CAPSTONE: Reproducible workflows</title>
+    <short_description>Capstone experience</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="29" pagina_type="ROOT">
+    <title>CAPSTONE: Meta-analysis</title>
+    <short_description>Capstone experience</short_description>
+    <long_description>&lt;p&gt;This is an overview of the topic and sets up the conceptual framework of the training program.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;The prerequisites for this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;Pre-req 1. &lt;/li&gt;&#13;
+&lt;li&gt;Pre-req 2. &lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;The competencies you will gain after studying this lesson are: &lt;/p&gt;&#13;
+&lt;ul&gt;&#13;
+&lt;li&gt;SLO 1.&lt;/li&gt;&#13;
+&lt;li&gt;SLO 2 .&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;script&gt;&#13;
+ LoadWiki('Order_of_Operations');&#13;
+ LoadLivescribe('2016Session04.PDF ');&#13;
+ LoadPDF('2016Session04.PDF ');&#13;
+ LoadMedia('dAgfnK528RA saTBf8AO4Ok');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+</opus>

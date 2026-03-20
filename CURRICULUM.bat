@@ -1,1 +1,1 @@
-ActivateEnv AgentAI "C:\Dropbox\!!UTSA\MathCurriculum"
+ActivateUVEnv Curriculum "C:\Dropbox\!!UTSA\MathCurriculum"

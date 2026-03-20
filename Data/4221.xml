@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opus>
+  <pagina id_pagina="1" pagina_type="PRE-REQ">
+    <title>Uniform Convergence of Sequences of Functions</title>
+    <short_description>Uniform Convergence of Sequences of Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Uniform_Convergence_of_Sequences_of_Functions')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="2" pagina_type="PRE-REQ">
+    <title>Uniform Convergence of Series of Functions</title>
+    <short_description>Uniform Convergence of Series of Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Uniform_Convergence_of_Series_of_Functions')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="3" pagina_type="PRE-REQ">
+    <title>Power Series and Analytic Functions</title>
+    <short_description>Power Series and Analytic Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Power_Series_and_Analytic_Functions')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="4" pagina_type="PRE-REQ">
+    <title>Weierstrass Example</title>
+    <short_description>Weierstrass Example</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Uniform_Convergence_of_Series_of_Functions')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="5" pagina_type="PRE-REQ">
+    <title>Euclidean Spaces: Algebraic Structure and Inner Product</title>
+    <short_description>Euclidean Spaces: Algebraic Structure and Inner Product</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Euclidean_Spaces:_Algebraic_Structure_and_Inner_Product')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="6" pagina_type="PRE-REQ">
+    <title>Linear Transformations</title>
+    <short_description>Linear Transformations</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Linear_Transformations')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="7" pagina_type="PRE-REQ">
+    <title>The Topology of Higher Dimensions: interior, closure and boundary</title>
+    <short_description>The Topology of Higher Dimensions: interior, closure and boundary</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('The_Topology_of_Higher_Dimensions:_interior,_closure_and_boundary')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="8" pagina_type="PRE-REQ">
+    <title>Limits of Sequences in the Euclidean space and the Bolzano-Weierstrass Theorem</title>
+    <short_description>Limits of Sequences in the Euclidean space and the Bolzano-Weierstrass Theorem</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Limits_of_Sequences_in_the_Euclidean_space_and_the_Bolzano-Weierstrass_Theorem')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="9" pagina_type="PRE-REQ">
+    <title>Heine-Borel Theorem</title>
+    <short_description>Heine-Borel Theorem</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Heine-Borel_Theorem')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="10" pagina_type="PRE-REQ">
+    <title>Limits of Vector Functions</title>
+    <short_description>Limits of Vector Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Limits_of_Vector_Functions')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="11" pagina_type="PRE-REQ">
+    <title>Continuous Vector Functions</title>
+    <short_description>Continuous Vector Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Continuous_Vector_Functions')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="12" pagina_type="PRE-REQ">
+    <title>Partial Derivatives and Integrals</title>
+    <short_description>Partial Derivatives and Integrals</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Partial_Derivatives_and_Integrals')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="13" pagina_type="PRE-REQ">
+    <title>Derivatives of Vector Functions</title>
+    <short_description>Derivatives of Vector Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Derivatives_of_Vector_Functions')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="14" pagina_type="PRE-REQ">
+    <title>Rules for Differentiation and Tangent Planes</title>
+    <short_description>Rules for Differentiation and Tangent Planes</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Rules_for_Differentiation_and_Tangent_Planes')&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="15" pagina_type="PRE-REQ">
+    <title>Mean-Value Theorems for Vector Valued Functions</title>
+    <short_description>Mean-Value Theorems for Vector Valued Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Mean-Value_Theorems_for_Vector_Valued_Functions')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="16" pagina_type="PRE-REQ">
+    <title>Taylor's Formula in Several Variables</title>
+    <short_description>Taylor's Formula in Several Variables</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Taylor%27s_Formula_in_Several_Variables')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="17" pagina_type="PRE-REQ">
+    <title>The Inverse Function Theorem and the Implicit Function Theorem</title>
+    <short_description>The Inverse Function Theorem and the Implicit Function Theorem</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('The_Inverse_Function_Theorem_and_the_Implicit_Function_Theorem')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="18" pagina_type="PRE-REQ">
+    <title>Lebesque Theorem for Riemann Integrability on the Real Line</title>
+    <short_description>Lebesque Theorem for Riemann Integrability on the Real Line</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Lebesque_Theorem_for_Riemann_Integrability_on_the_Real_Line')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="19" pagina_type="PRE-REQ">
+    <title>Integration in the Euclidean space: Jordan Regions and Volume</title>
+    <short_description>Integration in the Euclidean space: Jordan Regions and Volume</short_description>
+    <long_description/>
+  </pagina>
+  <pagina id_pagina="20" pagina_type="PRE-REQ">
+    <title>Riemann Integration on Jordan Regions in Higher Dimensions</title>
+    <short_description>Riemann Integration on Jordan Regions in Higher Dimensions</short_description>
+    <long_description/>
+  </pagina>
+  <pagina id_pagina="21" pagina_type="PRE-REQ">
+    <title>Iterated Integrals and Fubini's Theorem</title>
+    <short_description>Iterated Integrals and Fubini's Theorem</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Iterated_Integrals_and_Fubini%27s_Theorem')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+</opus>

@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opus>
+  <pagina id_pagina="1" pagina_type="PRE-REQ">
+    <title>Definition of Polygons</title>
+    <short_description>Definition of Polygons</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Definition_of_Polygons');&#13;
+LoadPDF('../docs/MAT1163/Polygons.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="2" pagina_type="PRE-REQ">
+    <title>Properties of Polygons (Sides, Angles and Diagonals)</title>
+    <short_description>Properties of Polygons (Sides, Angles and Diagonals)</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Properties_of_Polygons_(Sides,_Angles_and_Diagonals)');&#13;
+LoadPDF('../docs/MAT1163/Polygons.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="3" pagina_type="PRE-REQ">
+    <title>Lines &amp; Angles</title>
+    <short_description>Lines &amp; Angles</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Lines_%26_Angles');&#13;
+LoadPDF('../docs/MAT1163/Lines_and_Angles.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="4" pagina_type="PRE-REQ">
+    <title>Transversal lines</title>
+    <short_description>Transversal lines</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Transversal_lines');&#13;
+LoadPDF('../docs/MAT1163/Transversal_lines.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="5" pagina_type="PRE-REQ">
+    <title>Classifying Triangles</title>
+    <short_description>Classifying Triangles</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Classifying_Triangles');&#13;
+LoadPDF('../docs/MAT1163/Triangles.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="6" pagina_type="PRE-REQ">
+    <title>Triangle Inequality</title>
+    <short_description>Triangle Inequality</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Triangle_Inequality');&#13;
+LoadPDF('../docs/MAT1163/Triangles.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="7" pagina_type="PRE-REQ">
+    <title>Triangle Congruence</title>
+    <short_description>Triangle Congruence</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Triangle_Congruence');&#13;
+LoadPDF('../docs/MAT1163/Triangle_congruence.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="8" pagina_type="PRE-REQ">
+    <title>Theorem of Right Triangles</title>
+    <short_description>Theorem of Right Triangles</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Theorem_of_Right_Triangles');&#13;
+LoadPDF('../docs/MAT1163/Right_triangles.pdf ../docs/MAT1163/Trig.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="9" pagina_type="PRE-REQ">
+    <title>Definitions and Hierarchy of Quadrilaterals</title>
+    <short_description>Definitions and Hierarchy of Quadrilaterals</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Definitions_and_Hierarchy_of_Quadrilaterals');&#13;
+LoadPDF('../docs/MAT1163/Quadrilaterals.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="10" pagina_type="PRE-REQ">
+    <title>Measurement (LINEAR)</title>
+    <short_description>Measurement (LINEAR)</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Measurement_(LINEAR)');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="11" pagina_type="PRE-REQ">
+    <title>Measurement (LINEAR) – CONVERSION</title>
+    <short_description>Measurement (LINEAR) – CONVERSION</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Measurement_(LINEAR)_–_CONVERSION');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="12" pagina_type="PRE-REQ">
+    <title>Measurement (AREA)</title>
+    <short_description>Measurement (AREA)</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Measurement_(AREA)');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="13" pagina_type="PRE-REQ">
+    <title>Measurement (AREA) – CONVERSION</title>
+    <short_description>Measurement (AREA) – CONVERSION</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Measurement_(AREA)_–_CONVERSION');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="14" pagina_type="PRE-REQ">
+    <title>Area of Polygons - Formulas</title>
+    <short_description>Area of Polygons - Formulas</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Area_of_Polygons_-_Formulas');&#13;
+LoadPDF('../docs/MAT1163/Area_formula.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="15" pagina_type="PRE-REQ">
+    <title>Perimeter Area</title>
+    <short_description>Perimeter Area</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Perimeter_Area');&#13;
+LoadPDF('../docs/MAT1163/Perimeter_and_area.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="16" pagina_type="PRE-REQ">
+    <title>Rigid Transformations</title>
+    <short_description>Rigid Transformations</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Rigid_Transformations');&#13;
+LoadPDF('../docs/MAT1163/Rigid_transformations.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="17" pagina_type="PRE-REQ">
+    <title>Symmetry</title>
+    <short_description>Symmetry</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Symmetry');&#13;
+LoadPDF('../docs/MAT1163/Symmetry.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="18" pagina_type="PRE-REQ">
+    <title>Similarity</title>
+    <short_description>Similarity</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Similarity');&#13;
+LoadPDF('../docs/MAT1163/Similiarity.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="19" pagina_type="PRE-REQ">
+    <title>Mathematical &amp; Statistical Reasoning</title>
+    <short_description>Mathematical &amp; Statistical Reasoning</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Mathematical_%26_Statistical_Reasoning');&#13;
+LoadPDF('../docs/MAT1163/Statistical_reasoning.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="20" pagina_type="PRE-REQ">
+    <title>Display of Categorical Data</title>
+    <short_description>Display of Categorical Data</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Display_of_Categorical_Data');&#13;
+LoadPDF('../docs/MAT1163/Data.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="21" pagina_type="PRE-REQ">
+    <title>Display of Numerical Data</title>
+    <short_description>Display of Numerical Data</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Display_of_Numerical_Data');&#13;
+LoadPDF('../docs/MAT1163/Data.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="22" pagina_type="PRE-REQ">
+    <title>Probability</title>
+    <short_description>Probability</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Probability');&#13;
+LoadPDF('../docs/MAT1163/Probability.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+</opus>

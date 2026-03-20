@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opus>
+  <pagina id_pagina="1" pagina_type="PRE-REQ">
+    <title>Basic Terminology</title>
+    <short_description>Basic Terminology</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sets:Definitions');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="2" pagina_type="PRE-REQ">
+    <title>Set Operations</title>
+    <short_description>Set Operations</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sets:Operations');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="3" pagina_type="PRE-REQ">
+    <title>Functions </title>
+    <short_description>Functions </short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Functions:Definition');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="4" pagina_type="PRE-REQ">
+    <title>Domain of a Function</title>
+    <short_description>Domain of a Function</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Domain_of_a_Function');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="5" pagina_type="PRE-REQ">
+    <title>Range of a Function</title>
+    <short_description>Range of a Function</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Range_of_a_Function');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="6" pagina_type="PRE-REQ">
+    <title>Direct and Inverse Images</title>
+    <short_description>Direct and Inverse Images</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Functions:Forward_Image');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="7" pagina_type="PRE-REQ">
+    <title>Injective Functions</title>
+    <short_description>Injective Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Functions:Injective');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="8" pagina_type="PRE-REQ">
+    <title>Surjective Functions</title>
+    <short_description>Surjective Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Functions:Surjective');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="9" pagina_type="PRE-REQ">
+    <title>Bijective Functions</title>
+    <short_description>Bijective Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Functions:Bijective');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="10" pagina_type="PRE-REQ">
+    <title>Inverse Functions</title>
+    <short_description>Inverse Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Functions:Inverses');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="11" pagina_type="PRE-REQ">
+    <title>Composition of Functions</title>
+    <short_description>Composition of Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Functions:Composition');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="12" pagina_type="PRE-REQ">
+    <title>Restrictions on Functions</title>
+    <short_description>Restrictions on Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Functions:Restriction');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="13" pagina_type="PRE-REQ">
+    <title>Mathematical Induction</title>
+    <short_description>Mathematical Induction</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Proofs:Induction');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="14" pagina_type="PRE-REQ">
+    <title>Cardinality of a Set</title>
+    <short_description>Cardinality of a Set</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sets:Cardinality');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="15" pagina_type="PRE-REQ">
+    <title>Finite and Infinite Sets</title>
+    <short_description>Finite and Infinite Sets</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sets:Finite');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="16" pagina_type="PRE-REQ">
+    <title>Countable Sets</title>
+    <short_description>Countable Sets</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sets:Countable');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="17" pagina_type="PRE-REQ">
+    <title>Uncountable Sets</title>
+    <short_description>Uncountable Sets</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sets:Uncountable');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="18" pagina_type="PRE-REQ">
+    <title>Algebraic Properties of the Real Numbers</title>
+    <short_description>Algebraic Properties of the Real Numbers</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Numbers:Algebraic_Properties');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="19" pagina_type="PRE-REQ">
+    <title>Rational Numbers</title>
+    <short_description>Rational Numbers</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Numbers:Rational');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="20" pagina_type="PRE-REQ">
+    <title>Irrational Numbers</title>
+    <short_description>Irrational Numbers</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Numbers:Irrational');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="21" pagina_type="PRE-REQ">
+    <title>Real Numbers</title>
+    <short_description>Real Numbers</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Numbers');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="22" pagina_type="PRE-REQ">
+    <title>Natural Numbers: Well-Ordering</title>
+    <short_description>Natural Numbers: Well-Ordering</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Natural_Numbers:Well-Ordering');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="23" pagina_type="PRE-REQ">
+    <title>Inequalities</title>
+    <short_description>Inequalities</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Numbers:Inequalities');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="24" pagina_type="PRE-REQ">
+    <title>Absolute Value and the Real Line</title>
+    <short_description>Absolute Value and the Real Line</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Numbers:Absolute_Value');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="25" pagina_type="PRE-REQ">
+    <title>Archimedean Property</title>
+    <short_description>Archimedean Property</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Numbers:Archimedean_Property');&#13;
+&lt;/script&gt;&#13;
+&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="26" pagina_type="PRE-REQ">
+    <title>Suprema and Infima</title>
+    <short_description>Suprema and Infima </short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Numbers:Suprema_and_Infima');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="27" pagina_type="PRE-REQ">
+    <title>Applications of the Supremum Property</title>
+    <short_description>Applications of the Supremum Property</short_description>
+    <long_description/>
+  </pagina>
+  <pagina id_pagina="28" pagina_type="PRE-REQ">
+    <title>Intervals</title>
+    <short_description>Intervals</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Numbers:Intervals');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="29" pagina_type="PRE-REQ">
+    <title>Cardinality of Real Numbers</title>
+    <short_description>Cardinality of Real Numbers</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Cardinality_of_important_sets');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="30" pagina_type="PRE-REQ">
+    <title>Sequences</title>
+    <short_description>Sequences</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Numbers:Sequences');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="31" pagina_type="PRE-REQ">
+    <title>The Limit of a Sequence</title>
+    <short_description>The Limit of a Sequence</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sequences:Limits');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="32" pagina_type="PRE-REQ">
+    <title>The Limit Laws for Sequences</title>
+    <short_description>The Limit Laws for Sequences</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sequences:Limits');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="33" pagina_type="PRE-REQ">
+    <title>Monotone Sequences</title>
+    <short_description>Monotone Sequences</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Numbers:Sequences');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="34" pagina_type="PRE-REQ">
+    <title>Euler's Number</title>
+    <short_description>Euler's Number</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Euler%27s_Number');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="35" pagina_type="PRE-REQ">
+    <title>Subsequences</title>
+    <short_description>Subsequences</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Numbers:Sequences');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="36" pagina_type="PRE-REQ">
+    <title>The Bolzano Weierstrass Theorem</title>
+    <short_description>The Bolzano Weierstrass Theorem</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Numbers:Sequences');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="37" pagina_type="PRE-REQ">
+    <title>The Limit Superior and Limit Inferior</title>
+    <short_description>The Limit Superior and Limit Inferior</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Numbers:Sequences');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="38" pagina_type="PRE-REQ">
+    <title>The Cauchy Criterion for Convergence</title>
+    <short_description>The Cauchy Criterion for Convergence</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Numbers:Sequences');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="39" pagina_type="PRE-REQ">
+    <title>Contractive Sequences</title>
+    <short_description>Contractive Sequences</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Numbers:Sequences');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="40" pagina_type="PRE-REQ">
+    <title>Properly Divergent Sequences</title>
+    <short_description>Properly Divergent Sequences</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Properly_Divergent_Sequences');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="41" pagina_type="PRE-REQ">
+    <title>Introduction to Infinite Series</title>
+    <short_description>Introduction to Infinite Series</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Series');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="42" pagina_type="PRE-REQ">
+    <title>Cluster Points</title>
+    <short_description>Cluster Points</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Cluster_Points');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="43" pagina_type="PRE-REQ">
+    <title>Neighborhoods in R</title>
+    <short_description>Neighborhoods in R</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Neighborhoods_in_R');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="44" pagina_type="PRE-REQ">
+    <title>The Limit of a Function</title>
+    <short_description>The Limit of a Function</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('The_Limit_of_a_Function');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="45" pagina_type="PRE-REQ">
+    <title>The Sequential Criterion </title>
+    <short_description>The Sequential Criterion </short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Real_Function_Limits:Sequential_Criterion');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="46" pagina_type="PRE-REQ">
+    <title>Divergence Criteria</title>
+    <short_description>Divergence Criteria</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Divergence_Criteria');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="47" pagina_type="PRE-REQ">
+    <title>The Limit Theorems for Functions</title>
+    <short_description>The Limit Theorems for Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="48" pagina_type="PRE-REQ">
+    <title>One Sided Limits</title>
+    <short_description>One Sided Limits</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Function_Limits:One-Sided');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="49" pagina_type="PRE-REQ">
+    <title>Infinite Limits and Limits with Infinity</title>
+    <short_description>Infinite Limits and Limits with Infinity</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Function_Limits:Infinite');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+</opus>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opus>
+  <pagina id_pagina="1" pagina_type="PRE-REQ">
+    <title>Preliminaries</title>
+    <short_description>Preliminaries</short_description>
+    <long_description/>
+  </pagina>
+  <pagina id_pagina="2" pagina_type="PRE-REQ">
+    <title>The Integers</title>
+    <short_description>The Integers</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('The_Integers');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="3" pagina_type="PRE-REQ">
+    <title>Groups</title>
+    <short_description>Groups</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Groups');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="4" pagina_type="PRE-REQ">
+    <title>Cyclic Groups</title>
+    <short_description>Cyclic Groups</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Cyclic_Groups');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="5" pagina_type="PRE-REQ">
+    <title>Permutation Groups</title>
+    <short_description>Permutation Groups</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Permutation_Groups');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="6" pagina_type="PRE-REQ">
+    <title>Cosets and Lagrange’s Theorem</title>
+    <short_description>Cosets and Lagrange’s Theorem</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Cosets_and_Lagrange’s_Theorem');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="7" pagina_type="PRE-REQ">
+    <title>Isomorphisms</title>
+    <short_description>Isomorphisms</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Isomorphisms');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="8" pagina_type="PRE-REQ">
+    <title>Normal Subgroups and Factor Groups</title>
+    <short_description>Normal Subgroups and Factor Groups</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Normal_Subgroups_and_Factor_Groups');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="9" pagina_type="PRE-REQ">
+    <title>Homomorphisms</title>
+    <short_description>Homomorphisms</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Homomorphisms');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="10" pagina_type="PRE-REQ">
+    <title>The Structure of Groups</title>
+    <short_description>The Structure of Groups</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('The_Structure_of_Groups');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="11" pagina_type="PRE-REQ">
+    <title>Rings</title>
+    <short_description>Rings</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Rings');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="12" pagina_type="PRE-REQ">
+    <title>Polynomials</title>
+    <short_description>Polynomials</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Polynomials');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="13" pagina_type="PRE-REQ">
+    <title>Integral Domains</title>
+    <short_description>Integral Domains</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Integral_Domains');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+</opus>

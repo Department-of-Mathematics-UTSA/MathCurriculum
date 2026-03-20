@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opus>
+  <pagina id_pagina="1" pagina_type="PRE-REQ">
+    <title>Statements</title>
+    <short_description>Statements</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Statements');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="2" pagina_type="PRE-REQ">
+    <title>Logic</title>
+    <short_description>Logic</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sentential_Logic');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="3" pagina_type="PRE-REQ">
+    <title>Propositions</title>
+    <short_description>Propositions</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sentential_Logic');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="4" pagina_type="PRE-REQ">
+    <title>Logical Implication</title>
+    <short_description>Logical Implication</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Logical_Implication');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="5" pagina_type="PRE-REQ">
+    <title>Logical Equivalence</title>
+    <short_description>Logical Equivalence&#13;
+</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Logical_Equivalence');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="6" pagina_type="PRE-REQ">
+    <title>Deductive Rules</title>
+    <short_description>Deductive Rules&#13;
+</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Deductive_Rules');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="7" pagina_type="PRE-REQ">
+    <title>Truth Values</title>
+    <short_description>Truth Values</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sentential_Logic');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="8" pagina_type="PRE-REQ">
+    <title>Truth Tables</title>
+    <short_description>Truth Tables</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sentential_Logic');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="9" pagina_type="PRE-REQ">
+    <title>Quantifiers</title>
+    <short_description>Quantifiers</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Quantifiers');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="10" pagina_type="PRE-REQ">
+    <title>Methods for Proofs</title>
+    <short_description>Methods for Proofs</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Mathematical_Proofs');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="11" pagina_type="PRE-REQ">
+    <title>Writing Mathematics</title>
+    <short_description>Writing Mathematics</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Writing_Mathematics');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="12" pagina_type="PRE-REQ">
+    <title>Basic Concepts of Set Theory</title>
+    <short_description>Basic Concepts of Set Theory</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sets:Definitions');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="13" pagina_type="PRE-REQ">
+    <title>Operations with sets</title>
+    <short_description>Operations with sets</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sets:Operations');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="14" pagina_type="PRE-REQ">
+    <title>Constructions with sets</title>
+    <short_description>Constructions with sets</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sets:Families');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="15" pagina_type="PRE-REQ">
+    <title>Mathematical Induction</title>
+    <short_description>Mathematical Induction</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Proofs:Induction');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="16" pagina_type="PRE-REQ">
+    <title>Recursion</title>
+    <short_description>Recursion</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Recursion');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="17" pagina_type="PRE-REQ">
+    <title>Cartesian Products</title>
+    <short_description>Cartesian Products</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="18" pagina_type="PRE-REQ">
+    <title>Cartesian Products Subsets</title>
+    <short_description>Cartesian Products Subsets</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="19" pagina_type="PRE-REQ">
+    <title>Relations</title>
+    <short_description>Relations</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Relations');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="20" pagina_type="PRE-REQ">
+    <title>Function as Relations</title>
+    <short_description>Function as Relations</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Functions_as_Relations');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="21" pagina_type="PRE-REQ">
+    <title>Equivalence Relations</title>
+    <short_description>Equivalence Relations</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Equivalence_Relations');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="22" pagina_type="PRE-REQ">
+    <title>Natural Numbers: Postulates</title>
+    <short_description>Natural Numbers: Postulates</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Natural_Numbers:Postulates');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="23" pagina_type="PRE-REQ">
+    <title>Natural Numbers: Well-Ordering</title>
+    <short_description>Natural Numbers: Well-Ordering</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Natural_Numbers:Well-Ordering');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="24" pagina_type="PRE-REQ">
+    <title>Graphs</title>
+    <short_description>Graphs</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="25" pagina_type="PRE-REQ">
+    <title>Functions</title>
+    <short_description>Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Functions:Definition');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="26" pagina_type="PRE-REQ">
+    <title>Constructions With Functions</title>
+    <short_description>Constructions With Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Functions:Forward_Image');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="27" pagina_type="PRE-REQ">
+    <title>One-to-One</title>
+    <short_description>One-to-One</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Functions:Injective');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="28" pagina_type="PRE-REQ">
+    <title>Onto</title>
+    <short_description>Onto</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Functions:Surjective');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="29" pagina_type="PRE-REQ">
+    <title>One-to-one correspondence</title>
+    <short_description>One-to-one correspondence</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Functions:Bijective');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="30" pagina_type="PRE-REQ">
+    <title>Compositional Inverse</title>
+    <short_description>Compositional Inverse</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Functions:Inverses');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="31" pagina_type="PRE-REQ">
+    <title>Function Composition</title>
+    <short_description>Function Composition</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Functions:Composition');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="32" pagina_type="PRE-REQ">
+    <title>Images of Subsets</title>
+    <short_description>Images of Subsets</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="33" pagina_type="PRE-REQ">
+    <title>Preimages of subsets</title>
+    <short_description>Preimages of subsets</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="34" pagina_type="PRE-REQ">
+    <title>Sequences</title>
+    <short_description>Sequences</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Real_Numbers:Sequences');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="35" pagina_type="PRE-REQ">
+    <title>Cardinality Sets</title>
+    <short_description>Cardinality Sets</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sets:Cardinality');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="36" pagina_type="PRE-REQ">
+    <title>Finite Sets</title>
+    <short_description>Finite Sets</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sets:Finite');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="37" pagina_type="PRE-REQ">
+    <title>Equivalent Sets</title>
+    <short_description>Equivalent Sets</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="38" pagina_type="PRE-REQ">
+    <title>Countable Sets</title>
+    <short_description>Countable Sets</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sets:Countable');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="39" pagina_type="PRE-REQ">
+    <title>Uncountable Sets</title>
+    <short_description>Uncountable Sets</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Sets:Uncountable');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="40" pagina_type="PRE-REQ">
+    <title>Cardinality of important sets</title>
+    <short_description>Cardinality of important sets&#13;
+</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Cardinality_of_important_sets');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+</opus>

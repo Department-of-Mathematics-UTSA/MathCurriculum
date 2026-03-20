@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opus>
+  <pagina id_pagina="1" pagina_type="PRE-REQ">
+    <title>Algebraic Structure of the Real Numbers</title>
+    <short_description>Algebraic Structure of the Real Numbers</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Algebraic_Structure_of_the_Real_Numbers')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="2" pagina_type="PRE-REQ">
+    <title>Distance Between Two Points in the Real Numbers</title>
+    <short_description>Distance Between Two Points in the Real Numbers</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Distance_Between_Two_Points')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="3" pagina_type="PRE-REQ">
+    <title>Limit of a sequence in the Real Numbers</title>
+    <short_description>Limit of a sequence in the Real Numbers</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Limit_of_a_sequence_in_the_Real_Numbers')&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="4" pagina_type="PRE-REQ">
+    <title>The Nested Interval Theorem for the Real Numbers</title>
+    <short_description>The Nested Interval Theorem for the Real Numbers</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('The_Nested_Interval_Theorem_for_the_Real_Numbers')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="5" pagina_type="PRE-REQ">
+    <title>Cauchy-Schwarz Formula</title>
+    <short_description>Cauchy-Schwarz Formula</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Cauchy-Schwarz_Formula')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="6" pagina_type="PRE-REQ">
+    <title>Distance Between Two Points in Higher Dimensions</title>
+    <short_description>Distance Between Two Points in Higher Dimensions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Distance_Between_Two_Points')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="7" pagina_type="PRE-REQ">
+    <title>Open Subsets in Higher Dimensions</title>
+    <short_description>Open Subsets in Higher Dimensions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Open_Subsets')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="8" pagina_type="PRE-REQ">
+    <title>Limit Points (or Cluster Points) in Higher Dimensions</title>
+    <short_description>Limit Points (or Cluster Points) in Higher Dimensions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Limit_Points_(or_Cluster_Points)_in_Higher_Dimensions')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="9" pagina_type="PRE-REQ">
+    <title>Closed Subsets in Higher Dimensions</title>
+    <short_description>Closed Subsets in Higher Dimensions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Closed_Subsets_in_Higher_Dimensions')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="10" pagina_type="PRE-REQ">
+    <title>Bounded sets in Higher Dimensions</title>
+    <short_description>Bounded sets in Higher Dimensions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Bounded_sets_in_Higher_Dimensions')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="11" pagina_type="PRE-REQ">
+    <title>The Nested Interval Theorem in Higher Dimensions</title>
+    <short_description>The Nested Interval Theorem in Higher Dimensions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('The_Nested_Interval_Theorem_in_Higher_Dimensions')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="12" pagina_type="PRE-REQ">
+    <title>The Bolzano-Weierstrass Theorem in Higher Dimensions</title>
+    <short_description>The Bolzano-Weierstrass Theorem in Higher Dimensions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Completeness')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="13" pagina_type="PRE-REQ">
+    <title>Convergent Sequences and the Cauchy Criterion in Higher Dimension</title>
+    <short_description>Convergent Sequences and the Cauchy Criterion in Higher Dimension</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Completeness')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="14" pagina_type="PRE-REQ">
+    <title>Heine-Borel Theorem</title>
+    <short_description>Heine-Borel Theorem</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Heine-Borel_Theorem')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="15" pagina_type="PRE-REQ">
+    <title>Lindeloff Theorem</title>
+    <short_description>Lindeloff Theorem</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Lindelöf_Theorem')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="16" pagina_type="PRE-REQ">
+    <title>Topological Spaces</title>
+    <short_description>Topological Spaces</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Topological_Spaces')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="17" pagina_type="PRE-REQ">
+    <title>Distance Functions, Metrics</title>
+    <short_description>Distance Functions, Metrics</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Distance_Functions,_Metrics')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="18" pagina_type="PRE-REQ">
+    <title>Metric Spaces</title>
+    <short_description>Metric Spaces</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Metric_Spaces')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="19" pagina_type="PRE-REQ">
+    <title>Open Sets and Closed Sets in Metric Spaces</title>
+    <short_description>Open Sets and Closed Sets in Metric Spaces</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Open_Sets_and_Closed_Sets_in_Metric_Spaces')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="20" pagina_type="PRE-REQ">
+    <title>A Topology Given By A Metric</title>
+    <short_description>A Topology Given By A Metric</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('A_Topology_Given_By_A_Metric')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="21" pagina_type="PRE-REQ">
+    <title>Subspaces of Metric Spaces</title>
+    <short_description>Subspaces of Metric Spaces</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Subspaces_of_Metric_Spaces')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="22" pagina_type="PRE-REQ">
+    <title>Convergent Sequences in Metric Spaces</title>
+    <short_description>Convergent Sequences in Metric Spaces</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Convergent_Sequences_in_Metric_Spaces')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="23" pagina_type="PRE-REQ">
+    <title>Cartesian Products of Metric Spaces</title>
+    <short_description>Cartesian Products of Metric Spaces</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Cartesian_Products_of_Metric_Spaces')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="24" pagina_type="PRE-REQ">
+    <title>Continuous Mappings Between Metric Spaces</title>
+    <short_description>Continuous Mappings Between Metric Spaces</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Continuous_Mappings_Between_Metric_Spaces')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="25" pagina_type="PRE-REQ">
+    <title>Separation Properties</title>
+    <short_description>Separation Properties</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Separation_Properties')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="26" pagina_type="PRE-REQ">
+    <title>Connectedness</title>
+    <short_description>Connectedness</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Connectedness')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="27" pagina_type="PRE-REQ">
+    <title>Separable Metric Spaces</title>
+    <short_description>Separable Metric Spaces</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Separable_Metric_Spaces')&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="28" pagina_type="PRE-REQ">
+    <title>Totally Bounded Metric Spaces</title>
+    <short_description>Totally Bounded Metric Spaces</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Totally_Bounded_Metric_Spaces')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="29" pagina_type="PRE-REQ">
+    <title>Bounded Sets and Bounded Functions in a Metric Space</title>
+    <short_description>Bounded Sets and Bounded Functions in a Metric Space</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Bounded_Sets_and_Bounded_Functions_in_a_Metric_Space')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="30" pagina_type="PRE-REQ">
+    <title>Compactness in Metric Spaces</title>
+    <short_description>Compactness in Metric Spaces</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Compactness_in_Metric_Spaces')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="31" pagina_type="PRE-REQ">
+    <title>Complete Metric Spaces</title>
+    <short_description>Complete Metric Spaces</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Complete_Metric_Spaces')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="32" pagina_type="PRE-REQ">
+    <title>Baire's Theorem and Applications</title>
+    <short_description>Baire's Theorem and Applications</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Baire%27s_Theorem_and_Applications')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="33" pagina_type="PRE-REQ">
+    <title>Stone-Weierstrass Theorem</title>
+    <short_description>Stone-Weierstrass Theorem</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Stone-Weierstrass_Theorem')&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="34" pagina_type="PRE-REQ">
+    <title>The Hilbert Space L2 and the Hilbert Cube</title>
+    <short_description>The Hilbert Space L2 and the Hilbert Cube</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('The_Hilbert_Space_L2_and_the_Hilbert_Cube')&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+</opus>

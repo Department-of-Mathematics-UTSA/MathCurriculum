@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opus>
+  <pagina id_pagina="1" pagina_type="PRE-REQ">
+    <title>Problem Solving Introduction</title>
+    <short_description>Problem Solving Introduction</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Problem_Solving_Introduction');&#13;
+LoadPDF('../docs/MAT1153/Problem_solving.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="2" pagina_type="PRE-REQ">
+    <title>Patterns</title>
+    <short_description>Patterns</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Patterns');&#13;
+LoadPDF('../docs/MAT1153/Patterns.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="3" pagina_type="PRE-REQ">
+    <title>Sets</title>
+    <short_description>Sets</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Sets');&#13;
+LoadPDF('../docs/MAT1153/Sets.pdf ../docs/MAT1153/Set_notation.pdf');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="4" pagina_type="PRE-REQ">
+    <title>Number Systems, Base 10, 5 and 2</title>
+    <short_description>Number Systems, Base 10, 5 and 2</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Number_Systems,_Base_10,_5_and_2');&#13;
+LoadPDF('../docs/MAT1153/Number_systems.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="5" pagina_type="">
+    <title>Base 10, Base 2 &amp; Base 5</title>
+    <short_description>Base 10, Base 2 &amp; Base 5</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Base_10,_Base_2_%26_Base_5');&#13;
+LoadPDF('../docs/MAT1153/Number_systems.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="6" pagina_type="PRE-REQ">
+    <title>Whole numbers addition models and properties</title>
+    <short_description>Whole numbers addition models and properties</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Whole_numbers_addition_models_and_properties');&#13;
+LoadPDF('../docs/MAT1153/Whole_numbers_addition.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="7" pagina_type="PRE-REQ">
+    <title>Whole numbers subtraction models and properties</title>
+    <short_description>Whole numbers subtraction models and properties</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Whole_numbers_subtraction_models_and_properties');&#13;
+LoadPDF('../docs/MAT1153/Whole_numbers_subtract.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="8" pagina_type="PRE-REQ">
+    <title>Addition Algorithms</title>
+    <short_description>Addition Algorithms</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Addition_Algorithms');&#13;
+LoadPDF('../docs/MAT1153/Algorithm.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="9" pagina_type="PRE-REQ">
+    <title>Subtraction Algorithms</title>
+    <short_description>Subtraction Algorithms</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Subtraction_Algorithms');&#13;
+LoadPDF('../docs/MAT1153/Algorithm.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="10" pagina_type="PRE-REQ">
+    <title>Cognitive Guided Instruction</title>
+    <short_description>Cognitive Guided Instruction</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Cognitive_Guided_Instruction');&#13;
+LoadPDF('../docs/MAT1153/Cognitive_guided_instruction.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="11" pagina_type="">
+    <title>Whole numbers multiplication models and properties</title>
+    <short_description>Whole numbers multiplication models and properties</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Whole_numbers_multiplication_models_and_properties');&#13;
+LoadPDF('../docs/MAT1153/Whole_numbers_multiply.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="12" pagina_type="PRE-REQ">
+    <title>Whole numbers division models and properties</title>
+    <short_description>Whole numbers division models and properties</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Whole_numbers_division_models_and_properties');&#13;
+LoadPDF('../docs/MAT1153/Whole_numbers_divide.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="13" pagina_type="PRE-REQ">
+    <title>Multiplication Algorithms</title>
+    <short_description>Multiplication Algorithms</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Multiplication_Algorithms');&#13;
+LoadPDF('../docs/MAT1153/Algorithm.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="14" pagina_type="PRE-REQ">
+    <title>Division Algorithms</title>
+    <short_description>Division Algorithms</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Division_Algorithms');&#13;
+LoadPDF('../docs/MAT1153/Algorithm.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="15" pagina_type="PRE-REQ">
+    <title>Exponents</title>
+    <short_description>Exponents</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Exponents');&#13;
+LoadPDF('../docs/MAT1153/Exponent.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="16" pagina_type="PRE-REQ">
+    <title>Number Theory</title>
+    <short_description>Number Theory</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Number_Theory');&#13;
+LoadPDF('../docs/MAT1153/Number_theory.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="17" pagina_type="PRE-REQ">
+    <title>Divisibility</title>
+    <short_description>Divisibility</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Divisibility');&#13;
+LoadPDF('../docs/MAT1153/Divisibility.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="18" pagina_type="PRE-REQ">
+    <title>Divisibility Tests</title>
+    <short_description>Divisibility Tests</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Divisibility_Tests');&#13;
+LoadPDF('../docs/MAT1153/Divisibility_test.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="19" pagina_type="PRE-REQ">
+    <title>Prime Numbers</title>
+    <short_description>Prime Numbers</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Prime_Numbers');&#13;
+LoadPDF('../docs/MAT1153/Prime_number.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="20" pagina_type="PRE-REQ">
+    <title>LCM &amp; GCD</title>
+    <short_description>LCM &amp; GCD</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('LCM_%26_GCD');&#13;
+LoadPDF('../docs/MAT1153/LCM.pdf ../docs/MAT1153/GCF.pdf ../docs/MAT1153/Factors.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="21" pagina_type="PRE-REQ">
+    <title>Addition and subtraction of integers</title>
+    <short_description>Addition and subtraction of integers</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Addition_and_subtraction_of_integers');&#13;
+LoadPDF('../docs/MAT1153/Add_and_subtract_integers.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="22" pagina_type="PRE-REQ">
+    <title>Multiplication and division of integers</title>
+    <short_description>Multiplication and division of integers</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Multiplication_and_division_of_integers');&#13;
+LoadPDF('../docs/MAT1153/Multiply_and_divide_integers.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="23" pagina_type="PRE-REQ">
+    <title>Fractions meaning and models</title>
+    <short_description>Fractions meaning and models</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Fractions_meaning_and_models');&#13;
+LoadPDF('../docs/MAT1153/Fractions.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="24" pagina_type="PRE-REQ">
+    <title>Equivalents Fractions</title>
+    <short_description>Equivalents Fractions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Equivalents_Fractions');&#13;
+LoadPDF('../docs/MAT1153/Fractions.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="25" pagina_type="PRE-REQ">
+    <title>Addition and subtraction of fractions</title>
+    <short_description>Addition and subtraction of fractions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Addition_and_subtraction_of_fractions');&#13;
+LoadPDF('../docs/MAT1153/Add_and_subtract_fractions.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="26" pagina_type="PRE-REQ">
+    <title>Multiplication and division of fractions</title>
+    <short_description>Multiplication and division of fractions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Multiplication_and_division_of_fractions');&#13;
+LoadPDF('../docs/MAT1153/Multiply_and_divide_fractions.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="27" pagina_type="PRE-REQ">
+    <title>Real Numbers (Rational vs. Irrational Numbers)</title>
+    <short_description>Real Numbers (Rational vs. Irrational Numbers)</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Real_Numbers_(Rational_vs._Irrational_Numbers)');&#13;
+LoadPDF('../docs/MAT1153/Real_numbers.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="28" pagina_type="PRE-REQ">
+    <title>Models and basic operation with decimals</title>
+    <short_description>Models and basic operation with decimals</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Models_and_basic_operation_with_decimals');&#13;
+LoadPDF('../docs/MAT1153/Decimals.pdf');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+</opus>

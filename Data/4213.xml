@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<opus>
+  <pagina id_pagina="1" pagina_type="PRE-REQ">
+    <title>Continuous Functions</title>
+    <short_description>Continuous Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Continuous_Functions');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="2" pagina_type="PRE-REQ">
+    <title>Combinations of Continuous Functions</title>
+    <short_description>Combinations of Continuous Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Continuous_Functions');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="3" pagina_type="PRE-REQ">
+    <title>Continuous Functions on Intervals</title>
+    <short_description>Continuous Functions on Intervals</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Continuous_Functions');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="4" pagina_type="PRE-REQ">
+    <title>The Intermediate Value Theorem</title>
+    <short_description>The Intermediate Value Theorem</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Continuous_Functions');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="5" pagina_type="PRE-REQ">
+    <title>Uniform Continuity</title>
+    <short_description>Uniform Continuity</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Uniform_Continuity');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="6" pagina_type="PRE-REQ">
+    <title>lipschitz Functions</title>
+    <short_description>lipschitz Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Lipschitz_Functions');&#13;
+&lt;/script&gt;</long_description>
+  </pagina>
+  <pagina id_pagina="7" pagina_type="PRE-REQ">
+    <title>The Continuous Extension Theorem</title>
+    <short_description>The Continuous Extension Theorem</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('The_Continuous_Extension_Theorem');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="8" pagina_type="PRE-REQ">
+    <title>Approximations of Continuous Functions</title>
+    <short_description>Approximations of Continuous Functions</short_description>
+    <long_description/>
+  </pagina>
+  <pagina id_pagina="9" pagina_type="PRE-REQ">
+    <title>Continuity and Guages</title>
+    <short_description>Continuity and Guages</short_description>
+    <long_description/>
+  </pagina>
+  <pagina id_pagina="10" pagina_type="PRE-REQ">
+    <title>Monotone Functions</title>
+    <short_description>Monotone Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Monotone_Functions');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="11" pagina_type="PRE-REQ">
+    <title>Inverse Functions</title>
+    <short_description>Inverse Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Inverse_Functions');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="12" pagina_type="PRE-REQ">
+    <title>The Derivative</title>
+    <short_description>The Derivative</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('The_Derivative');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="13" pagina_type="PRE-REQ">
+    <title>Derivatives of Functions with Inverses</title>
+    <short_description>Derivatives of Functions with Inverses</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Derivatives_of_Functions_with_Inverses');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="14" pagina_type="PRE-REQ">
+    <title>The Mean Value Theorem</title>
+    <short_description>The Mean Value Theorem</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('The_Mean_Value_Theorem');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="15" pagina_type="PRE-REQ">
+    <title>Extrema of a Function</title>
+    <short_description>Extrema of a Function</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Extrema_of_a_Function');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="16" pagina_type="PRE-REQ">
+    <title>L'Hospital's Rule</title>
+    <short_description>L'Hospital's Rule</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('L%27Hospital%27s_Rules');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="17" pagina_type="PRE-REQ">
+    <title>Taylor's Theorem</title>
+    <short_description>Taylor's Theorem</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Taylor%27s_Theorem');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="18" pagina_type="PRE-REQ">
+    <title>Relative Extrema and Convex Functions</title>
+    <short_description>Relative Extrema and Convex Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('Relative_Extrema_and_Convex_Functions');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="19" pagina_type="PRE-REQ">
+    <title>Newton's Method</title>
+    <short_description>Newton's Method</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Newton%27s_Method');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="20" pagina_type="PRE-REQ">
+    <title>The Riemann Integral</title>
+    <short_description>The Riemann Integral</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('The_Riemann_Integral');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="21" pagina_type="PRE-REQ">
+    <title>Properties of the Integral</title>
+    <short_description>Properties of the Integral</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Properties_of_the_Integral');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="22" pagina_type="PRE-REQ">
+    <title>Riemann Integrable Functions</title>
+    <short_description>Riemann Integrable Functions</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Riemann_Integrable_Functions');&#13;
+&lt;/script&gt;&#13;
+&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="23" pagina_type="PRE-REQ">
+    <title>The Additivity Theorem</title>
+    <short_description>The Additivity Theorem</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('The_Additivity_Theorem');&#13;
+&lt;/script&gt;&#13;
+&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="24" pagina_type="PRE-REQ">
+    <title>The Fundamental Theorem</title>
+    <short_description>The Fundamental Theorem</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('The_Fundamental_Theorem');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="25" pagina_type="PRE-REQ">
+    <title>The Substitution and Composition Thoerems</title>
+    <short_description>The Substitution and Composition Thoerems</short_description>
+    <long_description>&lt;script&gt;&#13;
+LoadWiki('The_Substitution_and_Composition_Theorems');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="26" pagina_type="PRE-REQ">
+    <title>Integration by parts</title>
+    <short_description>Integration by parts</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('Integration_by_Parts');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="27" pagina_type="PRE-REQ">
+    <title>The Darboux Integral</title>
+    <short_description>The Darboux Integral</short_description>
+    <long_description>&lt;script&gt;&#13;
+ LoadWiki('The_Darboux_Integral');&#13;
+&lt;/script&gt;&#13;
+</long_description>
+  </pagina>
+  <pagina id_pagina="28" pagina_type="PRE-REQ">
+    <title>Approximate Integration</title>
+    <short_description>Approximate Integration</short_description>
+    <long_description/>
+  </pagina>
+</opus>
