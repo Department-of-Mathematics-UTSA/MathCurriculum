@@ -1,0 +1,3442 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Unit 7: Review of functions and change}
+\label{chap:unit7}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%===============================================================
+\section{Review of functions and change}
+\label{sec:review-of-functions-and-change}
+%%===============================================================
+
+\paragraph{Introduction}
+
+\paragraph{Functions}
+
+Understanding and defining functions is crucial for modeling and solving real-world problems. For instance, students learn to connect functions to dynamical models, such as predicting population growth or the spread of diseases. This involves using functions to represent and analyze how different variables interact over time, making it possible to forecast future trends and inform decision-making.
+
+% [Image: Function machine]
+
+\paragraph{Linear Functions}
+
+Recognizing and working with linear functions is foundational in various fields. Students learn to identify the slope and y-intercept of linear equations, which helps in understanding rates of change and intercepts. This knowledge is applied in contexts such as financial forecasting, where linear models can predict costs and revenues, or in engineering, where linear relationships describe how different variables affect each other.
+
+\paragraph{Other Functions and Polynomials}
+
+Power functions and polynomials have diverse applications across disciplines. In physics and engineering, they describe phenomena such as the relationship between force and acceleration or the behavior of materials under stress. In finance, polynomial functions model investment growth and economic trends. Recognizing these functions helps in understanding their behavior and solving related mathematical problems.
+
+Exponential functions are pivotal in studying growth and decay processes. They are commonly used to model populations, radioactive decay, and interest rates. Understanding exponential growth helps in fields such as biology and finance, where rapid changes need to be accurately predicted and managed.
+
+Logarithmic functions, essential for solving equations involving exponential terms, have applications in various scientific and engineering fields. They are used to measure pH levels in chemistry, analyze sound intensity in acoustics, and solve problems involving exponential growth or decay. Mastery of logarithms enables students to handle complex equations and interpret data effectively.
+
+Analyzing sine and cosine functions is fundamental in fields that involve periodic phenomena. This includes engineering disciplines, where these functions describe oscillations and waveforms, and in music, where they model sound waves. Understanding amplitude and period allows for the precise analysis and application of these periodic functions in practical scenarios.
+
+\paragraph{Composite Functions}
+
+Composite functions involve combining multiple functions to model complex relationships. This concept is applied in fields such as computer science, where composite functions describe algorithms and data processing sequences, and in engineering, where they represent systems with interconnected components. Mastery of composite functions allows for the modeling and analysis of intricate systems and processes.
+
+% [Image: Composition of Functions]
+
+\paragraph{Licensing}
+
+Content obtained and/or adapted from:
+\begin{itemize}
+    \item \href{https://en.wikibooks.org/wiki/Calculus/Functions}{Functions, Wikibooks: Calculus} under a CC BY-SA license.
+\end{itemize}
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Define a function and connect to a real-world dynamical model
+    \item Identify the parts of linear functions (slope, y-intercept).
+    \item Demonstrate how to manipulate fractions.
+    \item Identify power functions and polynomials.
+    \item Identify exponential functions and their graphs in terms of exponential growth/decay.
+    \item Identify logarithmic functions, graph and solve equations with log properties.
+    \item Analyze graphs of the sine and cosine by recognizing amplitude and period.
+    \item Identify and compute composite functions.
+\end{enumerate}
+
+\subsection{Assessment Instrument}
+
+\begin{enumerate}
+    \item A particular city''s population was 30,800 in the year 2000 and is growing by 850 people per year.  Give a formula for the city''s population, \textit{P(t)}, as a function of the number of years, \textit{t} since 2000. Next, predict the population for 2010. Finally, when is the population expected to reach 45,000?
+\end{enumerate}
+
+%%===============================================================
+\section{Average \& Instantaneous Rate of Change}
+\label{sec:average-instantaneous-rate-of-change}
+%%===============================================================
+
+\paragraph{Average \& Instantaneous Rate of Change}
+
+
+\textbf{Computing the Average Rate of Change (ARC)} in Biology involves determining how a biological quantity changes over a specific period. For example, when studying the growth of bacteria in a culture, ARC can be calculated as the total increase in bacterial population divided by the time interval. If a culture grows from 1,000 to 5,000 bacteria over 10 hours, the ARC would be 400 bacteria per hour. This helps in understanding overall growth trends in various biological experiments and is crucial for predicting future population sizes.
+
+\textbf{Computing the Instantaneous Rate of Change (IRC)} in Biology focuses on how a biological quantity changes at a specific moment. For instance, when analyzing the rate at which a specific enzyme catalyzes a reaction at a particular time, IRC provides the exact rate at that instant. In enzyme kinetics, this might involve measuring the rate of substrate conversion to product at a precise concentration and time, which is essential for understanding enzyme efficiency and reaction dynamics.
+
+\textbf{Comparing and Contrasting ARC with IRC} helps to differentiate between overall trends and specific snapshots in biological data. For example, if studying the growth rate of a plant over several weeks (ARC) versus its growth rate at a particular day (IRC), ARC gives the average growth rate over the period, while IRC provides the growth rate at a precise moment, such as during a rapid growth phase. This distinction is important in experiments where both general trends and specific time points need to be analyzed, such as in developmental biology.
+
+\textbf{Defining Velocity Using the Idea of a Limit} in Biology involves understanding rates of change at a microscopic level. For example, in studying the rate of diffusion of a substance across a cell membrane, velocity can be defined as the limit of the average rate of change of concentration over smaller and smaller intervals of time. This approach provides an accurate measurement of how quickly a substance moves into or out of cells, which is critical for understanding processes like nutrient uptake and waste removal.
+
+\textbf{Visualizing the Limit with Tangent Lines} in Biology helps to interpret instantaneous rates of change graphically. For instance, when analyzing growth curves of populations or enzyme activity curves, the tangent line at a specific point on the graph represents the IRC at that moment. In population biology, this means understanding how the growth rate of a population changes instantaneously at different stages of its growth cycle. This visualization aids in grasping the dynamic nature of biological processes and in making predictions based on current trends.
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Compute the average rate of change (ARC).
+    \item Compute the instantaneous rate of change (IRC)
+    \item Comparing and contrasting ARC with IRC
+    \item Defining velocity using the idea of a limit
+    \item Visualizing the limit with tangent lines
+\end{enumerate}
+
+%%===============================================================
+\section{The Limit of a Function}
+\label{sec:the-limit-of-a-function}
+%%===============================================================
+
+\paragraph{The Limit of a Function}
+
+\textbf{Distinguishing the Definition of Continuity of a Function} in Biology involves understanding how continuous functions are essential for modeling biological processes. Continuity in a function means that there are no abrupt changes or discontinuities in the function’s values. For instance, in studying population dynamics, a continuous function might describe how a population changes over time without sudden jumps or drops. If a model shows a continuous curve representing the growth of a plant population, it indicates that the population growth is smooth and uninterrupted, which is crucial for accurately predicting future population sizes and understanding ecological balance. Discontinuities might indicate sudden environmental changes or data errors, which could impact interpretations and decisions in conservation biology.
+
+\textbf{Applying Derivatives to Biological Functions} involves using derivatives to analyze rates of change in biological contexts. For example, in pharmacokinetics, derivatives can be used to determine how the concentration of a drug in the bloodstream changes over time. By applying derivatives to the function describing drug concentration, researchers can calculate the rate at which the drug is absorbed, distributed, metabolized, and eliminated from the body. This information is critical for optimizing drug dosages and understanding how different factors affect drug efficacy. Similarly, in the study of enzyme kinetics, derivatives help in determining the rate of reaction at various substrate concentrations, providing insights into enzyme efficiency and reaction mechanisms. In both cases, derivatives are essential for modeling and interpreting dynamic biological processes.
+
+\paragraph{Licensing}
+
+Content obtained and/or adapted from:
+
+\begin{itemize}
+    \item \href{https://en.wikibooks.org/wiki/Calculus/Integration\_techniques/Infinite\_Sums}{Infinite Sums, Wikibooks: Calculus/Integration techniques} under a CC BY-SA license
+    \item \href{https://en.wikibooks.org/wiki/Calculus/Formal\_Definition\_of\_the\_Limit}{Formal Definition of the Limit, Wikibooks: Calculus} under a CC BY-SA license
+\end{itemize}
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Recognize graphs of derivatives from original function
+    \item Estimate the derivative of a function given table data and graphically
+    \item Interpret the derivative with units and alternative notations (Leibniz)
+    \item Use derivative to estimate value of a function
+    \item Use the limit definition to define the derivative at a particular point and to define the derivative function
+    \item Distinguish the definition of continuity of a function
+    \item Apply derivatives to biological functions
+\end{enumerate}
+
+%%===============================================================
+\section{Derivative Formulas (Derivatives for powers and polynomials, exponentials \& logarithms)}
+\label{sec:derivative-formulas-derivatives-for-powers-and-polynomials-exponentials-logarithms}
+%%===============================================================
+
+\paragraph{General Rules}
+
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}(f+g)=\frac{\mathrm{d}f}{\mathrm{d}x}+\frac{\mathrm{d}g}{\mathrm{d}x}
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}(c\cdot f)=c\cdot\frac{\mathrm{d}f}{\mathrm{d}x}
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}(f\cdot g)=f\cdot\frac{\mathrm{d}g}{\mathrm{d}x}+g\cdot\frac{\mathrm{d}f}{\mathrm{d}x}
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\left(\frac{f}{g}\right)=\dfrac{-f\cdot\dfrac{\mathrm{d}g}{dx}+g\cdot\dfrac{\mathrm{d}f}{\mathrm{d}x}}{g^2}
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}[f(g(x))]=\frac{\mathrm{d}f}{\mathrm{d}g}\cdot\frac{\mathrm{d}g}{\mathrm{d}x}=f''(g(x))\cdot g''(x)
+$
+
+$
+\frac{\mathrm{d}^n}{\mathrm{d}x^n} f(x)g(x) = \sum\_{i=0}^n \left(\begin{matrix}n\\i\end{matrix}\right)f^{(n-i)}(x)g^{(i)}(x)
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\left(\frac{1}{f}\right) = -\frac{f''}{f^2}
+$
+
+\paragraph{Powers and Polynomials}
+
+
+\begin{itemize}
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}(c)=0$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}x=1$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}x^n=nx^{n-1}$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}\sqrt{x}=\frac{1}{2\sqrt{x}}$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}\frac{1}{x}=-\frac{1}{x^2}$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}(c\_nx^n+c\_{n-1}x^{n-1}+c\_{n-2}x^{n-2}+\cdots+c\_2x^2+c\_1x+c\_0)=nc\_nx^{n-1}+(n-1)c\_{n-1}x^{n-2}+(n-2)c\_{n-2}x^{n-3}+\cdots+2c\_2x+c\_1$
+\end{itemize}
+
+\paragraph{Exponential and Logarithmic Functions}
+
+
+\begin{itemize}
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}e^x=e^x$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}a^x=a^x\ln(a)\qquad\text{if }a>0$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}\ln(x)=\frac{1}{x}$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}\log\_a(x)=\frac{1}{x\ln(a)}\qquad\text{if }a>0,\ a\ne1$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}(f^g)=\frac{\mathrm{d}}{\mathrm{d}x}\left(e^{g\ln(f)}\right)=f^g\left(f''\frac{g}{f}+g''\ln(f)\right),\qquad f>0$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}(c^f)=\frac{\mathrm{d}}{\mathrm{d}x}\left(e^{f\ln(c)}\right)=c^f\ln(c)\cdot f''$
+\end{itemize}
+
+
+\paragraph{Resources}
+
+
+\begin{itemize}
+    \item \href{https://en.wikibooks.org/wiki/Calculus/Tables\_of\_Derivatives}{Table of Derivatives, Wikibooks: Calculus}
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/Derivative\%20Formulas/Presentation3\_DerivativeFunction\%20\&\%20Interpretations.pptx}{Derivative Function \& Interpretations}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/Derivative\%20Formulas/Presentation3b,4,5\_Limits\%20\&\%20Derivative\%20Formulas.pptx}{Limits \& Derivative Formulas}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/Derivative\%20Formulas/Presentation5b\_Exponential\%20and\%20Logs.pptx}{Exponential and Logarithms}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+\end{itemize}
+
+\paragraph{Licensing}
+
+
+Content obtained and/or adapted from:
+\begin{itemize}
+    \item \href{https://en.wikibooks.org/wiki/Calculus/Tables\_of\_Derivatives}{Table of Derivatives, Wikibooks: Calculus} under a CC BY-SA license
+\end{itemize}
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Use constant formula and power formula to differentiate functions along with the sum and difference rule
+    \item Use differentiation to find the equation of a tangent line to make predictions using tangent line approximation
+    \item Differentiate exponential and logarithmic functions
+    \item Differentiate composite functions using the chain rule
+    \item Differentiate products and quotients
+\end{enumerate}
+
+%%===============================================================
+\section{Derivative Formulas (Derivatives for trigonometric functions)}
+\label{sec:derivative-formulas-derivatives-for-trigonometric-functions}
+%%===============================================================
+
+\paragraph{General Rules}
+
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}(f+g)=\frac{\mathrm{d}f}{\mathrm{d}x}+\frac{\mathrm{d}g}{\mathrm{d}x}
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}(c\cdot f)=c\cdot\frac{\mathrm{d}f}{\mathrm{d}x}
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}(f\cdot g)=f\cdot\frac{\mathrm{d}g}{\mathrm{d}x}+g\cdot\frac{\mathrm{d}f}{\mathrm{d}x}
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\left(\frac{f}{g}\right)=\dfrac{-f\cdot\dfrac{\mathrm{d}g}{dx}+g\cdot\dfrac{\mathrm{d}f}{\mathrm{d}x}}{g^2}
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}[f(g(x))]=\frac{\mathrm{d}f}{\mathrm{d}g}\cdot\frac{\mathrm{d}g}{\mathrm{d}x}=f''(g(x))\cdot g''(x)
+$
+
+$
+\frac{\mathrm{d}^n}{\mathrm{d}x^n} f(x)g(x) = \sum\_{i=0}^n \left(\begin{matrix}n\\i\end{matrix}\right)f^{(n-i)}(x)g^{(i)}(x)
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\left(\frac{1}{f}\right) = -\frac{f''}{f^2}
+$
+
+\paragraph{Powers and Polynomials}
+
+
+\begin{itemize}
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}(c)=0$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}x=1$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}x^n=nx^{n-1}$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}\sqrt{x}=\frac{1}{2\sqrt{x}}$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}\frac{1}{x}=-\frac{1}{x^2}$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}(c\_nx^n+c\_{n-1}x^{n-1}+c\_{n-2}x^{n-2}+\cdots+c\_2x^2+c\_1x+c\_0)=nc\_nx^{n-1}+(n-1)c\_{n-1}x^{n-2}+(n-2)c\_{n-2}x^{n-3}+\cdots+2c\_2x+c\_1$
+\end{itemize}
+
+\paragraph{Trigonometric Functions}
+
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\sin(x)=\cos(x)
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\cos(x)=-\sin(x)
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\tan(x)=\sec^2(x)
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\cot(x)=-\csc^2(x)
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\sec(x)=\sec(x)\tan(x)
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\csc(x)=-\csc(x)\cot(x)
+$
+
+\paragraph{Exponential and Logarithmic Functions}
+
+
+\begin{itemize}
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}e^x=e^x$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}a^x=a^x\ln(a)\qquad\text{if }a>0$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}\ln(x)=\frac{1}{x}$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}\log\_a(x)=\frac{1}{x\ln(a)}\qquad\text{if }a>0,\ a\ne1$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}(f^g)=\frac{\mathrm{d}}{\mathrm{d}x}\left(e^{g\ln(f)}\right)=f^g\left(f''\frac{g}{f}+g''\ln(f)\right),\qquad f>0$
+    \item $\frac{\mathrm{d}}{\mathrm{d}x}(c^f)=\frac{\mathrm{d}}{\mathrm{d}x}\left(e^{f\ln(c)}\right)=c^f\ln(c)\cdot f''$
+\end{itemize}
+
+\paragraph{Inverse Trigonometric Functions}
+
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\arcsin(x)=\frac{1}{\sqrt{1-x^2}}
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\arccos(x)=-\frac{1}{\sqrt{1-x^2}}
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\arctan(x)=\frac{1}{x^2+1}
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\operatorname{arccot(x)}=-\frac{1}{x^2+1}
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\operatorname{arcsec(x)}=\frac{1}{|x|\sqrt{x^2-1}}
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\operatorname{arccsc(x)}=-\frac{1}{|x|\sqrt{x^2-1}}
+$
+
+\paragraph{Hyperbolic and Inverse Hyperbolic Functions}
+
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\sinh(x)=\cosh(x)
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\cosh(x)=\sinh(x)
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\tanh(x)={\rm sech}^2(x)
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}{\rm sech}(x)=-\tanh(x){\rm sech}(x)
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}\coth(x)=-{\rm csch}^2(x)
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}{\rm csch}(x)=-\coth(x){\rm csch}(x)
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}{\rm arsinh}(x)=\frac{1}{\sqrt{1+x^2}}
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}{\rm arcosh}(x)=\frac{1}{\sqrt{x^2-1}},\ x>1
+$
+
+$
+\frac{\mathrm{d}}{\mathrm{d}x}{\rm artanh}(x)=\frac{1}{1-x^2},\ |x|1
+$
+
+\paragraph{Resources}
+
+
+\begin{itemize}
+    \item \href{https://en.wikibooks.org/wiki/Calculus/Tables\_of\_Derivatives}{Table of Derivatives, Wikibooks: Calculus}
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/Derivative\%20Formulas/Presentation3\_DerivativeFunction\%20\&\%20Interpretations.pptx}{Derivative Function \& Interpretations}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/Derivative\%20Formulas/Presentation3b,4,5\_Limits\%20\&\%20Derivative\%20Formulas.pptx}{Limits \& Derivative Formulas}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/Derivative\%20Formulas/Presentation5b\_Exponential\%20and\%20Logs.pptx}{Exponential and Logarithms}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+\end{itemize}
+
+\paragraph{Licensing}
+
+
+Content obtained and/or adapted from:
+\begin{itemize}
+    \item \href{https://en.wikibooks.org/wiki/Calculus/Tables\_of\_Derivatives}{Table of Derivatives, Wikibooks: Calculus} under a CC BY-SA license
+\end{itemize}
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Differentiate trigonometric functions
+    \item Applications of trigonometric function derivatives
+\end{enumerate}
+
+%%===============================================================
+\section{Applications of Derivatives}
+\label{sec:applications-of-derivatives}
+%%===============================================================
+
+\paragraph{Related Rates}
+
+
+When you need to find the rate of change of two or more related variables, you can use the chain rule to find these related rates.
+
+Remember, you can think of derivatives as rates of change for the function you are deriving.
+
+In the case of related rates, you are performing differentiation with respect to time, t.
+
+When solving related rates, here are some steps you can take to aid in solving the problem:
+
+1. Identify all the variables you are given, and all of the variables to be determined.
+2. Draw a picture of the scenario.
+3. Find an equation related to all variables, known or unknown.
+4. Use the chain rule to differentiate implicitly with respect to time.
+5. Substitute in all given information.
+6. Solve for the unknown variable.
+
+\paragraph{Example}
+
+
+Imagine a balloon that is having air pumped inside. If we knew the rate of change of the volume to be 8 inches per second, what would the rate of change be for the radius of the balloon when the radius is 4 inches?
+
+These are related rates.
+
+The first step is to determine all the known and unknown variables.
+
+We know that the change in volume is 8 inches per second, and that the radius of the balloon will be 4 inches. We are trying to find the rate of change of the radius.
+
+The second step is to draw a diagram that shows as air is being pumped into the balloon, its radius will be expanding.
+
+Third, we need an equation relating these variables.
+
+Since we are dealing with the volume of a sphere, we know this equation to be:
+
+$$
+V = \frac{4}{3}\pi r^3
+$$
+
+Fourth, we need to differentiate with respect to time, this looks like:
+
+$$
+\frac{dV}{dt} = 4\pi r^2 \frac{dr}{dt}
+$$
+
+Fifth, we need to substitute in all known information, which is the rate of change of the volume, and the radius of the sphere.
+
+$$
+8 = 4\pi (4)^2 \frac{dr}{dt}
+$$
+
+$$
+8 = 64\pi \frac{dr}{dt}
+$$
+
+Lastly, we need to solve for the rate of change of the radius. Since all the units were inches, no changes need to be made beforehand.
+
+$$
+\frac{8}{64\pi} = \frac{dr}{dt}
+$$
+
+$$
+\frac{1}{8\pi} = \frac{dr}{dt}
+$$
+
+The rate at which the radius is changing is
+
+$$
+\frac{1}{8\pi}
+$$
+
+per second.
+
+Sometimes related rates can be much more difficult and involve multiple unknown variables. In these cases, you may need to use multiple equations to find unknown variables before finding the initial unknown you were looking for.
+
+The situation of a related rate can be many things, from volumes to airplanes and velocity, to basketballs, etc.
+
+Something else to watch is the units of your variables. In some cases, you may need to convert your variables to match units.
+
+Here are some equations that are frequently used for related rates:
+
+\begin{itemize}
+    \item \textbf{Circles/Spheres}:
+    \item Area: $\pi r^2$
+    \item Volume: $\frac{4}{3}\pi r^3$
+    \item Surface Area: $4\pi r^2$
+    \item \textbf{Distance Formula}: $d = \sqrt{x^2 + y^2}$
+    \item \textbf{Cones}:
+    \item Area of base: $\pi r^2$
+    \item Volume: $\frac{Ah}{3}$
+    \item \textbf{Cylinder}:
+    \item Volume: $\pi r^2h$
+\end{itemize}
+
+\paragraph{Extrema and the Mean Value Theorem}
+
+
+The extrema, or extreme values, of a function are the minimum and/or maximum of a function. They are also known as absolute maximums, or absolute minimums.
+
+\paragraph{Extreme Value Theorem}
+
+
+If a function $f$ is continuous on a closed interval $[a,b]$, then there exists both a maximum and minimum on the interval.
+
+To find the relative extrema of a function, you first need to calculate the critical values of a function.
+
+Do this by first finding the derivative of a function. Then set the derivative to equal 0, and solve for values of x.
+
+Now, if the function is on a closed interval, $[a,b]$, then evaluate all the critical points, and endpoints, in your original function.
+
+For absolute minimums/maximums on a closed interval, the highest of your evaluated points is the maximum; the smallest is the minimum.
+
+\paragraph{Example}
+
+
+What are the absolute maximums/minimums, of $f(x) = x^3$ on the interval $[-2,2]$?
+
+To begin, differentiate the function:
+
+$$
+f''''(x) = 3x^2
+$$
+
+Then set the derivative to 0 and solve for critical points.
+
+$$
+f''''(x) = 3x^2 = 0
+$$
+
+$$
+x = 0
+$$
+
+Now calculate the original function at your critical points and endpoints:
+
+$$
+f(-2) = -8, f(2) = 8, f(0) = 0
+$$
+
+Since $f(-2) = -8$ is the lowest, we know that the point $x = -2$ is the absolute minimum, and 8 is the highest, thus the point $x = 2$ is the absolute maximum.
+
+\paragraph{Rolle''''s Theorem}
+
+
+Let $f$ be a continuous function on a closed interval $[a,b]$, and differentiable on the open interval $(a,b)$.
+
+If $f(a) = f(b)$ then there is at least one number $c$ in the interval $(a,b)$ such that $f''''(c) = 0$.
+
+Essentially, Rolle''''s theorem tells us that if a function starts and ends at the same point in a closed interval, then there exists some point $c$ where the derivative $f''''(c) = 0$.
+
+You can informally think of this as at some point, the function must switch from increasing to decreasing, or vice versa, to get back to the y-coordinate where it began.
+
+\paragraph{Mean Value Theorem}
+
+
+If $f$ is continuous on a closed interval $[a,b]$ and differentiable on the open interval $(a,b)$, then there is some number $c$ in $(a,b)$ that:
+
+$$
+f''''(c) = \frac{f(b) - f(a)}{b-a}
+$$
+
+*Note that the proof of the Mean Value Theorem uses Rolle''''s Theorem.
+
+The Mean Value Theorem holds a couple of different meanings. In Geometry, it tells us that if a secant line is drawn between our starting points, a and b, there exists a tangent line parallel to the secant line, somewhere on the function.
+
+The Mean Value Theorem also holds that somewhere on the open interval $(a,b)$, that the instantaneous rate of change, the change at one point, is equal to the average rate of change over the whole interval.
+
+When you evaluate with the Mean Value Theorem, it yields the average, or mean, rate of change over an interval.
+
+\paragraph{Example}
+
+
+Determine if the Mean Value Theorem is applicable, and if it is, find all values of c in the open interval $(a,b)$ such that $f''''(c) = \frac{f(b) - f(a)}{b-a}$.
+
+Let $f(x) = x^2, [-2,1]$.
+
+First, check if the function is continuous on the closed interval. Since we are dealing with $x^2$, we already know it is continuous for all x.
+
+Next, check if the function is differentiable on the open interval, $(-2,1)$. We know our derivative is $f''''(x) = 2x$, which exists everywhere on the open interval.
+
+Now that we know both conditions for the theorem have been met, we can apply it to the problem.
+
+Begin by evaluating the function at your endpoints. $f(-2) = 4, f(1) = 1$.
+
+Next, plug all the information into the theorem:
+
+$$
+f''''(c) = \frac{1 - 4}{1 - (-2)}
+$$
+
+$$
+= \frac{-3}{3}
+$$
+
+$$
+= -1
+$$
+
+This tells us that the average rate of change over the interval is $-1$.
+
+To find all the values of $c$ where $f''''(c) = -1$, replace $f''''(c)$ with the derivative of $f(x)$.
+
+This looks like:
+
+$$
+2c = -1
+$$
+
+$$
+c = -\frac{1}{2}
+$$
+
+The answer to the problem is $c = -\frac{1}{2}$.
+
+\paragraph{The First Derivative Test}
+
+
+The definition of derivatives tells us that a derivative is the slope of the tangent line at a point on the function.
+
+Derivatives can also tell us if a function is decreasing or increasing at a point.
+
+A function $f(x)$ is increasing on an interval, if for two numbers $x\_1$ and $x\_2$ in the interval $x\_1 < x\_2$, that $f(x\_1) < f(x\_2)$ is true.
+
+A function $f(x)$ is decreasing on an interval, if for two numbers $x\_1$ and $x\_2$ in the interval $x\_1 < x\_2$, that $f(x\_1) > f(x\_2)$ is true.
+
+If a function $f(x)$ is continuous on a closed interval $[a,b]$, and differentiable on an open interval $(a,b)$, then the following applies:
+
+1. If $f''''(x) > 0$ for all $x$ in $(a,b)$, then $f(x)$ is increasing on $[a,b]$.
+2. If $f''''(x) < 0$ for all $x$ in $(a,b)$, then $f(x)$ is decreasing on $[a,b]$.
+3. If $f''''(x) = 0$ for all $x$ in $(a,b)$, then $f(x)$ is constant on $[a,b]$.
+
+In the last section, we learned about absolute minimums/maximums. Inside a function, other extrema, known as relative extrema, can exist.
+
+The relative extrema of a function are points on a function that are lower or higher than all of the points near them. Such points create "hills" or "valleys" within a given function.
+
+Relative extrema occur at points on a function where the derivative at that point changes from increasing to decreasing, or decreasing to increasing.
+
+If the derivative changes from increasing to decreasing, that point is known as a relative maximum.
+
+If the derivative changes from decreasing to increasing, that point is known as a relative minimum.
+
+By finding the relative extrema of a function, you can then calculate whether or not those extrema are relative minima or maxima using the derivative of the function at those points.
+
+Relative extrema are always critical points of a function.
+
+\paragraph{Example}
+
+
+Find the relative extrema of $f(x) = x^3 - \frac{3}{2}x^2$.
+
+First, check if the function is continuous for all $x$.
+
+We can see the function exists for all $x$, therefore, it is continuous.
+
+Second, find the critical numbers of $f(x)$ by using the derivative of the function.
+
+Find the critical numbers by setting $f''''(x) = 0$.
+
+$$
+f''''(x) = 3x^2 - 3x
+$$
+
+$$
+3x^2 - 3x = 0
+$$
+
+$$
+x(3x - 3) = 0
+$$
+
+$$
+x = 0,1
+$$
+
+Third, create intervals with your critical numbers.
+
+Since we have two critical numbers, we will have three intervals. They are:
+
+$$
+-\infty < x < 0, 0 < x < 1, 1 < x < \infty
+$$
+
+Fourth, determine if $f''''(x)$ is increasing or decreasing over each interval. Do this by evaluating a test number within each interval.
+
+In most cases, it is beneficial to create a table to arrange the present data.
+
+$$
+\begin{array}{|c|c|c|c|}
+\hline
+\text{Interval} & -\infty < x < 0 & 0 < x < 1 & 1 < x < \infty \\\\hline
+\text{Test Value} & x = -1 & x = \frac{1}{2} & x = 2 \\\\hline
+\text{Sign of } f''(x) & f''(-1) = 6 & f''\left(\frac{1}{2}\right) = -\frac{3}{4} & f''(2) = 6 \\\\hline
+\text{Increasing/Decreasing} & \text{Increasing} & \text{Decreasing} & \text{Increasing} \\\\hline
+\end{array}
+$$
+
+Lastly, determine if any relative maximums or minimums are present.
+
+Since $f''''(x)$ changes from increasing to decreasing to increasing, we can conclude that there is a relative maximum at $x = 0$, and a relative minimum at $x = 1$.
+
+\paragraph{Resources}
+
+
+\begin{itemize}
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/Derivative\%20Formulas/Presentation3b,4,5\_Limits\%20\&\%20Derivative\%20Formulas.pptx}{Limits \& Derivative Formulas} (Slides 28 \& 29). PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/Derivative\%20Formulas/Presentation5b\_Exponential\%20and\%20Logs.pptx}{Exponential and Logarithms} (Slides 24-26). PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/Applications/Presentation6\%20Product\%20Rule\%20and\%20Quotient\%20Rule.pptx}{Product Rule and Quotient Rule}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/Applications/Presentation6b\%20Chain\%20Rule.pptx}{Chain Rule}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/Applications/Presentation7\_periodic\%20functions.pptx}{Periodic Functions}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/Applications/Presentation8\%20Local\%20Max\%20\&\%20Min.pptx}{Local Max \& Min}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/Applications/Presentation8b\_Inflection\%20Points.pptx}{Inflection Points}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/Applications/Presentation9\_Global\%20Max\%20\&\%20Min.pptx}{Global Max \& Min}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/Applications/Presentation10\_LogisticGrowth\&SurgeFunction.pptx}{Logistic Growth \& Surge Function}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+\end{itemize}
+
+\paragraph{Licensing}
+
+
+Content obtained and/or adapted from:
+
+\begin{itemize}
+    \item \href{https://en.wikibooks.org/wiki/High\_School\_Calculus/Related\_Rates}{Related Rates, Wikibooks} under a CC BY-SA license
+    \item \href{https://en.wikibooks.org/wiki/High\_School\_Calculus/Extrema\_and\_the\_Mean\_Value\_Theorem}{Extrema and the Mean Value Theorem, Wikibooks} under a CC BY-SA license
+    \item \href{https://en.wikibooks.org/wiki/High\_School\_Calculus/The\_First\_Derivative\_Test}{The First Derivative Test, Wikibooks} under a CC BY-SA license
+\end{itemize}
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Detecting a local maximum or minimum from graph and function values
+    \item Test for both local and global maxima and minima using first derivative test (finding critical points)
+    \item Test for both local and global maxima and minima using second derivative test (testing concavity)
+    \item Using concavity for finding inflection points
+    \item Apply max and min techniques in real world applications in the field of Biology (logistic growth)
+\end{enumerate}
+
+%%===============================================================
+\section{Exponential growth and decay \& surge function}
+\label{sec:exponential-growth-and-decay-surge-function}
+%%===============================================================
+
+Exponential growth and decay \& surge function (not on wiki)
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Apply differential equations to exponential growth \& decay functions for population models
+    \item Apply differential equations to surge functions for drug models
+    \item Modeling the spread of a disease
+\end{enumerate}
+
+%%===============================================================
+\section{Accumulated Change}
+\label{sec:accumulated-change}
+%%===============================================================
+
+In mathematics, a Riemann sum is a certain kind of approximation of an integral by a finite sum. It is named after nineteenth-century German mathematician Bernhard Riemann. One very common application is approximating the area of functions or lines on a graph, but also the length of curves and other approximations.
+
+The sum is calculated by partitioning the region into shapes (rectangles, trapezoids, parabolas, or cubics) that together form a region that is similar to the region being measured, then calculating the area for each of these shapes, and finally adding all of these small areas together. This approach can be used to find a numerical approximation for a definite integral even if the fundamental theorem of calculus does not make it easy to find a closed-form solution.
+
+Because the region filled by the small shapes is usually not exactly the same shape as the region being measured, the Riemann sum will differ from the area being measured. This error can be reduced by dividing up the region more finely, using smaller and smaller shapes. As the shapes get smaller and smaller, the sum approaches the Riemann integral.
+
+% [Image: Four of the Riemann summation methods for approximating the area under curves. Right and left methods make the approximation using the right and left endpoints of each subinterval, respectively. Maximum and minimum methods make the approximation using the largest and smallest endpoint values of each subinterval, respectively. The values of the sums converge as the subintervals halve from top-left to bottom-right.]
+\textbf{Four of the Riemann summation methods for approximating the area under curves. Right and left methods make the approximation using the right and left endpoints of each subinterval, respectively. Maximum and minimum methods make the approximation using the largest and smallest endpoint values of each subinterval, respectively. The values of the sums converge as the subintervals halve from top-left to bottom-right.}
+
+
+\paragraph{Definition}
+
+
+Let $f: [a,b] \rightarrow \mathbb{R}$ be a function defined on a closed interval $[a,b]$ of the real numbers, $\mathbb{R}$, and
+
+$$P = \left\{[x\_0,x\_1],[x\_1,x\_2],\dots,[x\_{n-1},x\_n]\right\},$$
+
+be a partition of $I$, where
+
+$$a = x\_0 < x\_1 < x\_2 < \cdots < x\_n = b.$$
+
+A Riemann sum $S$ of $f$ over $I$ with partition $P$ is defined as
+
+$$S = \sum\_{i=1}^{n} f(x\_i^*)\, \Delta x\_i$$
+
+where $\Delta x\_i = x\_i - x\_{i-1}$ and $x\_i^* \in [x\_{i-1}, x\_i]$. One might produce different Riemann sums depending on which $x\_i^*$''s are chosen. In the end, this will not matter if the function is Riemann integrable when the difference or width of the summands $\Delta x\_i$ approaches zero.
+
+\paragraph{Some specific types of Riemann sums}
+
+
+Specific choices of $x\_i^*$ give us different types of Riemann sums:
+
+\begin{itemize}
+    \item If $x\_i^* = x\_{i-1}$ for all $i$, then $S$ is called a left rule or left Riemann sum.
+    \item If $x\_i^* = x\_i$ for all $i$, then $S$ is called a right rule or right Riemann sum.
+    \item If $x\_i^* = (x\_i + x\_{i-1})/2$ for all $i$, then $S$ is called the midpoint rule or middle Riemann sum.
+    \item If $f(x\_i^*) = \sup f([x\_{i-1},x\_i])$ (that is, the supremum of $f$ over $[x\_{i-1},x\_i]$), then $S$ is defined to be an upper Riemann sum or upper Darboux sum.
+    \item If $f(x\_i^*) = \inf f([x\_{i-1},x\_i])$ (that is, the infimum of $f$ over $[x\_{i-1},x\_i]$), then $S$ is defined to be a lower Riemann sum or lower Darboux sum.
+\end{itemize}
+
+All these methods are among the most basic ways to accomplish numerical integration. Loosely speaking, a function is Riemann integrable if all Riemann sums converge as the partition "gets finer and finer".
+
+While not derived as a Riemann sum, the average of the left and right Riemann sums is the trapezoidal sum and is one of the simplest of a very general way of approximating integrals using weighted averages. This is followed in complexity by Simpson''s rule and Newton–Cotes formulas.
+
+Any Riemann sum on a given partition (that is, for any choice of $x\_i^*$ between $x\_{i-1}$ and $x\_i$) is contained between the lower and upper Darboux sums. This forms the basis of the Darboux integral, which is ultimately equivalent to the Riemann integral.
+
+\paragraph{Methods}
+
+
+The four methods of Riemann summation are usually best approached with partitions of equal size. The interval $[a, b]$ is therefore divided into $n$ subintervals, each of length
+
+$$\Delta x = \frac{b-a}{n}.$$
+
+The points in the partition will then be
+
+$$a, \; a + \Delta x, \; a + 2\Delta x, \; \ldots, \; a + (n-2)\Delta x, \; a + (n-1)\Delta x, \; b.$$
+
+\paragraph{Left Riemann Sum}
+
+
+% [Image: Left Riemann sum of $x^3$ over $[0,2]$ using 4 subdivisions]
+\textbf{Left Riemann sum of $x^3$ over $[0,2]$ using 4 subdivisions.}
+
+For the left Riemann sum, approximating the function by its value at the left-end point gives multiple rectangles with base $\Delta x$ and height $f(a + i\Delta x)$. Doing this for $i = 0, 1, \dots, n-1$, and adding up the resulting areas gives:
+
+$$
+A\_\text{left} = \Delta x \left[f(a) + f(a + \Delta x) + f(a + 2\Delta x) + \cdots + f(b - \Delta x)\right].
+$$
+
+The left Riemann sum amounts to an overestimation if $f$ is monotonically decreasing on this interval, and an underestimation if it is monotonically increasing.
+
+\paragraph{Right Riemann Sum}
+
+
+% [Image: Right Riemann sum of $x^3$ over $[0,2]$ using 4 subdivisions]
+\textbf{Right Riemann sum of $x^3$ over $[0,2]$ using 4 subdivisions.}
+
+In the right Riemann sum, $f$ is approximated by the value at the right endpoint. This gives multiple rectangles with base $\Delta x$ and height $f(a + i\Delta x)$. Doing this for $i = 1, \dots, n$, and adding up the resulting areas produces:
+
+$$
+A\_\text{right} = \Delta x \left[f(a + \Delta x) + f(a + 2\Delta x) + \cdots + f(b)\right].
+$$
+
+The right Riemann sum amounts to an underestimation if $f$ is monotonically decreasing, and an overestimation if it is monotonically increasing.
+
+The error of this formula will be:
+
+$$
+\left|\int\_a^b f(x) \, dx - A\_\text{right}\right| \le \frac{M\_1 (b-a)^2}{2n},
+$$
+
+where $M\_1$ is the maximum value of the absolute value of $f''(x)$ on the interval.
+
+\paragraph{Midpoint Rule}
+
+
+% [Image: Midpoint Riemann sum of $x^3$ over $[0,2]$ using 4 subdivisions]
+\textbf{Midpoint Riemann sum of $x^3$ over $[0,2]$ using 4 subdivisions.}
+
+Approximating $f$ at the midpoint of intervals gives $f(a + \Delta x/2)$ for the first interval, for the next one $f(a + 3\Delta x/2)$, and so on until $f(b - \Delta x/2)$. Summing up the areas gives:
+
+$$
+A\_\text{mid} = \Delta x \left[f\left(a + \frac{\Delta x}{2}\right) + f\left(a + \frac{3\Delta x}{2}\right) + \cdots + f\left(b - \frac{\Delta x}{2}\right)\right].
+$$
+
+The error of this formula will be:
+
+$$
+\left|\int\_a^b f(x) \, dx - A\_\text{mid}\right| \le \frac{M\_2 (b-a)^3}{24n^2},
+$$
+
+where $M\_2$ is the maximum value of the absolute value of $f''''(x)$ on the interval.
+
+\paragraph{Trapezoidal Rule}
+
+
+% [Image: Trapezoidal Riemann sum of $x^3$ over $[0,2]$ using 4 subdivisions]
+\textbf{Trapezoidal Riemann sum of $x^3$ over $[0,2]$ using 4 subdivisions.}
+
+In this case, the values of the function $f$ on an interval are approximated by the average of the values at the left and right endpoints. In the same manner as above, a simple calculation using the area formula:
+
+$$A = \frac{1}{2}h(b\_1 + b\_2)$$
+
+for a trapezium with parallel sides $b\_1$, $b\_2$ and height $h$ produces:
+
+$$
+A\_\text{trap} = \frac{1}{2} \Delta x \left[f(a) + 2f(a + \Delta x) + 2f(a + 2\Delta x) + \cdots + f(b)\right].
+$$
+
+The error of this formula will be:
+
+$$
+\left|\int\_a^b f(x) \, dx - A\_\text{trap}\right| \le \frac{M\_2(b-a)^3}{12n^2},
+$$
+
+where $M\_2$ is the maximum value of the absolute value of $f''''(x)$.
+
+The approximation obtained with the trapezoid rule for a function is the same as the average of the left-hand and right-hand sums of that function.
+
+\paragraph{Connection with Integration}
+
+
+For a one-dimensional Riemann sum over domain $[a,b]$, as the maximum size of a partition element shrinks to zero (that is the limit of the norm of the partition goes to zero), some functions will have all Riemann sums converge to the same value. This limiting value, if it exists, is defined as the definite Riemann integral of the function over the domain:
+
+$$\int\_a^b f(x) \, dx = \lim\_{\|\Delta x\|\rightarrow0} \sum\_{i=1}^{n} f(x\_i^*) \,\Delta x\_i.$$
+
+For a finite-sized domain, if the maximum size of a partition element shrinks to zero, this implies the number of partition elements goes to infinity. For finite partitions, Riemann sums are always approximations to the limiting value, and this approximation gets better as the partition gets finer. The following animations help demonstrate how increasing the number of partitions (while lowering the maximum partition element size) better approximates the "area" under the curve:
+
+Left sum: % [Image: Left sum]
+Right sum: % [Image: Right sum]
+Middle sum: % [Image: Middle sum]
+
+Since the red function here is assumed to be a smooth function, all three Riemann sums will converge to the same value as the number of partitions goes to infinity.
+
+\paragraph{Example}
+
+
+% [Image: Area-under-curve-for-x-squared]
+\textbf{A visual representation of the area under the curve $y = x^2$ for the interval from 0 to 2. Using antiderivatives this area is exactly 8/3.}
+
+% [Image: Riemann sum (y=x^2)]
+\textbf{Approximating the area under $y=x^2$ from 0 to 2 using right-rule sums. Notice that because the function is monotonically increasing, right-hand sums will always overestimate the area contributed by each term in the sum (and do so maximally).}
+
+% [Image: Riemann sum error]
+\textbf{The value of the Riemann sum under the curve $y = x^2$ from 0 to 2. As the number of rectangles increases, it approaches the exact area of 8/3.}
+
+Taking an example, the area under the curve of $y = x^2$ between 0 and 2 can be procedurally computed using Riemann''s method.
+
+The interval [0, 2] is firstly divided into $n$ subintervals, each of which is given a width of $\frac{2}{n}$; these are the widths of the Riemann rectangles (hereafter "boxes"). Because the right Riemann sum is to be used, the sequence of $x$ coordinates for the boxes will be $x\_1, x\_2, \ldots, x\_n$. Therefore, the sequence of the heights of the boxes will be $x\_1^2, x\_2^2, \ldots, x\_n^2$. It is an important fact that $x\_i = \frac{2i}{n}$, and $x\_n = 2$.
+
+The area of each box will be $\frac{2}{n} \times x\_i^2$ and therefore the $n$th right Riemann sum will be:
+
+$$
+\begin{aligned}
+S &= \frac{2}{n} \times \left(\frac{2}{n}\right)^2 + \cdots + \frac{2}{n} \times \left(\frac{2i}{n}\right)^2 + \cdots + \frac{2}{n} \times \left(\frac{2n}{n}\right)^2 \\\  &= \frac{8}{n^3} \left(1 + \cdots + i^2 + \cdots + n^2\right) \\\  &= \frac{8}{n^3} \left(\frac{n(n+1)(2n+1)}{6}\right) \\\  &= \frac{8}{n^3} \left(\frac{2n^3 + 3n^2 + n}{6}\right) \\\  &= \frac{8}{3} + \frac{4}{n} + \frac{4}{3n^2}
+\end{aligned}
+$$
+
+If the limit is viewed as $n \to \infty$, it can be concluded that the approximation approaches the actual value of the area under the curve as the number of boxes increases. Hence:
+
+$$\lim\_{n \to \infty} S = \lim\_{n \to \infty}\left(\frac{8}{3} + \frac{4}{n} + \frac{4}{3n^2}\right) = \frac{8}{3}$$
+
+This method agrees with the definite integral as calculated in more mechanical ways:
+
+$$\int\_0^2 x^2 \, dx = \frac{8}{3}$$
+
+Because the function is continuous and monotonically increasing on the interval, a right Riemann sum overestimates the integral by the largest amount (while a left Riemann sum would underestimate the integral by the largest amount). This fact, which is intuitively clear from the diagrams, shows how the nature of the function determines how accurate the integral is estimated. While simple, right and left Riemann sums are often less accurate than more advanced techniques of estimating an integral such as the Trapezoidal rule or Simpson''s rule.
+
+The example function has an easy-to-find antiderivative so estimating the integral by Riemann sums is mostly an academic exercise; however, it must be remembered that not all functions have antiderivatives, so estimating their integrals by summation is practically important.
+
+\paragraph{Higher Dimensions}
+
+
+The basic idea behind a Riemann sum is to "break-up" the domain via a partition into pieces, multiply the "size" of each piece by some value the function takes on that piece, and sum all these products. This can be generalized to allow Riemann sums for functions over domains of more than one dimension.
+
+While intuitively, the process of partitioning the domain is easy to grasp, the technical details of how the domain may be partitioned get much more complicated than the one-dimensional case and involves aspects of the geometrical shape of the domain.
+
+\paragraph{Two Dimensions}
+
+
+In two dimensions, the domain, $A$, may be divided into a number of cells, $A\_i$, such that $A = \bigcup\_i A\_i$. In two dimensions, each cell then can be interpreted as having an "area" denoted by $\Delta A\_i$. The Riemann sum is:
+
+$S$ = \sum\_{i=1}^n f(x\_i^\textit{, y\_i^}) \, \Delta A\_i,$$
+
+where $(x\_i^*, y\_i^*) \in A\_i$.
+
+Three Dimensions
+
+In three dimensions, it is customary to use the letter $V$ for the domain, such that $V = \bigcup\_i V\_i$ under the partition and $\Delta V\_i$ is the "volume" of the cell indexed by $i$. The three-dimensional Riemann sum may then be written as:
+
+$$S = \sum\_{i=1}^{n} f(x\_i^\textit{, y\_i^}, z\_i^\textit{) \, \Delta V\_i,$$
+
+with $(x\_i^*, y\_i^*, z\_i^*) \in V\_i$.
+
+Arbitrary Number of Dimensions
+
+Higher-dimensional Riemann sums follow a similar pattern from one to two to three dimensions. For an arbitrary dimension, $n$, a Riemann sum can be written as:
+
+$$S = \sum\_i f(P\_i^}) \, \Delta V\_i,$$
+
+where $P\_i^* \in V\_i$, that is, it''s a point in the $n$-dimensional cell $V\_i$ with $n$-dimensional volume $\Delta V\_i$.
+
+Generalization
+
+In high generality, Riemann sums can be written as:
+
+$$S = \sum\_i f(P\_i^*) \mu(V\_i),$$
+
+where $P\_i^*$ stands for any arbitrary point contained in the partition element $V\_i$ and $\mu$ is a measure on the underlying set. Roughly speaking, a measure is a function that gives a "size" of a set, in this case the size of the set $V\_i$; in one dimension, this can often be interpreted as the length of the interval, in two dimensions, an area, in three dimensions, a volume, and so on.
+
+\paragraph{Resources}
+
+
+\begin{itemize}
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/Accumulated\%20Change/Presentation11\_Distance\_Definite\_Integral.pptx}{Accumulated Change}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+\end{itemize}
+
+\paragraph{References}
+
+
+1. Hughes-Hallett, Deborah; McCullum, William G.; et al. (2005). \textit{Calculus} (4th ed.). Wiley. p. 252. (Among many equivalent variations on the definition, this reference closely resembles the one given here.)
+2. Hughes-Hallett, Deborah; McCullum, William G.; et al. (2005). \textit{Calculus} (4th ed.). Wiley. p. 340. So far, we have three ways of estimating an integral using a Riemann sum: 1. The left rule uses the left endpoint of each subinterval. 2. The right rule uses the right endpoint of each subinterval. 3. The midpoint rule uses the midpoint of each subinterval.
+3. Ostebee, Arnold; Zorn, Paul (2002). \textit{Calculus from Graphical, Numerical, and Symbolic Points of View} (Second ed.). p. M-33. Left-rule, right-rule, and midpoint-rule approximating sums all fit this definition.
+4. Swokowski, Earl W. (1979). \textit{Calculus with Analytic Geometry} (Second ed.). Boston, MA: Prindle, Weber \& Schmidt. pp. 821–822. ISBN 0-87150-268-2.
+5. Ostebee, Arnold; Zorn, Paul (2002). \textit{Calculus from Graphical, Numerical, and Symbolic Points of View} (Second ed.). p. M-34. We chop the plane region R into m smaller regions R1, R2, R3, ..., Rm, perhaps of different sizes and shapes. The ''size'' of a subregion Ri is now taken to be its area, denoted by ?Ai.
+6. Swokowski, Earl W. (1979). \textit{Calculus with Analytic Geometry} (Second ed.). Boston, MA: Prindle, Weber \& Schmidt. pp. 857–858. ISBN 0-87150-268-2.
+
+\paragraph{Licensing}
+
+
+Content obtained and/or adapted from:
+
+\begin{itemize}
+    \item \href{https://en.wikipedia.org/wiki/Riemann\_sum}{Riemann sum, Wikipedia} under a CC BY-SA license
+\end{itemize}
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Approximate total change from rate of change
+    \item Computing area with Riemann Sums
+    \item Apply concepts of finding total change with Riemann Sums
+\end{enumerate}
+
+%%===============================================================
+\section{Definite Integral}
+\label{sec:definite-integral}
+%%===============================================================
+
+\paragraph{Introduction}
+
+
+% [Image: Figure 1: Approximation of the area under the curve $f(x)$ from $x = x\_0$ to $x = x\_4$.]
+\textbf{Figure 1: Approximation of the area under the curve $f(x)$ from $x = x\_0$ to $x = x\_4$.}
+
+% [Image: Figure 2: Rectangle approximating the area under the curve from $x\_2$ to $x\_3$ with sample point $x\_3^*.]
+\textbf{Figure 2: Rectangle approximating the area under the curve from $x\_2$ to $x\_3$ with sample point $x\_3^\ast$}
+
+The rough idea of defining the area under the graph of $f$ is to approximate this area with a finite number of rectangles. Since we can easily work out the area of the rectangles, we get an estimate of the area under the graph. If we use a larger number of smaller-sized rectangles we expect greater accuracy with respect to the area under the curve and hence a better approximation. Somehow, it seems that we could use our old friend from differentiation, the limit, and "approach" an infinite number of rectangles to get the exact area. Let''s look at such an idea more closely.
+
+Suppose we have a function $f$ that is positive on the interval $[a,b]$ and we want to find the area $S$ under $f$ between $a$ and $b$. Let''s pick an integer $n$ and divide the interval into $n$ subintervals of equal width (see \href{https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Riemann\_Integration\_3.png/300px-Riemann\_Integration\_3.png}{Figure 1}). As the interval $[a,b]$ has width $b-a$, each subinterval has width $\Delta x = \frac{b-a}{n}$. We denote the endpoints of the subintervals by $x\_0,x\_1,\ldots,x\_n$. This gives us
+
+$$
+x\_i = a + i \Delta x \text{ for } i = 0,1,\dots,n
+$$
+
+Now for each $i = 1,\ldots,n$ pick a \textit{sample point} $x\_{i}\ast$ in the interval $[x\_{i-1},x\_i]$ and consider the rectangle of height $f(x\_i^*)$ and width $\Delta x$ (see \href{https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Riemann\_Integration\_2.png/300px-Riemann\_Integration\_2.png}{Figure 2}). The area of this rectangle is $f(x\_{i}^\ast) \Delta x$. By adding up the area of all the rectangles for $i = 1,\ldots,n$ we get that the area $S$ is approximated by:
+
+$$
+A\_n = f(x\_1^\ast) \Delta x + \dots + f(x\_{n}^\ast) \Delta x
+$$
+
+
+% [Image: Figure 3: Riemann sums with an increasing number of subdivisions yielding better approximations.]
+\textbf{Figure 3: Riemann sums with an increasing number of subdivisions yielding better approximations.}
+
+A more convenient way to write this is with summation notation:
+
+$$
+A\_n = \sum\_{i=1}^n f(x\_i^\ast) \Delta x
+$$
+
+For each number $n$ we get a different approximation. As $n$ gets larger the width of the rectangles gets smaller which yields a better approximation (see \href{https://upload.wikimedia.org/wikipedia/commons/1/1d/Riemann2.gif}{Figure 3}). In the limit of $A\_n$ as $n$ tends to infinity we get the area $S$.
+
+\paragraph{Definition of the Definite Integral}
+
+
+Suppose $f$ is a continuous function on $[a,b]$ and $\Delta x = \frac{b-a}{n}$. Then the \textit{definite integral} of $f$ between $a$ and $b$ is:
+
+$$
+\int\limits\_a^b f(x) dx = \lim\_{n \to \infty} A\_n = \lim\_{n \to \infty} \sum\_{i=1}^n f(x\_i^*) \Delta x
+$$
+
+where $x\_i^*$ are any sample points in the interval $[x\_{i-1}, x\_i]$ and $x\_k = a + k \cdot \Delta x$ for $k = 0, \dots, n$.
+
+It is a fact that if $f$ is continuous on $[a,b]$ then this limit always exists and does not depend on the choice of the points $x\_i^* \in [x\_{i-1}, x\_i]$. For instance, they may be evenly spaced, or distributed ambiguously throughout the interval. The proof of this is technical and is beyond the scope of this section.
+
+\paragraph{Notation}
+
+
+When considering the expression, $\int\limits\_a^b f(x) dx$ (read "the integral from $a$ to $b$ of the $f$ of $x$ $dx$"), the function $f$ is called the \textit{integrand} and the interval $[a,b]$ is the interval of integration. Also, $a$ is called the \textit{lower limit} and $b$ the \textit{upper limit} of integration.
+
+% [Image: Figure 4: The integral gives the signed area under the graph.]
+\textbf{Figure 4: The integral gives the signed area under the graph.}
+
+One important feature of this definition is that we also allow functions that take negative values. If $f(x) < 0$ for all $x$ then $f(x\_i^*) < 0$ so $f(x\_{i}^\ast) \Delta x < 0$. So the definite integral of $f$ will be strictly negative. More generally, if $f$ takes on both positive and negative values then $\int\limits\_a^b f(x) dx$ will be the area under the positive part of the graph of $f$ \textbf{minus} the area above the graph of the negative part of the graph (see \href{https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Signed-area.png/300px-Signed-area.png}{Figure 4}). For this reason, we say that $\int\limits\_a^b f(x) dx$ is the \textbf{signed area} under the graph.
+
+\paragraph{Independence of Variable}
+
+
+It is important to notice that the variable $x$ did not play an important role in the definition of the integral. In fact, we can replace it with any other letter, so the following are all equal:
+
+$$
+\int\limits\_a^b f(x) dx = \int\limits\_a^b f(t) dt = \int\limits\_a^b f(u) du = \int\limits\_a^b f(w) dw
+$$
+
+Each of these is the signed area under the graph of $f$ between $a$ and $b$. Such a variable is often referred to as a \textbf{dummy variable} or a \textbf{bound variable}.
+
+\paragraph{Left and Right Handed Riemann Sums}
+
+
+% [Image: Figure 5: Right-handed Riemann sum]
+\textbf{Figure 5: Right-handed Riemann sum}
+% [Image: Figure 6: Left-handed Riemann sum]
+\textbf{Figure 6: Left-handed Riemann sum}
+
+The following methods are sometimes referred to as L-RAM and R-RAM, RAM standing for "Rectangular Approximation Method."
+
+We could have decided to choose all our sample points $x\_{i}^\ast$ to be on the right-hand side of the interval $[x\_{i-1}, x\_{i}]$ (see \href{https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Riemann-Sum-right-hand.png/350px-Riemann-Sum-right-hand.png}{Figure 5}). Then $x\_{i}^\ast = x\_{i}$ for all $i$ and the approximation that we called $A\_n$ for the area becomes:
+
+$$
+A\_n = \sum\_{i=1}^n f(x\_i) \Delta x
+$$
+
+This is called the \textit{right-handed Riemann sum}, and the integral is the limit:
+
+$$
+\int\limits\_a^b f(x) dx = \lim\_{n \to \infty} A\_n = \lim\_{n \to \infty} \sum\_{i=1}^n f(x\_i) \Delta x
+$$
+
+Alternatively, we could have taken each sample point on the left-hand side of the interval. In this case $x\_i^* = x\_{i-1}$ (see \href{https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Riemann\_Sum\_Left\_Hand.png/350px-Riemann\_Sum\_Left\_Hand.png}{Figure 6}) and the approximation becomes:
+
+$$
+A\_n = \sum\_{i=1}^n f(x\_{i-1}) \Delta x
+$$
+
+Then the integral of $f$ is:
+
+$$
+\int\limits\_a^b f(x) dx = \lim\_{n \to \infty} A\_n = \lim\_{n \to \infty} \sum\_{i=1}^n f(x\_{i-1}) \Delta x
+$$
+
+The key point is that, as long as $f$ is continuous, these two definitions give the same answer for the integral.
+
+\paragraph{Examples}
+
+
+\textbf{Example 1}
+
+In this example, we will calculate the area under the curve given by the graph of $f(x) = x$ for $x$ between 0 and 1. First, we fix an integer $n$ and divide the interval $[0,1]$ into $n$ subintervals of equal width. So each subinterval has width:
+
+$$
+\Delta x = \frac{1}{n}
+$$
+
+To calculate the integral, we will use the right-handed Riemann sum. (We could have used the left-handed sum instead, and this would give the same answer in the end). For the right-handed sum the sample points are:
+
+$$
+x\_i^* = 0 + i \Delta x = \frac{i}{n}, \quad i = 1,\ldots,n
+$$
+
+Notice that $f(x\_i^*) = x\_i^* = \frac{i}{n}$. Putting this into the formula for the approximation:
+
+$$
+A\_n = \sum\_{i=1}^n f(x\_{i}^*) \Delta x = \sum\_{i=1}^n f\left(\frac{i}{n}\right) \Delta x = \sum\_{i=1}^n \frac{i}{n} \cdot \frac{1}{n} = \frac{1}{n^2} \sum\_{i=1}^n i
+$$
+
+Now we use the formula:
+
+$$
+\sum\_{i=1}^n i = \frac{n(n+1)}{2}
+$$
+
+to get:
+
+$$
+A\_n = \frac{1}{n^2} \cdot \frac{n(n+1)}{2} = \frac{n+1}{2n}
+$$
+
+To calculate the integral of $f$ between 0 and 1 we take the limit as $n$ tends to infinity:
+
+$$
+\int\limits\_0^1 f(x) dx = \lim\_{n \to \infty} \frac{n+1}{2n} = \frac{1}{2}
+$$
+
+\textbf{Example 2}
+
+Next, we show how to find the integral of the function $f(x) = x^2$ between $x = a$ and $x = b$. This time the interval $[a,b]$ has a width of $b-a$ so:
+
+$$
+\Delta x = \frac{b-a}{n}
+$$
+
+Once again we will use the right-handed Riemann sum. So the sample points we choose are:
+
+$$
+x\_i^* = a + i \Delta x = a + \frac{i(b-a)}{n}
+$$
+
+Thus:
+
+$$
+\begin{aligned}
+A\_n &= \sum\_{i=1}^n f(x\_{i}^*) \Delta x \\\&= \sum\_{i=1}^n f\left(a + \frac{(b-a)i}{n}\right) \Delta x \\\&= \frac{b-a}{n} \sum\_{i=1}^n \left(a + \frac{(b-a)i}{n}\right)^2 \\\&= \frac{b-a}{n} \sum\_{i=1}^n \left(a^2 + \frac{2a(b-a)i}{n} + \frac{(b-a)^2 i^2}{n^2}\right)
+\end{aligned}
+$$
+
+We have to calculate each piece on the right-hand side of this equation. For the first two:
+
+$$
+\sum\_{i=1}^n a^2 = a^2 \sum\_{i=1}^n 1 = n a^2
+$$
+
+$$
+\sum\_{i=1}^n \frac{2a(b-a)i}{n} = \frac{2a(b-a)}{n} \sum\_{i=1}^n i = \frac{2a(b-a)}{n} \cdot \frac{n(n+1)}{2}
+$$
+
+For the third sum, we have to use a formula:
+
+$$
+\sum\_{i=1}^n i^2 = \frac{n(n+1)(2n+1)}{6}
+$$
+
+to get:
+
+$$
+\sum\_{i=1}^n \frac{(b-a)^2 i^2}{n^2} = \frac{(b-a)^2}{n^2} \frac{n(n+1)(2n+1)}{6}
+$$
+
+Putting this together:
+
+$$
+A\_n = \frac{b-a}{n}\left(na^2 + \frac{2a(b-a)}{n} \cdot \frac{n(n+1)}{2} + \frac{(b-a)^2}{n^2} \frac{n(n+1)(2n+1)}{6}\right)
+$$
+
+Taking the limit as $n$ tends to infinity gives:
+
+$$
+\begin{aligned}
+\int\limits\_a^b x^2 dx &= (b-a)\left(a^2 + a(b-a) + \frac{1}{3}(b-a)^2\right) \\\&= (b-a)\left(a^2 + ab - a^2 + \frac{1}{3}(b^2 - 2ab + a^2)\right) \\\&= \frac{1}{3}(b-a)(b^2 + ab + a^2) \\\&= \frac{1}{3}(b^3 - a^3)
+\end{aligned}
+$$
+
+\paragraph{Basic Properties of the Integral}
+
+
+From the definition of the integral, we can deduce some basic properties. For all the following rules, suppose that $f$ and $g$ are continuous on $[a,b]$.
+
+\paragraph{The Constant Rule}
+
+
+\textbf{Constant Rule:} $\int\limits\_a^b c \cdot f(x) dx = c \int\limits\_a^b f(x) dx$
+
+When $f$ is positive, the height of the function $c \cdot f$ at a point $x$ is $c$ times the height of the function $f$. So the area under $c \cdot f$ between $a$ and $b$ is $c$ times the area under $f$. We can also give a proof using the definition of the integral, using the constant rule for limits:
+
+$$
+\int\limits\_a^b c \cdot f(x) dx = \lim\_{n \to \infty} \sum\_{i=1}^n c \cdot f(x\_{i}^\ast) = c \cdot \lim\_{n \to \infty} \sum\_{i=1}^n f(x\_{i}^\ast) = c \int\limits\_a^b f(x) dx
+$$
+
+\textbf{Example}
+
+We saw in the previous section that:
+
+$$
+\int\limits\_0^1 x dx = \frac{1}{2}
+$$
+
+Using the constant rule we can use this to calculate that:
+
+$$
+\int\limits\_0^1 3x dx = 3 \int\limits\_0^1 x dx = 3 \cdot \frac{1}{2} = 1.5
+$$
+
+$$
+\int\limits\_0^1 -7x dx = -7 \int\limits\_0^1 x dx = (-7) \cdot \frac{1}{2} = -3.5
+$$
+
+\textbf{Example}
+
+We saw in the previous section that:
+
+$$
+\int\limits\_a^b x^2 dx = \frac{b^3 - a^3}{3}
+$$
+
+We can use this and the constant rule to calculate that:
+
+$$
+\int\limits\_1^3 2x^2 dx = 2 \int\limits\_1^3 x^2 dx = 2 \cdot \frac{1}{3} \cdot (3^3 - 1^3) = \frac{2}{3}(27 - 1) = \frac{52}{3}
+$$
+
+There is a special case of this rule used for integrating constants:
+
+If $c$ is constant then $\int\limits\_a^b c \, dx = c(b-a)$
+
+When $c > 0$ and $a < b$ this integral is the area of a rectangle of height $c$ and width $b-a$ which equals $c(b-a)$.
+
+\textbf{Example}
+
+$$
+\int\limits\_1^3 9 dx = 9(3-1) = 9 \cdot 2 = 18
+$$
+
+$$
+\int\limits\_{-2}^6 11 dx = 11(6 - (-2)) = 11 \cdot 8 = 88
+$$
+
+$$
+\int\limits\_2^{17} 0 dx = 0 \cdot (17-2) = 0
+$$
+
+\paragraph{The Addition and Subtraction Rule}
+
+
+\textbf{Addition and Subtraction Rules of Integration:}
+
+$$
+\int\limits\_a^b \bigl(f(x) + g(x)\bigr) dx = \int\limits\_a^b f(x) dx + \int\limits\_a^b g(x) dx
+$$
+
+$$
+\int\limits\_a^b \bigl(f(x) - g(x)\bigr) dx = \int\limits\_a^b f(x) dx - \int\limits\_a^b g(x) dx
+$$
+
+As with the constant rule, the addition rule follows from the addition rule for limits:
+
+$$
+\int\limits\_a^b \bigl(f(x) + g(x)\bigr) dx = \lim\_{n \to \infty} \sum\_{i=1}^n \Big(f(x\_i^*) + g(x\_{i}^\ast)\Big) \\\\ = \lim\_{n \to \infty} \sum\_{i=1}^n f(x\_{i}^\ast) + \lim\_{n \to \infty} \sum\_{i=1}^n g(x\_{i}^\ast) \\\\ = \int\limits\_a^b f(x) dx + \int\limits\_a^b g(x) dx
+$$
+
+
+The subtraction rule can be proved in a similar way.
+
+\textbf{Example}
+
+From above $\int\limits\_1^3 9 dx = 18$ and $\int\limits\_1^3 2x^2 dx = \frac{52}{3}$ so:
+
+$$
+\int\limits\_1^3 (2x^2 + 9) dx = \int\limits\_1^3 2x^2 dx + \int\limits\_1^3 9 dx = \frac{52}{3} + 18 = \frac{106}{3}
+$$
+
+$$
+\int\limits\_1^3 (2x^2 - 9) dx = \int\limits\_1^3 2x^2 dx - \int\limits\_1^3 9 dx = \frac{52}{3} - 18 = -\frac{2}{3}
+$$
+
+\textbf{Example}
+
+$$
+\int\limits\_0^2 (4x^2 + 14) dx = 4 \int\limits\_0^2 x^2 dx + \int\limits\_0^2 14 dx = 4 \cdot \frac{1}{3}(2^3 - 0^3) + 2 \cdot 14 = \frac{32}{3} + 28 = \frac{116}{3}
+$$
+
+\paragraph{The Comparison Rule}
+
+
+% [Image: Figure 7: Bounding the area.]
+\textbf{Figure 7: Bounding the area under $f(x)$ on $[a,b]$.}
+
+\textbf{Comparison Rule:}
+
+\begin{itemize}
+    \item Suppose $f(x) \ge 0$ for all $x \in [a,b]$. Then:
+\end{itemize}
+
+$$
+\int\limits\_a^b f(x) dx \ge 0
+$$
+
+\begin{itemize}
+    \item Suppose $f(x) \ge g(x)$ for all $x \in [a,b]$. Then:
+\end{itemize}
+
+$$
+\int\limits\_a^b f(x) dx \ge \int\limits\_a^b g(x) dx
+$$
+
+\begin{itemize}
+    \item Suppose $M \ge f(x) \ge m$ for all $x \in [a,b]$. Then:
+\end{itemize}
+
+$$
+M(b-a) \ge \int\limits\_a^b f(x) dx \ge m(b-a)
+$$
+
+If $f(x) \ge 0$ then each of the rectangles in the Riemann sum to calculate the integral of $f$ will be above the $y$-axis, so the area will be non-negative. If $f(x) \ge g(x)$ then $f(x) - g(x) \ge 0$ and by the first property, we get the second property. Finally, if $M \ge f(x) \ge m$ then the area under the graph of $f$ will be greater than the area of the rectangle with height $m$ and less than the area of the rectangle with height $M$ (see \href{https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Integral\_comparison\_1.png/300px-Integral\_comparison\_1.png}{Figure 7}). So:
+
+$$
+M(b-a) = \int\limits\_a^b M dx \ge \int\limits\_a^b f(x) dx \ge \int\limits\_a^b m dx = m(b-a)
+$$
+
+\paragraph{Linearity with Respect to Endpoints}
+
+
+\textbf{Additivity with Respect to Endpoints:}
+
+Suppose $a < c < b$. Then:
+
+$$
+\int\limits\_a^b f(x) dx = \int\limits\_a^c f(x) dx + \int\limits\_c^b f(x) dx
+$$
+
+Again, suppose that $f$ is positive. Then this property should be interpreted as saying that the area under the graph of $f$ between $a$ and $b$ is the area between $a$ and $c$ plus the area between $c$ and $b$ (see \href{https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Integral\_linear\_endpoints.png/300px-Integral\_linear\_endpoints.png}{Figure 8}).
+
+% [Image: Figure 8: Illustration of the property of additivity with respect to endpoints.]
+\textbf{Figure 8: Illustration of the property of additivity with respect to endpoints.}
+
+\textbf{Extension of Additivity with Respect to Limits of Integration:}
+
+When $a = b$ we have that $\Delta x = \frac{b-a}{n} = 0$ so:
+
+$$
+\int\limits\_a^a f(x) dx = 0
+$$
+
+Also in defining the integral we assumed that $a < b$. But the definition makes sense even when $b < a$, in which case $\Delta x = \frac{b-a}{n}$ has changed sign. This gives:
+
+$$
+\int\limits\_b^a f(x) dx = -\int\limits\_a^b f(x) dx
+$$
+
+With these definitions:
+
+$$
+\int\limits\_a^b f(x) dx = \int\limits\_a^c f(x) dx + \int\limits\_c^b f(x) dx
+$$
+
+whatever the order of $a,b,c$.
+
+\paragraph{Even and Odd Functions}
+
+
+Recall that a function $f$ is called odd if it satisfies $f(-x) = -f(x)$ and is called even if $f(-x) = f(x)$.
+
+Suppose $f$ is a continuous odd function. Then for any $a$:
+
+$$
+\int\limits\_{-a}^a f(x) dx = 0
+$$
+
+If $f$ is a continuous even function then for any $a$:
+
+$$
+\int\limits\_{-a}^a f(x) dx = 2 \int\limits\_0^a f(x) dx
+$$
+
+Suppose $f$ is an odd function and consider first just the integral from $-a$ to $0$. We make the substitution $u = -x$ so $du = -dx$. Notice that if $x = -a$ then $u = a$ and if $x = 0$ then $u = 0$. Hence:
+
+$$
+\int\limits\_{-a}^0 f(x) dx = -\int\limits\_a^0 f(-u) du = \int\limits\_0^a f(-u) du
+$$
+
+Now as $f$ is odd, $f(-u) = -f(u)$ so the integral becomes:
+
+$$
+\int\limits\_{-a}^0 f(x) dx = -\int\limits\_0^a f(u) du
+$$
+
+Now we can replace the dummy variable $u$ with any other variable. So we can replace it with the letter $x$ to give:
+
+$$
+\int\limits\_{-a}^0 f(x) dx = -\int\limits\_0^a f(u) du = -\int\limits\_0^a f(x) dx
+$$
+
+Now we split the integral into two pieces:
+
+$$
+\int\limits\_{-a}^a f(x) dx = \int\limits\_{-a}^0 f(x) dx + \int\limits\_0^a f(x) dx = -\int\limits\_0^a f(x) dx + \int\limits\_0^a f(x) dx = 0
+$$
+
+The proof of the formula for even functions is similar.
+
+\textbf{Prove that if $f$ is a continuous even function then for any $a$}:
+
+$$
+\int\limits\_{-a}^a f(x) dx = 2 \int\limits\_0^a f(x) dx
+$$
+
+From the property of linearity of the endpoints we have:
+
+$$
+\int\limits\_{-a}^a f(x) dx = \int\limits\_{-a}^0 f(x) dx + \int\limits\_0^a f(x) dx
+$$
+
+Make the substitution $u = -x; \quad du = -dx$. $u = a$ when $x = -a$ and $u = 0$ when $x = 0$. Then:
+
+$$
+\int\limits\_{-a}^0 f(x) dx = \int\limits\_a^0 f(-u)(-du) = -\int\limits\_a^0 f(-u) du = \int\limits\_0^a f(-u) du = \int\limits\_0^a f(u) du
+$$
+
+where the last step has used the evenness of $f$. Since $u$ is just a dummy variable, we can replace it with $x$. Then:
+
+$$
+\int\limits\_{-a}^a f(x) dx = \int\limits\_0^a f(x) dx + \int\limits\_0^a f(x) dx = 2 \int\limits\_0^a f(x) dx
+$$
+
+\paragraph{Resources}
+
+
+\begin{itemize}
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/The\%20Definite\%20Integral/Presentation11\_Distance\_Definite\_Integral.pptx}{Distance Definite Integral (Slides 23-38)}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/The\%20Definite\%20Integral/Presentation12\_DefiniteIntegral\_\%20Antiderivatives.pptx}{Definite Integral \& Antiderivatives}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1214/The\%20Definite\%20Integral/MAT1214-5.3TheDefiniteIntegralPwPt.pptx}{The Definite Integral}. PowerPoint file created by Dr. Sara Shirinkam, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1214/The\%20Definite\%20Integral/MAT1214-5.3TheDefiniteIntegralNotes.pdf}{The Definite Integral Notes}. Created by Professor Eduardo Duenez, UTSA.
+\end{itemize}
+
+\paragraph{Licensing}
+
+
+Content obtained and/or adapted from:  
+\begin{itemize}
+    \item \href{https://en.wikibooks.org/wiki/Calculus/Definite\_integral}{Definite Integral, Wikibooks: Calculus} under a CC BY-SA license
+\end{itemize}
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Approximate total change from rate of change
+    \item Computing area with Riemann Sums
+    \item Apply concepts of finding total change with Riemann Sums
+\end{enumerate}
+
+%%===============================================================
+\section{Antiderivatives}
+\label{sec:antiderivatives}
+%%===============================================================
+
+\paragraph{Definition}
+
+
+Now recall that $F$ is said to be an antiderivative of \textit{f} if $F''(x) = f(x)$. However, $F$ is not the only antiderivative. We can add any constant to $F$ without changing the derivative. With this, we define the indefinite integral as follows:
+
+$$\int f(x) \, dx = F(x) + C$$ 
+
+where $F$ satisfies $F''(x) = f(x)$ and $C$ is any constant.
+
+The function $f(x)$, the function being integrated, is known as the integrand. Note that the indefinite integral yields a \textit{family} of functions.
+
+\paragraph{Example}
+
+
+Since the derivative of $x^4$ is $4x^3$, the general antiderivative of $4x^3$ is $x^4$ plus a constant. Thus,
+
+$$\int 4x^3 \, dx = x^4 + C$$
+
+\paragraph{Example: Finding antiderivatives}
+
+
+Let''s take a look at $6x^2$. How would we go about finding the integral of this function? Recall the rule from differentiation that
+
+$$\frac{d}{dx} x^n = n x^{n-1}$$
+
+In our circumstance, we have:
+
+$$\frac{d}{dx} x^3 = 3x^2$$
+
+This is a start! We now know that the function we seek will have a power of 3 in it. How would we get the constant of 6? Well,
+
+$$2 \cdot \frac{d}{dx} x^3 = 2 \times 3x^2 = 6x^2$$ 
+
+Thus, we say that $2x^3$ is an antiderivative of $6x^2$.
+
+\paragraph{Indefinite Integral Identities}
+
+
+\paragraph{Basic Properties of Indefinite Integrals}
+
+
+\textbf{Constant Rule for indefinite integrals}  
+If $c$ is a constant then
+
+$$\int c \cdot f(x) \, dx = c \int f(x) \, dx$$
+
+\textbf{Sum/Difference Rule for indefinite integrals}  
+
+$$\int \Big(f(x) + g(x)\Big) \, dx = \int f(x) \, dx + \int g(x) \, dx$$
+
+$$\int \Big(f(x) - g(x)\Big) \, dx = \int f(x) \, dx - \int g(x) \, dx$$
+
+\paragraph{Indefinite Integrals of Polynomials}
+
+
+Say we are given a function of the form $f(x) = x^n$, and would like to determine the antiderivative of $f$. Considering that
+
+$$\frac{d}{dx} \frac{1}{n+1} x^{n+1} = x^n$$
+
+we have the following rule for indefinite integrals:
+
+\textbf{Power Rule for Indefinite Integrals}  
+$$\int x^n \, dx = \frac{x^{n+1}}{n+1} + C$$ for all $n \ne -1$
+
+\paragraph{Integral of the Inverse Function}
+
+
+To integrate $f(x) = \frac{1}{x}$, we should first remember
+
+$$\frac{d}{dx} \ln(x) = \frac{1}{x}$$
+
+Therefore, since $\frac{1}{x}$ is the derivative of $\ln(x)$, we can conclude that
+
+$$\int \frac{dx}{x} = \ln|x| + C$$
+
+Note that the polynomial integration rule does not apply when the exponent is $-1$. This technique of integration must be used instead. Since the argument of the natural logarithm function must be positive (on the real line), the absolute value signs are added around its argument to ensure that the argument is positive.
+
+\paragraph{Integral of the Exponential Function}
+
+
+Since
+
+$$\frac{d}{dx} e^x = e^x$$ 
+
+we see that $e^x$ is its own antiderivative. This allows us to find the integral of an exponential function:
+
+$$\int e^x \, dx = e^x + C$$
+
+\paragraph{Integral of Sine and Cosine}
+
+
+Recall that
+
+$$\frac{d}{dx} \sin(x) = \cos(x)$$  
+$$\frac{d}{dx} \cos(x) = -\sin(x)$$
+
+So $\sin(x)$ is an antiderivative of $\cos(x)$ and $-\cos(x)$ is an antiderivative of $\sin(x)$. Hence, we get the following rules for integrating $\sin(x)$ and $\cos(x)$:
+
+$$\int \cos(x) \, dx = \sin(x) + C$$  
+$$\int \sin(x) \, dx = -\cos(x) + C$$
+
+We will find how to integrate more complicated trigonometric functions in the chapter on integration techniques.
+
+\paragraph{Example}
+
+
+Suppose we want to integrate the function $f(x) = x^4 + 1 + 2\sin(x)$. An application of the sum rule from above allows us to use the power rule and our rule for integrating $\sin(x)$ as follows:
+
+$$\int f(x) \, dx = \int \Big(x^4 + 1 + 2\sin(x)\Big) \, dx$$  
+$$= \int x^4 \, dx + \int 1 \, dx + \int 2\sin(x) \, dx$$  
+$$= \frac{x^5}{5} + x - 2\cos(x) + C$$
+
+\paragraph{The Substitution Rule}
+
+
+The substitution rule is a valuable asset in the toolbox of any integration greasemonkey. It is essentially the chain rule (a differentiation technique you should be familiar with) in reverse. First, let''s take a look at an example:
+
+\paragraph{Preliminary Example}
+
+
+Suppose we want to find $\int x \cos(x^2) \, dx$. That is, we want to find a function such that its derivative equals $x \cos(x^2)$. Stated yet another way, we want to find an antiderivative of $f(x) = x \cos(x^2)$. Since $\sin(x)$ differentiates to $\cos(x)$, as a first guess we might try the function $\sin(x^2)$. But by the Chain Rule,
+
+$$\frac{d}{dx} \sin(x^2) = \cos(x^2) \cdot \frac{d}{dx} x^2 = \cos(x^2) \cdot 2x = 2x \cos(x^2)$$
+
+Which is almost what we want apart from the fact that there is an extra factor of 2 in front. But this is easily dealt with because we can divide by a constant (in this case 2). So,
+
+$$\frac{d}{dx} \frac{\sin(x^2)}{2} = \frac{1}{2} \cdot \frac{d}{dx} \sin(x^2) = \frac{1}{2} \cdot 2\cos(x^2) x = x \cos(x^2) = f(x)$$
+
+Thus, we have discovered a function, $F(x) = \frac{\sin(x^2)}{2}$, whose derivative is $x \cos(x^2)$. That is, $F$ is an antiderivative of $f(x) = x \cos(x^2)$. This gives us
+
+$$\int x \cos(x^2) \, dx = \frac{\sin(x^2)}{2} + C$$
+
+\paragraph{Generalization}
+
+
+In fact, this technique will work for more general integrands. Suppose $u$ is a differentiable function. Then to evaluate $\int u''(x) \cos\bigl(u(x)\bigr) \, dx$ we just have to notice that by the Chain Rule
+
+$$\frac{d}{dx} \sin\bigl(u(x)\bigr) = \cos\bigl(u(x)\bigr) \frac{du}{dx} = u''(x) \cos\bigl(u(x)\bigr)$$
+
+As long as $u''$ is continuous we have that
+
+$$\int \cos\bigl(u(x)\bigr) u''(x) \, dx = \sin\bigl(u(x)\bigr) + C$$
+
+Now the right-hand side of this equation is just the integral of $\cos(u)$ but with respect to $u$. If we write $u$ instead of $u(x)$ this becomes
+
+$$\int \cos(u(x)) u''(x) \, dx = \sin(u) + C = \int \cos(u) \, du$$
+
+So, for instance, if $u(x) = x^3$ we have worked out that
+
+$$\int \bigl(\cos(x^3) \cdot 3x^2\bigr) \, dx = \sin(x^3) + C$$
+
+\paragraph{General Substitution Rule}
+
+
+Now there was nothing special about using the cosine function in the discussion above, and it could be replaced by any other function. Doing this gives us the substitution rule for indefinite integrals:
+
+\textbf{Substitution rule for indefinite integrals}  
+Assume $u$ is differentiable with continuous derivative and that $f$ is continuous on the range of $u$. Then
+
+$$\int f\bigl(u(x)\bigr) \frac{du}{dx} \, dx = \int f(u) \, du$$
+
+Notice that it looks like you can "cancel" in the expression $\frac{du}{dx} \, dx$ to leave just a $du$. This does not really make any sense because $\frac{du}{dx}$ is not a fraction. But it''s a good way to remember the substitution rule.
+
+\paragraph{Examples}
+
+
+The following example shows how powerful a technique substitution can be. At first glance, the following integral seems intractable, but after a little simplification, it''s possible to tackle using substitution.
+
+\paragraph{Example}
+
+
+We will show that
+
+$$\int \frac{dx}{(x^2 + a^2) \sqrt{x^2 + a^2}} = \frac{x}{a^2 \sqrt{x^2 + a^2}} + C$$
+
+First, we re-write the integral:
+
+$$\int \frac{dx}{(x^2 + a^2) \sqrt{x^2 + a^2}} = \int (x^2 + a^2)^{-\frac{3}{2}} \, dx$$  
+$$= \int \left(x^2 \left(1 + \frac{a^2}{x^2}\right)\right)^{-\frac{3}{2}} \, dx$$  
+$$= \int x^{-3} \left(1 + \frac{a^2}{x^2}\right)^{-\frac{3}{2}} \, dx$$  
+$$= \int \left(1 + \frac{a^2}{x^2}\right)^{-\frac{3}{2}} \left(x^{-3} \, dx\right)$$
+
+Now we perform the following substitution:  
+$$u = 1 + \frac{a^2}{x^2}$$  
+$$\frac{du}{dx} = -2a^2 x^{-3} \implies x^{-3} \, dx = -\frac{du}{2a^2}$$
+
+Which yields:
+
+$$\int \left(1 + \frac{a^2}{x^2}\right)^{-\frac{3}{2}} \left(x^{-3} \, dx\right) = \int u^{-\frac{3}{2}} \left(-\frac{du}{2a^2}\right)$$  
+$$= -\frac{1}{2a^2} \int u^{-\frac{3}{2}} \, du$$  
+$$= -\frac{1}{2a^2} \left(-\frac{2}{\sqrt{u}}\right) + C$$  
+$$= \frac{1}{a^2 \sqrt{1 + \frac{a^2}{x^2}}} + C$$  
+$$= \left(\frac{x}{x}\right) \frac{1}{a^2 \sqrt{1 + \frac{a^2}{x^2}}} + C$$  
+$$= \frac{x}{a^2 \sqrt{x^2 + a^2}} + C$$
+
+\paragraph{Integration by Parts}
+
+
+Integration by parts is another powerful tool for integration. It was mentioned above that one could consider integration by substitution as an application of the chain rule in reverse. In a similar manner, one may consider integration by parts as the product rule in reverse.
+
+\paragraph{Preliminary Example}
+
+
+\paragraph{General Integration by Parts}
+
+
+\textbf{Integration by parts for indefinite integrals}  
+Suppose $f$ and $g$ are differentiable and their derivatives are continuous. Then
+
+$$\int f(x)g(x) \, dx = f(x) \int g(x) \, dx - \int \left(f''(x) \int g(x) \, dx\right) \, dx$$
+
+It is also very important to notice that
+
+$$\int f(x)g(x) \, dx = f(x) \int g(x) \, dx - \int \left(f''(x) \int g(x) \, dx\right) \, dx$$
+
+is not equal to
+
+$$\int f(x)g(x) \, dx = g(x) \int f(x) \, dx - \int \left(g''(x) \int f(x) \, dx\right) \, dx$$
+
+To set the $f(x)$ and $g(x)$ we need to follow the rule called \textbf{I.L.A.T.E.}
+
+---
+
+\textbf{ILATE} defines the order in which we must set the $f(x)$:
+
+\begin{itemize}
+    \item \textbf{I} for inverse trigonometric function
+    \item \textbf{L} for log functions
+    \item \textbf{A} for algebraic functions
+    \item \textbf{T} for trigonometric functions
+    \item \textbf{E} for exponential function
+\end{itemize}
+
+---
+
+$f(x)$ and $g(x)$ must be in the order of ILATE or else your final answers will not match with the main key.
+
+\paragraph{Examples}
+
+
+\paragraph{Example}
+
+
+Find $\int x \cos(x) \, dx$
+
+Here we let:  
+$u = x$, so that $du = dx$,  
+$dv = \cos(x) \, dx$, so that $v = \sin(x)$.
+
+Then:
+
+$$\int x \cos(x) \, dx = \int u \, dv$$  
+$$= uv - \int v \, du$$  
+$$= x \sin(x) - \int \sin(x) \, dx$$  
+$$= x \sin(x) + \cos(x) + C$$
+
+\paragraph{Example}
+
+
+Find $\int x^2 e^x \, dx$
+
+In this example, we will have to use integration by parts twice.
+
+Here we let:  
+$u = x^2$, so that $du = 2x \, dx$,  
+$dv = e^x \, dx$, so that $v = e^x$.
+
+Then:
+
+$$\int x^2 e^x \, dx = \int u \, dv$$  
+$$= uv - \int v \, du$$  
+$$= x^2 e^x - \int 2x e^x \, dx$$  
+$$= x^2 e^x - 2 \int x e^x \, dx$$
+
+Now to calculate the last integral, we use integration by parts again. Let:  
+$u = x$, so that $du = dx$,  
+$dv = e^x \, dx$, so that $v = e^x$.
+
+And integrating by parts gives:
+
+$$\int x e^x \, dx = x e^x - \int e^x \, dx = e^x (x - 1)$$
+
+So, finally, we obtain:
+
+$$\int x^2 e^x \, dx = x^2 e^x - 2e^x(x - 1) + C = e^x(x^2 - 2x + 2) + C$$
+
+\paragraph{Example}
+
+
+Find $\int \ln(x) \, dx$
+
+The trick here is to write this integral as
+
+$$\int \ln(x) \cdot 1 \, dx$$
+
+Now let:  
+$u = \ln(x)$ so $du = \frac{dx}{x}$,  
+$v = x$ so $dv = 1 \, dx$.
+
+Then using integration by parts:
+
+$$\int \ln(x) \, dx = x \ln(x) - \int \frac{x}{x} \, dx$$  
+$$= x \ln(x) - \int 1 \, dx$$  
+$$= x \ln(x) - x + C$$  
+$$= x\bigl(\ln(x) - 1\bigr) + C$$
+
+\paragraph{Example}
+
+
+Find $\int \arctan(x) \, dx$
+
+Again the trick here is to write the integrand as $\arctan(x) = \arctan(x) \cdot 1$. Then let:  
+$u = \arctan(x)$ so $du = \frac{dx}{1 + x^2}$  
+$v = x$ so $dv = 1 \, dx$
+
+So using integration by parts:
+
+$$\int \arctan(x) \, dx = x \arctan(x) - \int \frac{x}{1 + x^2} \, dx$$  
+$$= x \arctan(x) - \tfrac{1}{2} \ln(1 + x^2) + C$$
+
+\paragraph{Example}
+
+
+Find $\int e^x \cos(x) \, dx$
+
+This example uses integration by parts twice. First let:
+
+$u = e^x$ so $du = e^x \, dx$  
+$dv = \cos(x) \, dx$ so $v = \sin(x)$
+
+So:
+
+$$\int e^x \cos(x) \, dx = e^x \sin(x) - \int e^x \sin(x) \, dx$$
+
+Now, to evaluate the remaining integral, we use integration by parts again, with:
+
+$u = e^x$ so $du = e^x \, dx$  
+$v = -\cos(x)$ so $dv = \sin(x) \, dx$
+
+Then:
+
+$$\int e^x \sin(x) \, dx = -e^x \cos(x) - \int -e^x \cos(x) \, dx$$  
+$$= -e^x \cos(x) + \int e^x \cos(x) \, dx$$
+
+Putting these together, we have:
+
+$$\int e^x \cos(x) \, dx = e^x \sin(x) + e^x \cos(x) - \int e^x \cos(x) \, dx$$
+
+Notice that the same integral shows up on both sides of this equation, but with opposite signs. The integral does not cancel; it doubles when we add the integral to both sides to get:
+
+$$2\int e^x \cos(x) \, dx = e^x\bigl(\sin(x) + \cos(x)\bigr)$$  
+$$\int e^x \cos(x) \, dx = \frac{e^x\bigl(\sin(x) + \cos(x)\bigr)}{2}$$
+
+\paragraph{Resources}
+
+
+\begin{itemize}
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/The\%20Definite\%20Integral/Presentation11_Distance_Definite_Integral.pptx}{Distance Definite Integral (Slides 23-38)}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/The\%20Definite\%20Integral/Presentation12_DefiniteIntegral\%20\&\%20Antiderivatives.pptx}{Definite Integral \& Antiderivatives}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1214/Antiderivatives/MAT1214-4.10AntiderivativesPwPt.pptx}{Antiderivatives PowerPoint file} created by Dr. Sara Shirinkam, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1214/Antiderivatives/MAT1214-4.10AntiderivativesWS1.pdf}{Antiderivatives Worksheet}
+\end{itemize}
+
+\paragraph{Licensing}
+
+
+Content obtained and/or adapted from:  
+\begin{itemize}
+    \item \href{https://en.wikibooks.org/wiki/Calculus/Indefinite_integral}{Indefinite Integral, Wikibooks: Calculus} under a CC BY-SA license
+\end{itemize}
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Use the limit formula to compute a definite integral
+    \item Be able to analyze area under the curve with antiderivatives graphically and numerically
+    \item Use formulas for finding antiderivatives of constants and powers
+    \item Use formulas for finding antiderivatives of exponential and logarithm functions
+    \item Use formulas for finding antiderivatives of trigonometric functions
+\end{enumerate}
+
+%%===============================================================
+\section{The Fundamental Theorem of Calculus}
+\label{sec:the-fundamental-theorem-of-calculus}
+%%===============================================================
+
+The fundamental theorem of calculus is a critical portion of calculus because it links the concept of a derivative to that of an integral. As a result, we can use our knowledge of derivatives to find the area under the curve, which is often quicker and simpler than using the definition of the integral.
+
+\paragraph{Mean Value Theorem for Integration}
+
+We will need the following theorem in the discussion of the Fundamental Theorem of Calculus.
+
+Suppose $f(x)$ is continuous on $[a,b]$. Then $\frac{1}{b-a}\int\limits\_a^b f(x)dx = f(c)$ for some $c \in [a,b]$.
+
+\paragraph{Proof of the Mean Value Theorem for Integration}
+
+$f(x)$ satisfies the requirements of the Extreme Value Theorem, so it has a minimum $m$ and a maximum $M$ in $[a,b]$. Since
+
+$$\int\limits\_a^b f(x)dx = \lim\_{n \to \infty} \sum\_{k=1}^n f(x\_k^\ast) \cdot \frac{b-a}{n} = \lim\_{n \to \infty} \frac{b-a}{n} \cdot \sum\_{k=1}^n f(x\_k^\ast)$$
+
+and since
+
+$$m \le f(x\_k^\ast) \le M \text{ for all } x\_k^\ast \in [a,b]$$
+
+we have
+
+$$\begin{aligned}
+&\lim\_{n \to \infty} \frac{b-a}{n} \cdot \sum\_{k=1}^n m \le \lim\_{n \to \infty} \frac{b-a}{n} \cdot \sum\_{k=1}^n f(x\_k^*) \le \lim\_{n \to \infty} \frac{b-a}{n} \cdot \sum\_{k=1}^n M \\\\
+&\lim\_{n \to \infty} mn \cdot \frac{b-a}{n} \le \int\limits\_a^b f(x)dx \le \lim\_{n \to \infty} Mn \cdot \frac{b-a}{n} \\\\
+&\lim\_{n \to \infty} m(b-a) \le \int\limits\_a^b f(x)dx \le \lim\_{n \to \infty} M(b-a) \\\\
+&m(b-a) \le \int\limits\_a^b f(x)dx \le M(b-a) \\\\
+&m \le \frac{1}{b-a} \int\limits\_a^b f(x)dx \le M
+\end{aligned}$$
+
+Since $f$ is continuous, by the Intermediate Value Theorem, there is some $f(c)$ with $c \in [a,b]$ such that
+
+$$\frac{1}{b-a} \int\limits\_a^b f(x)dx = f(c)$$
+
+\paragraph{Fundamental Theorem of Calculus}
+
+\paragraph{Statement of the Fundamental Theorem}
+
+Suppose that $f$ is continuous on $[a,b]$. We can define a function $F$ by
+
+$$F(x) = \int\limits\_a^x f(t)dt \quad \text{for } x \in [a,b]$$
+
+Suppose $f$ is continuous on $[a,b]$ and $F$ is defined by
+$$F(x) = \int\limits\_a^x f(t)dt$$
+Then $F$ is differentiable on $(a,b)$ and for all $x \in (a,b)$,
+$$F''(x) = f(x)$$
+
+When we have such functions $F$ and $f$ where $F''(x) = f(x)$ for every $x$ in some interval $I$ we say that $F$ is the \textbf{antiderivative} of $f$ on $I$.
+
+Suppose that $f$ is continuous on $[a,b]$ and that $F$ is any antiderivative of $f$.
+Then
+$$\int\limits\_a^b f(x)dx = F(b) - F(a)$$
+
+% [Image: Fundamental Theorem of Calculus]
+\textbf{Fundamental Theorem of Calculus Part I.}
+
+Note: A minority of mathematicians refer to part one as two and part two as one. All mathematicians refer to what is stated here as part 2 as The Fundamental Theorem of Calculus.
+
+\paragraph{Proofs}
+
+\paragraph{Proof of Fundamental Theorem of Calculus Part I}
+
+Suppose $x \in (a,b)$. Pick $\Delta x$ so that $x + \Delta x \in (a,b)$. Then
+$$F(x) = \int\limits\_a^x f(t)dt$$
+and
+$$F(x + \Delta x) = \int\limits\_a^{x + \Delta x} f(t)dt$$
+
+Subtracting the two equations gives
+$$F(x + \Delta x) - F(x) = \int\limits\_a^{x + \Delta x} f(t)dt - \int\limits\_a^x f(t)dt$$
+
+Now
+$$\int\limits\_a^{x + \Delta x} f(t)dt = \int\limits\_a^x f(t)dt + \int\limits\_x^{x + \Delta x} f(t)dt$$
+so rearranging this we have
+$$F(x + \Delta x) - F(x) = \int\limits\_x^{x + \Delta x} f(t)dt$$
+
+According to the Mean Value Theorem for Integration, there exists a $c \in [x,x+\Delta x]$ such that
+$$\int\limits\_x^{x+\Delta x} f(t)dt = f(c) \cdot \Delta x$$
+Notice that $c$ depends on $\Delta x$. Anyway, what we have shown is that
+$$F(x + \Delta x) - F(x) = f(c) \cdot \Delta x$$
+and dividing both sides by $\Delta x$ gives
+$$\frac{F(x + \Delta x) - F(x)}{\Delta x} = f(c)$$
+
+Take the limit as $\Delta x \to 0$ we get the definition of the derivative of $F$ at $x$ so we have
+$$F''(x) = \lim\_{\Delta x \to 0} \frac{F(x + \Delta x) - F(x)}{\Delta x} = \lim\_{\Delta x \to 0} f(c)$$
+
+To find the other limit, we will use the \textbf{squeeze theorem}. $c \in [x,x+\Delta x]$, so $x \le c \le x + \Delta x$. Hence,
+$$\lim\_{\Delta x \to 0} \left[x + \Delta x\right] = x \quad \Rightarrow \quad \lim\_{\Delta x \to 0} c = x$$
+
+As $f$ is continuous we have
+$$F''(x) = \lim\_{\Delta x \to 0} f(c) = f\left(\lim\_{\Delta x \to 0} c\right) = f(x)$$
+which completes the proof.
+
+$\blacksquare$
+
+\paragraph{Proof of Fundamental Theorem of Calculus Part II}
+
+Define $P(x) = \int\limits\_a^x f(t)dt$. Then by the Fundamental Theorem of Calculus part I we know that $P$ is differentiable on $(a,b)$ and for all $x \in (a,b)$
+$$P''(x) = f(x)$$
+So $P$ is an antiderivative of $f$. Since we were assuming that $F$ was also an antiderivative for all $x \in (a,b)$,
+$$\begin{align}
+&P''(x) = F''(x) \\
+&P''(x) - F''(x) = 0 \\
+&\Big(P(x) - F(x)\Big)'' = 0
+\end{align}$$
+
+Let $g(x) = P(x) - F(x)$. The Mean Value Theorem applied to $g(x)$ on $[a,\xi]$ with $a < \xi < b$ says that
+$$\frac{g(\xi) - g(a)}{\xi - a} = g''(c)$$
+for some $c$ in $(a,\xi)$. But since $g''(x) = 0$ for all $x$ in $[a,b]$, $g(\xi)$ must equal $g(a)$ for all $\xi$ in $(a,b)$, i.e. $g(x)$ is constant on $(a,b)$.
+
+This implies there is a constant $C = g(a) = P(a) - F(a) = -F(a)$ such that for all $x \in (a,b)$,
+$$P(x) = F(x) + C$$
+and as $g$ is continuous we see this holds when $x = a$ and $x = b$ as well. And putting $x = b$ gives
+$$\int\limits\_a^b f(t)dx = P(b) = F(b) + C = F(b) - F(a)$$
+
+$\blacksquare$
+
+\paragraph{Notation for Evaluating Definite Integrals}
+
+The second part of the Fundamental Theorem of Calculus gives us a way to calculate definite integrals. Just find an antiderivative of the integrand, and subtract the value of the antiderivative at the lower bound from the value of the antiderivative at the upper bound. That is
+
+$$\int\limits\_a^b f(x)dx=F(b)-F(a)$$
+
+where $F''(x)=f(x)$. As a convenience, we use the notation
+
+$$F(x)\bigg|\_a^b$$
+
+to represent $F(b)-F(a)$.
+
+\paragraph{Integration of Polynomials}
+
+Using the power rule for differentiation we can find a formula for the integral of a power using the Fundamental Theorem of Calculus. Let $f(x)=x^n$. We want to find an antiderivative for $f$. Since the differentiation rule for powers lowers the power by 1 we have that
+
+$$\frac{d}{dx}x^{n+1}=(n+1)x^n$$
+
+As long as $n+1\ne0$ we can divide by $n+1$ to get
+
+$$\frac{d}{dx}\left(\frac{x^{n+1}}{n+1}\right)=x^n=f(x)$$
+
+So the function $F(x)=\frac{x^{n+1}}{n+1}$ is an antiderivative of $f$. If $0\notin[a,b]$ then $F$ is continuous on $[a,b]$ and, by applying the Fundamental Theorem of Calculus, we can calculate the integral of $f$ to get the following rule.
+
+> \textbf{Power Rule of Integration I}  
+> $$\int\limits\_a^b x^n\,dx = \frac{x^{n+1}}{n+1}\Bigg|\_a^b = \frac{b^{n+1}-a^{n+1}}{n+1}$$ as long as $n\ne-1$ and $0\notin[a,b]$.
+
+Notice that we allow all values of $n$, even negative or fractional. If $n>0$ then this works even if $[a,b]$ includes $0$.
+
+> \textbf{Power Rule of Integration II}  
+> $$\int\limits\_a^b x^ndx=\frac{x^{n+1}}{n+1}\Bigg|\_a^b=\frac{b^{n+1}-a^{n+1}}{n+1}$$ as long as $n>0$.
+
+\paragraph{Examples}
+
+\begin{itemize}
+    \item To find $$\int\limits\_1^2x^3dx$$ we raise the power by 1 and have to divide by 4. So
+\end{itemize}
+  $$\int\limits\_1^2x^3dx=\frac{x^4}{4}\Bigg|\\_1^2=\frac{2^4}{4}-\frac{1^4}{4}=\frac{15}{4}$$
+
+\begin{itemize}
+    \item The power rule also works for negative powers. For instance
+\end{itemize}
+  $$\int\limits\_1^3\frac{dx}{x^3}=\int\limits\_1^3x^{-3}dx=\frac{x^{-2}}{-2}\Bigg|\_1^3=\frac{1}{-2}\left(3^{-2}-1^{-2}\right)=-\frac12\left(\frac{1}{3^2}-1\right)=-\frac12\left(\frac19-1\right)=\frac12\cdot\frac89=\frac49$$
+
+\begin{itemize}
+    \item We can also use the power rule for fractional powers. For instance
+\end{itemize}
+  $$\int\limits\_0^5\sqrt{x}dx=\int\limits\_0^5x^\frac12dx=\frac{x\sqrt{x}}{\frac32}\Bigg|\_0^5=\frac23\left(5^\frac32-0^\frac32\right)=\frac{10\sqrt5}{3}$$
+
+\begin{itemize}
+    \item Using linearity the power rule can also be thought of as applying to constants. For example,
+\end{itemize}
+  $$\int\limits\_3^{11}7dx=\int\limits\_3^{11}7x^0dx=7\int\limits\_3^{11}x^0dx=7x\Bigg|\_3^{11}=7(11-3)=56$$
+
+\begin{itemize}
+    \item Using the linearity rule we can now integrate any polynomial. For example
+\end{itemize}
+  $$\int\limits\_0^3(3x^2+4x+2)dx=(x^3+2x^2+2x)\Bigg|\_0^3=3^3+2\cdot 3^2+2\cdot3-0=27+18+6=51$$
+
+\paragraph{Exercises}
+
+\paragraph{Questions}
+
+1. Evaluate $$\int\limits\_0^1x^6dx$$
+2. Evaluate $$\int\limits\_1^2x^6dx$$
+3. Evaluate $$\int\limits\_0^2x^6dx$$
+
+\paragraph{Solutions}
+
+1. $$\frac17=0.\overline{142857}$$
+2. $$\frac{127}{7}=18.\overline{142857}$$
+3. $$\frac{128}{7}=18.\overline{285714}$$
+
+\paragraph{Resources}
+
+\textbf{The Fundamental Theorem of Calculus, Part 1}
+
+\begin{itemize}
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/The\%20Fundamental\%20Theorem\%20of\%20Calculus/Presentation12\_DefiniteIntegral\%20\&\%20Antiderivatives.pptx}{Definite Integral \& Antiderivatives} (Slides 6\&7). PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/The\%20Fundamental\%20Theorem\%20of\%20Calculus/Presentation13\_FTC\%20Part\%20I.pptx}{Fundamental Theorem of Calculus Part 1}. PowerPoint file created by Professor Cynthia Roberts, UTSA.
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1214/The\%20Fundamental\%20Theorem\%20of\%20Calculus\_/MAT1214-TheFundamentalTheoremPwPt.pptx}{The Fundamental Theorem of Calculus} PowerPoint file created by Dr. Sara Shirinkam, UTSA.
+\end{itemize}
+
+\begin{itemize}
+    \item \href{https://youtu.be/PGmVvIglZx8}{Fundamental Theorem of Calculus Part 1} by patrickJMT
+    \item \href{https://youtu.be/yrQ6PnE6D8w}{PART 1 OF THE DREADED FUNDAMENTAL THEOREM OF CALCULUS!} by Krista King
+    \item \href{https://youtu.be/aeB5BWY0RlE}{Fundamental Theorem of Calculus Part 1} by The Organic Chemistry Tutor
+    \item \href{https://youtu.be/jyRdHbHeUuU}{The Second Fundamental Theorem of Calculus} by James Sousa, Math is Power 4U
+    \item \href{https://youtu.be/YE9jpfxEFYk}{Ex 1: The Second Fundamental Theorem of Calculus} by James Sousa, Math is Power 4U
+    \item \href{https://youtu.be/gJtkTRjqM6I}{Ex 2: The Second Fundamental Theorem of Calculus (Reverse Order)} by James Sousa, Math is Power 4U
+    \item \href{https://youtu.be/X5ke8bUiiQM}{Ex 3: The Second Fundamental Theorem of Calculus} by James Sousa, Math is Power 4U
+    \item \href{https://youtu.be/ep52C-MUzDY}{Ex 4: The Second Fundamental Theorem of Calculus with Chain Rule} by James Sousa, Math is Power 4U
+    \item \href{https://youtu.be/8IrK5JcjMvM}{Ex 5: The Second Fundamental Theorem of Calculus with Chain Rule} by James Sousa, Math is Power 4U
+    \item \href{https://youtu.be/6p5NQwAeZRc}{Ex 6: Second Fundamental Theorem of Calculus with Chain Rule} by James Sousa, Math is Power 4U
+    \item \href{https://youtu.be/18qhfQ2IeLU}{Ex 7: Second Fundamental Theorem of Calculus with Chain Rule} by James Sousa, Math is Power 4U
+\end{itemize}
+
+\textbf{The Fundamental Theorem of Calculus, Part 2}
+
+\begin{itemize}
+    \item \href{https://youtu.be/7AteFyUCyZo}{The Fundamental Theorem of Calculus} by James Sousa, Math is Power 4U
+    \item \href{https://youtu.be/nHnZVFeQvNQ}{The Fundamental Theorem of Calculus Part 2} by patrickJMT
+    \item \href{https://youtu.be/T-J7SkiE39Y}{PART 2 OF THE FUNDAMENTAL THEOREM OF CALCULUS!} by Krista King
+    \item \href{https://youtu.be/ns8N1UuXl4w}{The Fundamental Theorem of Calculus Part 2} by The Organic Chemistry Tutor
+\end{itemize}
+
+\paragraph{Licensing}
+
+Content obtained and/or adapted from:
+\begin{itemize}
+    \item \href{https://en.wikibooks.org/wiki/Calculus/Fundamental\_Theorem\_of\_Calculus}{Fundamental Theorem of Calculus, Wikibooks: Calculus} under a CC BY-SA license
+\end{itemize}
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Use the limit formula to compute a definite integral
+    \item Compute area with the fundamental theorem of calculus (FTC)
+\end{enumerate}
+
+%%===============================================================
+\section{Applications of Integrals}
+\label{sec:applications-of-integrals}
+%%===============================================================
+
+\paragraph{Area between Two Curves}
+
+Suppose we are given two functions $y\_1 = f(x)$ and $y\_2 = g(x)$ and we want to find the area between them on the interval $[a,b]$. Also assume that $f(x) \ge g(x)$ for all $x$ on the interval $[a,b]$. Begin by partitioning the interval $[a,b]$ into $n$ equal subintervals, each having a length of $\Delta x = \frac{b-a}{n}$. Next, choose any point in each subinterval, $x\_i^\ast$. Now we can ''''create'''' rectangles on each interval. At the point $x\_i^\ast$, the height of each rectangle is $f(x\_i^\ast) - g(x\_i^\ast)$ and the width is $\Delta x$. Thus, the area of each rectangle is $\bigl[f(x\_i^\ast) - g(x\_i^\ast)\bigr] \Delta x$. An ''''''''approximation'''''''' of the area, $A$, between the two curves is
+
+$$A := \sum\_{i=1}^n \Big[f(x\_i^\ast) - g(x\_i^\ast)\Big] \Delta x.$$
+
+Now we take the limit as $n$ approaches infinity and get
+
+$$A = \lim\_{n \to \infty} \sum\_{i=1}^n \Big[f(x\_i^\ast) - g(x\_i^\ast)\Big] \Delta x,$$
+
+which gives the exact area. Recalling the definition of the definite integral, we notice that
+
+$$A = \int\limits\_a^b \bigl(f(x) - g(x)\bigr) dx.$$
+
+This formula for finding the area between two curves is sometimes known as applying integration with respect to the ''''''''x''''''''-axis since the rectangles used to approximate the area have their bases lying parallel to the ''''''''x''''''''-axis. It will be most useful when the two functions are of the form $y\_1 = f(x)$ and $y\_2 = g(x)$. Sometimes, however, one may find it simpler to integrate with respect to the ''''''''y''''''''-axis. This occurs when integrating with respect to the ''''''''x''''''''-axis would result in more than one integral to be evaluated. These functions take the form $x\_1 = f(y)$ and $x\_2 = g(y)$ on the interval $[c,d]$. Note that $[c,d]$ are values of $y$. The derivation of this case is completely identical. Similar to before, we will assume that $f(y) \ge g(y)$ for all $y$ on $[c,d]$. Now, as before, we can divide the interval into $n$ subintervals and create rectangles to approximate the area between $f(y)$ and $g(y)$. It may be useful to picture each rectangle having their ''''width'''', $\Delta y$, parallel to the ''''''''y''''''''-axis and ''''height'''', $f(y\_i^\ast) - g(y\_i^\ast)$ at the point $y\_i^\ast$, parallel to the ''''''''x''''''''-axis. Following from the work above, we may reason that an ''''''''approximation'''''''' of the area, $A$, between the two curves is
+
+$$A := \sum\_{i=1}^n \Big[f(y\_i^\ast) - g(y\_i^\ast)\Big] \Delta y.$$
+
+As before, we take the limit as $n$ approaches infinity to arrive at
+
+$$A = \lim\_{n \to \infty} \sum\_{i=1}^n \Big[f(y\_i^\ast) - g(y\_i^\ast)\Big] \Delta y,$$
+
+which is nothing more than a definite integral, so
+
+$$A = \int\limits\_c^d \bigl(f(y) - g(y)\bigr) dy.$$
+
+Regardless of the form of the functions, we basically use the same formula.
+
+% [Image: Closed Path Integral Defined]
+\textbf{Closed Path Integral Defined.}
+
+\paragraph{Volume}
+
+If the function $A(x)$ is continuous on $[a,b]$, then the volume $V\_S$ of the solid $S$ is given by:
+
+$$V\_S = \int\limits\_a^b A(x) dx$$
+
+\paragraph{Example 1: A Right Cylinder}
+
+% [Image: Figure 1: Cylinder with Cross Section at Height x]
+\textbf{Figure 1: Cylinder with Cross Section at Height x.}
+
+Now we will calculate the volume of a right cylinder using our new ideas about how to calculate volume. Since we already know the formula for the volume of a cylinder, this will give us a "sanity check" that our formulas make sense. First, we choose a dimension along which to integrate. In this case, it will greatly simplify the calculations to integrate along the height of the cylinder, so this is the direction we will choose. Thus we will call the vertical direction $x$ (see \href{Cylinder\_with\_cross\_section\_at\_height\_x.svg}{Figure 1}). Now we find the function, $A(x)$, which will describe the cross-sectional area of our cylinder at a height of $x$. The cross-sectional area of a cylinder is simply a circle. Now simply recall that the area of a circle is $\pi r^2$, and so $A(x) = \pi r^2$. Before performing the computation, we must choose our bounds of integration. In this case, we simply define $x=0$ to be the base of the cylinder, and so we will integrate from $x=0$ to $x=h$, where $h$ is the height of the cylinder. Finally, we integrate:
+
+$$\begin{aligned}
+V\_{\mathrm{cylinder}} &= \int\limits\_a^b A(x) dx\\\\
+&= \int\limits\_0^h \pi r^2 dx\\\\
+&= \pi r^2 \int\limits\_0^h dx\\\\
+&= \pi r^2 x \bigg|\_{x=0}^h\\\\
+&= \pi r^2 (h-0)\\\\
+&= \pi r^2 h
+\end{aligned}$$
+
+This is exactly the familiar formula for the volume of a cylinder.
+
+\paragraph{Example 2: A Right Circular Cone}
+
+% [Image: Figure 2: The Cross-Section of a Right Circular Cone by a Plane Perpendicular to the Axis of the Cone is a Circle]
+\textbf{Figure 2: The Cross-Section of a Right Circular Cone by a Plane Perpendicular to the Axis of the Cone is a Circle.}
+
+For our next example, we will look at an example where the cross-sectional area is not constant. Consider a right circular cone. Once again, the cross-sections are simply circles. But now the radius varies from the base of the cone to the tip. Once again, we choose $x$ to be the vertical direction, with the base at $x=0$ and the tip at $x=h$, and we will let $R$ denote the radius of the base. While we know the cross-sections are just circles, we cannot calculate the area of the cross-sections unless we find some way to determine the radius of the circle at height $x$.
+
+% [Image: Figure 3: Cross-Section of the Right Circular Cone by a Plane Perpendicular to the Base and Passing Through the Tip]
+\textbf{Figure 3: Cross-Section of the Right Circular Cone by a Plane Perpendicular to the Base and Passing Through the Tip.}
+
+Luckily, in this case, it is possible to use some of what we know from geometry. We can imagine cutting the cone perpendicular to the base through some diameter of the circle all the way to the tip of the cone. If we then look at the flat side we just created, we will see simply a triangle, whose geometry we understand well. The right triangle from the tip to the base at height $x$ is similar to the right triangle from the tip to the base at height $h$. This tells us that $\frac{r}{h-x} = \frac{R}{h}$. So we see that the radius of the circle at height $x$ is $r(x) = \frac{R}{h}(h-x)$. Now, using the familiar formula for the area of a circle, we see that $A(x) = \pi \frac{R^2}{h^2}(h-x)^2$.
+
+Now we are ready to integrate.
+
+$$\begin{aligned}
+V\_{\mathrm{cone}} &= \int\limits\_a^b A(x) dx\\\\
+&= \int\limits\_0^h \pi \frac{R^2}{h^2}(h-x)^2 dx\\\\
+&= \pi \frac{R^2}{h^2} \int\limits\_0^h (h-x)^2 dx
+\end{aligned}$$
+
+By u-substitution, we may let $u = h-x$, then $du = -dx$ and our integral becomes
+
+$$\begin{aligned}
+&= \pi \frac{R^2}{h^2} \left(-\int\limits\_h^0 u^2 du\right)\\\\
+&= \pi \frac{R^2}{h^2} \left(-\frac{u^3}{3} \bigg|\_h^0\right)\\\\
+&= \pi \frac{R^2}{h^2} \left(-0 + \frac{h^3}{3}\right)\\\\
+&= \frac{\pi}{3} R^2 h
+\end{aligned}$$
+
+\paragraph{Example 3: A Sphere}
+
+% [Image: Figure 4: Determining the Radius of the Cross-Section of the Sphere at a Distance $|x|$ from the Sphere''''s Center]
+\textbf{Figure 4: Determining the Radius of the Cross-Section of the Sphere at a Distance $|x|$ from the Sphere''''s Center.}
+
+In a similar fashion, we can use our definition to prove the well
+
+-known formula for the volume of a sphere. First, we must find our cross-sectional area function, $A(x)$. Consider a sphere of radius $R$ which is centered at the origin in $\mathbb{R}^3$. If we again integrate vertically, then $x$ will vary from $-R$ to $R$. In order to find the area of a particular cross-section, it helps to draw a right triangle whose points lie at the center of the sphere, the center of the circular cross-section, and at a point along the circumference of the cross-section. As shown in the diagram, the side lengths of this triangle will be $R$, $|x|$, and $r$, where $r$ is the radius of the circular cross-section. Then by the Pythagorean theorem $r = \sqrt{R^2 - |x|^2}$, and we find that $A(x) = \pi(R^2 - |x|^2)$. It is slightly helpful to notice that $|x|^2 = x^2$ so we do not need to keep the absolute value.
+
+So we have that
+
+$$\begin{aligned}
+V\_{\mathrm{sphere}} &= \int\limits\_a^b A(x) dx\\\\
+&= \int\limits\_{-R}^R \pi(R^2 - x^2) dx\\\\
+&= \pi \int\limits\_{-R}^R R^2 dx - \pi \int\limits\_{-R}^R x^2 dx\\\\
+&= \pi R^2 x \Bigg|\_{-R}^R - \pi \frac{x^3}{3} \Bigg|\_{-R}^R\\\\
+&= \pi R^2 (R - (-R)) - \pi \left(\frac{R^3}{3} - \frac{(-R)^3}{3}\right)\\\\
+&= 2\pi R^3 - \frac{2\pi}{3} R^3 = \frac{4\pi}{3} R^3
+\end{aligned}$$
+
+\paragraph{Arc Length}
+
+Suppose that $f''''$ is continuous on $[a,b]$. Then the length of the curve given by $y = f(x)$ between $a$ and $b$ is given by
+
+$$L = \int\limits\_a^b \sqrt{1 + f''''(x)^2} dx.$$
+
+And in Leibniz notation
+
+$$L = \int\limits\_a^b \sqrt{1 + \left(\tfrac{dy}{dx}\right)^2} dx.$$
+
+\textbf{Proof:} Consider $y\_{i+1} - y\_i = f(x\_{i+1}) - f(x\_i)$. By the Mean Value Theorem, there is a point $z\_i$ in $(x\_{i+1}, x\_i)$ such that
+
+$$y\_{i+1} - y\_i = f(x\_{i+1}) - f(x\_i) = f''''(z\_i)(x\_{i+1} - x\_i).$$
+
+So
+
+$$\begin{aligned}
+\bigl|P\_i P\_{i+1}\bigr| &= \sqrt{(x\_{i+1} - x\_i)^2 + (y\_{i+1} - y\_i)^2}\\\\
+&= \sqrt{(x\_{i+1} - x\_i)^2 + f''''(z\_i)^2 (x\_{i+1} - x\_i)^2}\\\\
+&= \sqrt{\bigl(1 + f''''(z\_i)^2\bigr)(x\_{i+1} - x\_i)^2}\\\\
+&= \sqrt{1 + f''''(z\_i)^2} \Delta x
+\end{aligned}$$
+
+Putting this into the definition of the length of $C$ gives
+
+$$L = \lim\_{n \to \infty} \sum\_{i=0}^{n-1} \sqrt{1 + f''''(z\_i)^2} \Delta x.$$
+
+Now, this is the definition of the integral of the function $g(x) = \sqrt{1 + f''''(x)^2}$ between $a$ and $b$ (notice that $g$ is continuous because we are assuming that $f''''$ is continuous). Hence
+
+$$L = \int\limits\_a^b \sqrt{1 + f''''(x)^2} dx$$
+
+as claimed.
+
+\paragraph{Example}
+
+Length of the curve $y = 2x$ from $x = 0$ to $x = 1$.
+
+As a sanity check of our formula, let''''s calculate the length of the "curve" $y = 2x$ from $x = 0$ to $x = 1$. First, let''''s find the answer using the Pythagorean Theorem.
+
+$$P\_0 = (0,0)$$
+
+and
+
+$$P\_1 = (1,2),$$
+
+so the length of the curve, $s$, is
+
+$$s = \sqrt{2^2 + 1^2} = \sqrt{5}.$$
+
+Now let''''s use the formula
+
+$$s = \int\limits\_0^1 \sqrt{1 + \left(\tfrac{d(2x)}{dx}\right)^2}\, dx = \int\limits\_0^1 \sqrt{1 + 2^2}\, dx = \sqrt{5} x \bigg|\_0^1 = \sqrt{5}.$$
+
+\paragraph{Resources}
+
+\begin{itemize}
+    \item \href{https://www.youtube.com/watch?v=FE0eJGdWC04}{Business Calculus: Application of Definite Integral}, Rajendra Dahal (YouTube)
+    \item \href{https://tutorial.math.lamar.edu/classes/calci/intappsintro.aspx}{Applications of Integrals - Cal I}, Paul''''s Online Notes
+    \item \href{https://tutorial.math.lamar.edu/classes/calcii/intappsintro.aspx}{Applications of Integrals - Cal II}, Paul''''s Online Notes
+\end{itemize}
+
+\paragraph{Licensing}
+
+Content obtained and/or adapted from:
+\begin{itemize}
+    \item \href{https://en.wikibooks.org/wiki/Calculus/Area}{Area, Wikibooks: Calculus} under a CC BY-SA license
+    \item \href{https://en.wikibooks.org/wiki/Calculus/Volume}{Volume, Wikibooks: Calculus} under a CC BY-SA license
+    \item \href{https://en.wikibooks.org/wiki/Calculus/Arc\_length}{Arc Length, Wikibooks: Calculus} under a CC BY-SA license
+\end{itemize}
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Solve various biology applications using the fundamental theorem of calculus
+\end{enumerate}
+
+%%===============================================================
+\section{Substitution Method}
+\label{sec:substitution-method}
+%%===============================================================
+
+\paragraph{Integration by Substitution}
+
+There is a theorem that will help you with substitution for integration. It is called \textbf{Change of Variables for Definite Integrals}.
+
+What the theorem looks like is this:
+
+$$\int\_{a}^{b} f(x)\operatorname{d}x = \int\_{\alpha}^{\beta} f(g(u))g''(u)\operatorname{d}u$$
+
+In order to get $\alpha$ you must plug \textbf{_a_} into the function \textbf{g} and to get $\beta$ you must plug \textbf{_b_} into the function \textbf{g}.
+
+The tricky part is trying to identify what you want to make your \textbf{_u_} to be. Sometimes substitution will not be enough, and you will have to use the rules for integration by parts. That will be covered in a different section.
+
+\paragraph{Steps}
+
+$$
+\begin{aligned}
+\int\limits\_{x=a}^{x=b}f(x)dx &= \int\limits\_{x=a}^{x=b} f(x)\ \frac{du}{du}\ dx & (1) \text{i.e.} \quad \frac{du}{du}=1 \\\\
+&= \int\limits\_{x=a}^{x=b}{\left(f(x)\ \frac{dx}{du}\right)\left(\frac{du}{dx}\right)}\ dx & (2) \text{i.e.} \quad \frac{dx}{du}\cdot\frac{du}{dx}=1 \\\\
+&= \int\limits\_{x=a}^{x=b}\left(f(x)\ \frac{dx}{du}\right)g''(x)\ dx & (3) \text{i.e.} \quad \frac{du}{dx}=g''(x) \\\\
+&= \int\limits\_{x=a}^{x=b}h(g(x))g''(x)dx & (4) \text{i.e.} \quad \text{Now equate } \left(f(x)\ \frac{dx}{du}\right) \text{ with } h(g(x)) \\\\
+&= \int\limits\_{x=a}^{x=b}h(u)g''(x)dx & (5) \text{i.e.} \quad g(x)=u \\\\
+&= \int\limits\_{u=g(a)}^{u=g(b)}h(u)du & (6) \text{i.e.} \quad du=\frac{du}{dx}dx=g''(x)dx \\\\
+&= \int\limits\_{u=c}^{u=d}h(u)du & (7) \text{i.e.} \quad \text{We have achieved our desired result} \\\\
+\end{aligned}
+$$
+
+\paragraph{Example 1}
+
+$$\int_{0}^{2} x(x^2+1)^2 \operatorname{d}x$$
+
+Instead of making this a big polynomial, we will just use the substitution method.
+
+\textbf{Step 1}  
+Identify your _u_:
+
+Let $u = x^2+1$
+
+\textbf{Step 2}  
+Identify $\operatorname{d}u$:
+
+$$\operatorname{d}u = 2x\operatorname{d}x$$
+
+\textbf{Step 3}  
+Now we plug in our limits of integration to our _u_ to find our new limits of integration:
+
+When $x = 0$, $u = 0^2 + 1 = 1$
+
+And when $x = 2$, $u = 2^2 + 1 = 5$
+
+Now our integration problem looks something like this:
+
+$$\frac {1}{2} \int_{0}^{5} (x^2 + 1)^2 (2x)\operatorname{d}x$$
+
+\textbf{Step 4}  
+Write your new integration problem:
+
+When we plug in our _u_, it looks like
+
+$$\frac {1}{2} \int_{0}^{5} (u)^2 \operatorname{d}u$$
+
+\textbf{Step 5}  
+Evaluate the Integral:
+
+$$\frac {1}{2} \left[\frac {1}{3} u^3 \right]_{0}^{5}$$
+
+$$\frac {1}{2} \left[\left(\frac {1}{3} \times 5^3 \right) - \left(\frac {1}{3} \times 0^3 \right)\right]$$
+
+$$\frac {1}{2} \left[\frac {1}{3} \times 125 \right]$$
+
+$$\frac {1}{2} \left[\frac {125}{3}\right]$$
+
+$$\frac {125}{6}$$
+
+As you can see, this all simplified fairly nicely. Using substitution will be hard, for most people, at first. Once you get the hang of doing this, it should come to you faster and faster each time.
+
+\paragraph{Example 2}
+
+$$\int 3x^2(x^3+1)^5dx$$
+
+We see that $3x^2$ is the derivative of $x^3+1$. Letting
+
+$$u=x^3+1$$
+
+we have
+
+$$\frac{du}{dx}=3x^2$$
+
+or, in order to apply it to the integral,
+
+$$du=3x^2dx$$
+
+With this, we may write
+
+$$\int 3x^2(x^3+1)^5dx=\int u^5du=\frac{u^6}{6}+C=\frac{(x^3+1)^6}{6}+C$$
+
+Note that it was not necessary that we had \textit{exactly} the derivative of $u$ in our integrand. It would have been sufficient to have any constant multiple of the derivative.
+
+For instance, to treat the integral
+
+$$\int x^4\sin(x^5)dx$$
+
+we may let $u=x^5$. Then
+
+$$du=5x^4dx$$
+
+and so
+
+$$\frac{du}{5}=x^4dx$$
+
+the right-hand side of which is a factor of our integrand. Thus,
+
+$$\int x^4\sin(x^5)dx=\int\frac{\sin(u)}{5}du=-\frac{\cos(u)}{5}+C=-\frac{\cos(x^5)}{5}+C$$
+
+\paragraph{Resources}
+
+\begin{itemize}
+    \item \href{https://en.wikibooks.org/wiki/Calculus/Integration_techniques/Recognizing_Derivatives_and_the_Substitution_Rule}{Recognizing Derivatives and Substitution Rules, WikiBooks: Calculus}
+    \item \href{https://en.wikibooks.org/wiki/High_School_Calculus/Integration_by_Substitution}{Integration by Substitution, WikiBooks: High School Calculus}
+    \item \href{https://www.youtube.com/watch?v=uoCW8S-I9Es}{Example 1}. Produced by Professor Zachary Sharon, UTSA
+    \item \href{https://www.youtube.com/watch?v=zqMxMtjbaBE}{Example 2}. Produced by TA Catherine Sporer, UTSA
+\end{itemize}
+
+\textbf{Indefinite Integrals Using Substitution}
+\begin{itemize}
+    \item \href{https://www.youtube.com/watch?v=568hUU4beuk}{Indefinite Integration Using Substitution} by James Sousa, Math is Power 4U
+    \item \href{https://youtu.be/VfvJ5C9FjcA}{Integration by Substitution Part 1} by James Sousa, Math is Power 4U
+    \item \href{https://youtu.be/pmekyFVIorE}{Integration by Substitution Part 2} by James Sousa, Math is Power 4U
+    \item \href{https://www.youtube.com/watch?v=3MbdmYeYB_I}{Ex 1: Indefinite Integration Using Substitution} by James Sousa, Math is Power 4U
+    \item \href{https://www.youtube.com/watch?v=xLtPL1Td5f4}{Ex 2: Indefinite Integration Using Substitution} by James Sousa, Math is Power 4U
+    \item \href{https://www.youtube.com/watch?v=Cdk-3H35TrY}{Ex 3: Indefinite Integration Using Substitution} by James Sousa, Math is Power 4U
+    \item \href{https://www.youtube.com/watch?v=hauyUjzRTos}{Ex 4: Indefinite Integration Using Substitution} by James Sousa, Math is Power 4U
+    \item \href{https://www.youtube.com/watch?v=902ta0Kshoc}{Ex 5: Indefinite Integration Using Substitution} by James Sousa, Math is Power 4U
+    \item \href{https://www.youtube.com/watch?v=FJHHQdQEecE}{Ex 6: Indefinite Integration Using Substitution} by James Sousa, Math is Power 4U
+    \item \href{https://www.youtube.com/watch?v=VY5r1-9apdc}{Ex 7: Indefinite Integration Using Substitution} by James Sousa, Math is Power 4U
+    \item \href{https://www.youtube.com/watch?v=UnND2S4IQSA}{Ex 8: Indefinite Integration Using Substitution} by James Sousa, Math is Power 4U
+    \item \href{https://www.youtube.com/watch?v=CVfe5vNy4y4}{Ex 9: Indefinite Integration Using Substitution} by James Sousa, Math is Power 4U
+\end{itemize}
+
+\begin{itemize}
+    \item \href{https://youtu.be/qclrs-1rpKI}{Integration using U-Substitution} by patrickJMT
+    \item \href{https://youtu.be/x06V9xuLdqg}{U-Substitution - More Complicated Examples} by patrickJMT
+\end{itemize}
+
+\begin{itemize}
+    \item \href{https://youtu.be/HHSepCzP56M}{U-Substitution Example 1} by Krista King
+    \item \href{https://youtu.be/iRIhO-w46
+\end{itemize}
+
+L0}{U-Substitution Example 2} by Krista King
+\begin{itemize}
+    \item \href{https://youtu.be/w1FHS-XV64Q}{U-Substitution Example 3} by Krista King
+    \item \href{https://youtu.be/_r6xMeO7aEw}{U-Substitution Example 4} by Krista King
+    \item \href{https://youtu.be/gIj3objG09Q}{U-Substitution Example 5} by Krista King
+    \item \href{https://youtu.be/TlUW6ZenNXY}{U-Substitution Example 6} by Krista King
+    \item \href{https://youtu.be/W1WVFJ8iMqQ}{U-Substitution Example 7} by Krista King
+\end{itemize}
+
+\begin{itemize}
+    \item \href{https://youtu.be/IAh00vU3FSY}{How To Integrate Using U-Substitution} by The Organic Chemistry Tutor
+\end{itemize}
+
+\textbf{Definite Integrals Using Substitution}
+\begin{itemize}
+    \item \href{https://www.youtube.com/watch?v=hjr27pv8pHQ}{Definite Integration Using Substitution} by James Sousa, Math is Power 4U
+    \item \href{https://www.youtube.com/watch?v=jUwNl_PDeDY}{Ex 1: Definite Integration Using Substitution - Change Limits of Integration?} by James Sousa, Math is Power 4U
+    \item \href{https://www.youtube.com/watch?v=n3DGt7cnS70}{Ex 2: Definite Integration Using Substitution - Change Limits of Integration?} by James Sousa, Math is Power 4U
+    \item \href{https://www.youtube.com/watch?v=8ofGv7TQL34}{Ex 1: Definite Integration Using Substitution} by James Sousa, Math is Power 4U
+    \item \href{https://www.youtube.com/watch?v=M-IUhe-iQx0}{Ex 2: Definite Integration Using Substitution} by James Sousa, Math is Power 4U
+\end{itemize}
+
+\begin{itemize}
+    \item \href{https://youtu.be/3XOzg2-DdTA}{Integration by U-Substitution, Definite Integral} by patrickJMT
+    \item \href{https://youtu.be/FJoyIAIC1Ag}{U-Substitution: When Do I Have to Change the Limits of Integration ?} by patrickJMT
+\end{itemize}
+
+\begin{itemize}
+    \item \href{https://youtu.be/0A2RlnutO8U}{U-Substitution Integration, Indefinite \& Definite Integral} by The Organic Chemistry Tutor
+\end{itemize}
+
+\paragraph{Licensing}
+
+Content obtained and/or adapted from:
+\begin{itemize}
+    \item \href{https://en.wikibooks.org/wiki/Calculus/Integration_techniques/Recognizing_Derivatives_and_the_Substitution_Rule}{Recognizing Derivatives and Substitution Rules, WikiBooks: Calculus} under a CC BY-SA license
+    \item \href{https://en.wikibooks.org/wiki/High_School_Calculus/Integration_by_Substitution}{Integration by Substitution, WikiBooks: High School Calculus} under a CC BY-SA license
+\end{itemize}
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Applying integration by substitution formulas
+\end{enumerate}
+
+%%===============================================================
+\section{Integration by Parts and further applications}
+\label{sec:integration-by-parts-and-further-applications}
+%%===============================================================
+
+\paragraph{Integrating by Parts}
+
+Continuing on the path of reversing derivative rules in order to make them useful for integration, we reverse the product rule.
+
+\paragraph{Integration by Parts}
+
+If $y = uv$ where $u$ and $v$ are functions of $x$, then:
+
+$$y'' = (uv)'' = u''v + uv''$$
+
+Rearranging:
+
+$$uv'' = (uv)'' - u''v$$
+
+Therefore:
+
+$$\int uv'' \, dx = \int (uv)'' \, dx - \int u''v \, dx$$
+
+Thus:
+
+$$\int uv'' \, dx = uv - \int vu'' \, dx$$
+
+or
+
+$$\int u \, dv = uv - \int v \, du$$
+
+This is the integration by parts formula. It is very useful in many integrals involving products of functions, as well as others.
+
+For instance, to treat:
+
+$$\int x \sin(x) \, dx$$
+
+we choose $u = x$ and $dv = \sin(x) \, dx$. With these choices, we have $du = dx$ and $v = -\cos(x)$, and we have:
+
+$$\int x \sin(x) \, dx = -x \cos(x) - \int \big(-\cos(x)\big) \, dx = -x \cos(x) + \int \cos(x) \, dx = \sin(x) - x \cos(x) + C$$
+
+Note that the choice of $u$ and $dv$ was critical. Had we chosen the reverse, so that $u = \sin(x)$ and $dv = x \, dx$, the result would have been:
+
+$$\frac{x^2 \sin(x)}{2} - \int \frac{x^2 \cos(x)}{2} \, dx$$
+
+The resulting integral is no easier to work with than the original; we might say that this application of integration by parts took us in the wrong direction.
+
+So the choice is important. One general guideline to help us make that choice is, if possible, to choose $u$ to be the factor of the integrand which "becomes simpler" when we differentiate it. In the last example, we see that $\sin(x)$ does not become simpler when we differentiate it: $\cos(x)$ is no simpler than $\sin(x)$.
+
+An important feature of the integration by parts method is that we often need to apply it more than once. For instance, to integrate:
+
+$$\int x^2 e^x \, dx$$
+
+we start by choosing $u = x^2$ and $dv = e^x \, dx$ to get:
+
+$$\int x^2 e^x \, dx = x^2 e^x - 2 \int x e^x \, dx$$
+
+Note that we still have an integral to take care of, and we do this by applying integration by parts again, with $u = x$ and $dv = e^x \, dx$, which gives us:
+
+$$\int x^2 e^x \, dx = x^2 e^x - 2(xe^x - e^x) + C = x^2 e^x - 2xe^x + 2e^x + C$$
+
+So, two applications of integration by parts were necessary, owing to the power of $x^2$ in the integrand.
+
+Note that "any power of $x$" does become simpler when we differentiate it, so when we see an integral of the form:
+
+$$\int x^n f(x) \, dx$$
+
+one of our first thoughts ought to be to consider using integration by parts with $u = x^n$. Of course, in order for it to work, we need to be able to write down an antiderivative for $dv$.
+
+\paragraph{Example}
+
+Use integration by parts to evaluate the integral:
+
+$$\int e^x \sin(x) \, dx$$
+
+\textbf{Solution}: If we let $u = \sin(x)$ and $dv = e^x \, dx$, then we have $du = \cos(x) \, dx$ and $v = e^x$. Using our rule for integration by parts gives:
+
+$$\int e^x \sin(x) \, dx = e^x \sin(x) - \int e^x \cos(x) \, dx$$
+
+We do not seem to have made much progress.
+
+But if we integrate by parts again with $u = \cos(x)$ and $dv = e^x \, dx$ and hence $du = -\sin(x) \, dx$ and $v = e^x$, we obtain:
+
+$$\int e^x \sin(x) \, dx = e^x \sin(x) - e^x \cos(x) - \int e^x \sin(x) \, dx$$
+
+We may solve this identity to find the antiderivative of $\sin(x) e^x$ and obtain:
+
+$$\int e^x \sin(x) \, dx = \frac{e^x \big(\sin(x) - \cos(x)\big)}{2} + C$$
+
+\paragraph{With Definite Integral}
+
+For definite integrals, the rule is essentially the same, as long as we keep the endpoints.
+
+> \textbf{Integration by Parts for Definite Integrals}  
+> Suppose $f$ and $g$ are differentiable and their derivatives are continuous. Then:
+> 
+> $$\int\limits\_a^b f(x)g''(x) \, dx = \big(f(x)g(x)\big)\bigg|_a^b - \int\limits\_a^b f''(x)g(x) \, dx$$
+> 
+> $$= f(b)g(b) - f(a)g(a) - \int\limits_a^b f''(x)g(x) \, dx$$
+
+This can also be expressed in Leibniz notation.
+
+> $$\int\limits\_a^b u \, dv = (uv)\Big|_a^b - \int\limits\_a^b v \, du.$$
+
+\paragraph{More Examples}
+
+\href{http://en.wikiversity.org/wiki/Application_of_Integration_by_Parts}{Examples Set 1: Integration by Parts}
+
+\paragraph{Exercises}
+
+Evaluate the following using integration by parts.
+
+1. $$\int -4\ln(x) \, dx$$
+2. $$\int (38-7x)\cos(x) \, dx$$
+3. $$\int\limits_0^\tfrac{\pi}{2} (-6x+45)\cos(x) \, dx$$
+4. $$\int(5x+1)(x-6)^4 \, dx$$
+5. $$\int\limits_{-1}^1 (2x+8)^3(2-x) \, dx$$
+
+\paragraph{Exercise Solutions}
+
+1. $$4x - 4x\ln(x) + C$$
+2. $$(38 - 7x)\sin(x) - 7\cos(x) + C$$
+3. $$51 - 3\pi$$
+4. $$\frac{(5x + 1)(x - 6)^5}{5} - \frac{(x - 6)^6}{6} + C$$
+5. $$1916.8$$
+
+\paragraph{Resources}
+
+\begin{itemize}
+    \item \href{https://www.khanacademy.org/math/integral-calculus/integration-techniques/integration_by_parts/}{Videos and exercises on integration by parts at Khan Academy}
+\end{itemize}
+
+\paragraph{Videos}
+
+\begin{itemize}
+    \item \href{https://youtu.be/815s-YB9X44}{Integration by Parts: The Basics} by James Sousa
+    \item \href{https://youtu.be/hfJ1zPizj_s}{Integration by Parts (After Integration by Parts Basics)} by James Sousa
+    \item \href{https://youtu.be/_kJNhoTJ4D4}{Integration by Parts - Additional Examples} by James Sousa
+    \item \href{https://youtu.be/815s-YB9X44}{Integration by Parts: The Basics} by James Sousa
+    \item \href{https://youtu.be/q_BP4LyvdOA}{Deriving the Integration by Parts Formula - Easy!} by patrickJMT
+    \item \href{https://youtu.be/dqaDSlYdRcs}{Integration by Parts Made Easy!} by patrickJMT
+    \item \href{https://youtu.be/97RasvYIvl4}{Integration by Parts - Indefinite Integral} by patrickJMT
+    \item \href{https://youtu.be/_MuKOm8IHBA}{Integration By Parts - Using IBP''s Twice} by patrickJMT
+    \item \href{https://youtu.be/L8HoALsls-E}{Integration by Parts - A Loopy Example!} by patrickJMT
+    \item \href{https://youtu.be/zGGI4PkHzhI}{Integration by Parts - Definite Integral} by patrickJMT
+    \item \href{https://youtu.be/Eb5EDMHDnx8}{How does integration by parts work?} by Krista King
+    \item \href{https://youtu.be/SlBp9hZBqaQ}{Integration by Parts} by Krista King
+    \item \href{https://youtu.be/s8l1vs4gjtY}{Integration by Parts Example 2} by Krista King
+    \item \href{https://youtu.be/0clmZGVl0ss}{Integration by Parts Example 3} by Krista King
+    \item \href{https://youtu.be/CxV5HE6chSY}{Integration by Parts Example 4} by Krista King
+\end{itemize}
+
+\paragraph{Licensing}
+
+Content obtained and/or adapted from:
+\begin{itemize}
+    \item \href{https://en.wikibooks.org/wiki/Calculus/Integration_techniques/Integration_by_Parts}{Integration by Parts, Wikibooks} under a CC BY-SA license
+\end{itemize}
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Applying integration by integration by parts formulas
+    \item Recognize which integration formulas to use
+\end{enumerate}
+
+%%===============================================================
+\section{Differential Equations (Mathematical Modeling)}
+\label{sec:differential-equations-mathematical-modeling}
+%%===============================================================
+
+\paragraph{Introduction to Differential Equations}
+
+\paragraph{Key Points}
+
+\begin{itemize}
+    \item A differential equation is an equation involving a derivative.
+    \item The order of a differential equation is the order of the highest derivative.
+    \item Differential equations are used to model situations which involve rates of change.
+    \item The solution to a differential equation gives a relationship between the variables themselves, not the derivatives.
+    \item The general solution of a first-order differential equation satisfies the differential equation and has a constant of integration in its solution.
+    \item The particular solution of a differential equation is one in which additional information has been used to calculate the constant of integration.
+    \item The general solution may be represented by a family of curves and the particular solution is one of that family.
+    \item To verify that a function is a particular solution, you must check that it satisfies the differential equation and initial conditions.
+\end{itemize}
+
+How does the quantity of drug in the body vary with time? How long does it take a cup of coffee to cool? After how many days will the moon take the same shape again? These questions all have one thing in common. They involve a quantity that is continuously changing. We see change in most things in life. Some changes are permanent, like the temperature of coffee. Some have repeating patterns, like the cycle of the moon.
+
+You have already studied a lot of mathematics to describe these changes, but never really applied that to real-life applications. You will know from previous studies of calculus that the rate of change of a quantity is called a derivative. If an equation contains a derivative, it is a differential equation.
+
+The simplest form of a differential equation is to show the rate of change of one variable with respect to another, like:
+
+1. $$\frac{dy}{dx} = x + y$$
+2. $$\frac{dP}{dt} = 0.02P$$
+
+These are two very basic examples of differential equations. You will learn how to solve them in later sections.
+
+A solution to a differential equation gives a relationship between the variables, which doesn''''t involve a derivative. The solutions to the differential equations above are given by:
+
+1. $$y = -x - 1 + Ce^x$$
+2. $$P = Ae^{0.02t}$$ 
+
+(where $C$ and $A$ are constants of integration)
+
+Differential equations become more complicated when higher derivatives are involved ($$\frac{d^2y}{dx^2}$$), or if they include more variables.
+
+\paragraph{Modeling}
+
+In order to solve any problem successfully, you need to develop a mathematical model that describes the situation adequately. In this module, you will learn how to solve problems that can be solved using differential equations.
+
+With some problems, you can go straight into the mathematics. This is usually the case where you already have some models that you can apply to the situation. These usually include, but are not limited to, Newton''''s laws of motion, and many kinematics problems (stuff in mechanics 1, basically). Because of this, your solution to a problem will depend on assumptions and simplifications you made, like ignoring air resistance or assuming constant mass, etc. This can sometimes give significant errors in your solution. Collecting data can help see if your model is off or not.
+
+Some problems will need their own model developed, however. This means you will need to do some experiments to find a correlation between the results you get. This will help with understanding the problem better and help you formulate a mathematical model.
+
+\paragraph{Examples}
+
+\paragraph{Pharmaceutical Example}
+
+You have been asked to find out how much of an antidepressant is left in the body after a given time of taking the pill. How would you do this? Well, the process of removing a drug from the body varies with the drug. The kidney plays the most important role, doing something called renal clearance. The rate of this can be measured by taking urine samples.
+
+Let''''s make some assumptions about the problem:
+
+\begin{itemize}
+    \item Once the pill has been taken, it is instantly absorbed into the body.
+    \item The drug is removed from the bloodstream via renal clearance.
+    \item The rate of renal clearance is proportional to the quantity of the drug in the body.
+\end{itemize}
+
+We can now formulate a model. Let $t$ be time in hours, and $q$ be the amount of drug in the body (in mg). This means that:
+
+$$\frac{dq}{dt} \propto q$$
+
+We replace the proportional sign:
+
+$$\frac{dq}{dt} = -kq$$ 
+
+where $k$ is a positive constant of proportionality, and the negative sign is there because the amount of drug is decreasing.
+
+We will show later that the solution to the differential equation is:
+
+$$q = Ae^{-kt}$$
+
+Where $A$ is a constant of integration. Although we have not shown this solution is true, we can check that it is a solution by differentiating it.
+
+$$\frac{dq}{dt} = A(-ke^{-kt}) = -kAe^{-kt}$$
+
+$$q = Ae^{-kt}$$
+
+$$\frac{dq}{dt} = -kq$$
+
+Therefore, we have shown that it is a solution.
+
+Now we need to find values for $A$ and $k$. For this, we will need some experimental results:
+
+\begin{itemize}
+    \item In the morning, a man takes 40 mg of the antidepressant.
+    \item Every hour, approximately 5\% of it is gone.
+\end{itemize}
+
+We now let $t=0$, and $q=40$:
+
+$$40 = Ae^{0} = A$$
+
+In this case, our constant of integration, $A$, is 40. So, therefore:
+
+$$q = 40e^{-kt}$$
+
+Now let''''s find $k$. We know that every hour the amount of drug decreases by 5\%, so when $t=1$, $q=(0.95) \times 40 = 38$:
+
+$$38 = 40e^{-k}$$
+
+Dividing each side by 40, and taking the natural logarithm of each side gives:
+
+$$k = -\ln\left(\frac{38}{40}\right) = 0.0513$$
+
+This gives:
+
+$$q = 40e^{-0.0513t}$$
+
+\paragraph{The Differential Equation of Free Motion or SHM}
+
+Finally, if we set the equation above equal to zero, we end up with the following:
+
+$$m\ddot{x} + kx = 0$$
+
+Since our leading coefficient should be equal to 1, we divide by the mass to get:
+
+$$\ddot{x} + \frac{k}{m}x = 0$$
+
+If we set $$\omega^2 = \frac{k}{m}$$, we''''ll have our final form of this equation:
+
+$$\ddot{x} + \omega^2x = 0$$
+
+The above equation is known to describe \textbf{Simple Harmonic Motion} or Free Motion.
+
+\paragraph{Initial Conditions}
+
+With the free motion equation, there are generally two bits of information one must have to appropriately describe the mass''''s motion.
+
+1. The starting position of the mass, $x_2$
+2. The starting direction and magnitude of motion, $v$
+
+Generally, one isn''''t present without the other. For simplicity, we will consider all displacement below the equilibrium point as $x>0$ and above as $x0$.
+
+\paragraph{Solution}
+
+Multiplying this equation by $\dot{x}$ gives:
+
+$$m\ddot{x} \dot{x} + k x \dot{x} = 0$$
+
+The first and second terms are exact derivatives, so this equation may be integrated to obtain the following relation:
+
+$$m\frac{{\dot{x}}^2}{2} + k\frac{x^2}{2} = E$$
+
+The first term of this relation is known as the kinetic energy of the mass, and the second as the potential energy of the spring. The above integral represents the energy conservation law. This is also a first-order separable differential equation. It may be rewritten as:
+
+$$\frac{dx}{\sqrt{\frac{2E}{m} - \frac{k}{m}x^2}} = \pm dt$$
+
+The integration of this relation gives:
+
+<!-- the following doesn''''t look right, I think it should be arcsin given that it is dx and not -dx. I believe it should read:
+
+$$\arcsin \left(x\sqrt{\frac{k}{2E}}\right) = \pm \sqrt{\frac{k}{m}} t + \varphi$$
+
+Finally, by rearranging the result, substituting $\omega = \sqrt{k/m}$, and solving for $x$, we obtain:
+
+$$x = \sqrt{\frac{2E}{k}}\sin(\omega t + \varphi)$$
+-->
+
+$$\arccos \left(x\sqrt{\frac{k}{2E}}\right) = \pm \sqrt{\frac{k}{m}} t + \varphi$$
+
+Or, finally rearranging the result, substituting $$\omega = \sqrt{k/m}$$, and solving for $x$, we obtain:
+
+$$x = \sqrt{\frac{2E}{k}}\cos (\omega t + \varphi)$$
+
+\paragraph{Exponential Growth and Decay}
+
+One of the most common differential equations in science is:
+
+$$y'''' = ky$$
+
+The solution to this is:
+
+$$y = Ce^{kt}$$
+
+If $k$ is positive, this is called exponential growth. If $k$ is negative, it’s exponential decay. Both are used in science, for very different reasons.
+
+\paragraph{Population Growth}
+
+Let''''s say we have a group of animals in the wild. We want to know how many animals there will be in $t$ years. We know how many there are now. We also know the birth rate and
+
+ death rate. Can we solve this problem?
+
+Of course, we can. First, we need to figure out the rate of growth. If the birth rate is $B$, and the death rate is $D$, the total rate of change is $(B-D)$. Since this is the rate, we need to multiply it by the current population to get the population growth. The final equation looks like:
+
+$$\Delta P = (B-D)P$$
+
+where $P$ is the population. That looks like the equation for exponential growth, doesn''''t it? As a matter of fact, change the ''''delta'''' to a differential, and it is. The growth factor is $(B-D)$.
+
+\textbf{Example}
+
+In a certain population of rabbits, the birth rate is 10\%. The death rate is 15\%. The initial population is 100. How many rabbits are there after 10 years? Will we always have rabbits?
+
+From our solution to the exponential equation:
+
+$$P = Ce^{(B-D)t}$$
+
+$$100 = Ce^{(B-D) \times 0} = Ce^0$$
+
+$$C = 100$$
+
+$$P = 100e^{-0.05t}$$
+
+$$P(10) = 100e^{-0.5} \approx 61$$
+
+Unfortunately, we will not always have rabbits. Since the growth rate is negative, they will eventually go extinct. (Note: we will never actually hit 0, but in real life, you can''''t have less than 1 rabbit. If we were measuring a continuous property instead of a discrete one, we would always have something; it would just get very small.)
+
+\paragraph{Radioactive Decay}
+
+Another situation for exponential growth is radioactive isotopes. If you have a sample of radioactive material, individual atoms will randomly decay or not decay. While you can''''t know exactly how many atoms decay and when, you do know the average rate of decay. Every $\lambda$ years, half of the atoms left will decay. This period of time, $\lambda$, is called a half-life. The "activity" of the sample (how many decays per second) is called $A$. Mathematically, this looks like:
+
+$$\frac{dA}{dt} = \lambda A$$
+
+These problems look just like the problem above. Just like rabbits, we will eventually run out of radioactive atoms as well.
+
+\paragraph{Other Applications}
+
+Many fundamental laws of physics and chemistry can be formulated as differential equations. In biology and economics, differential equations are used to model the behavior of complex systems. The mathematical theory of differential equations first developed together with the sciences where the equations had originated and where the results found application. However, diverse problems, sometimes originating in quite distinct scientific fields, may give rise to identical differential equations. Whenever this happens, the mathematical theory behind the equations can be viewed as a unifying principle behind diverse phenomena. As an example, consider the propagation of light and sound in the atmosphere, and of waves on the surface of a pond. All of them may be described by the same second-order partial differential equation, the wave equation, which allows us to think of light and sound as forms of waves, much like familiar waves in the water. Conduction of heat, the theory of which was developed by Joseph Fourier, is governed by another second-order partial differential equation, the heat equation. It turns out that many diffusion processes, while seemingly different, are described by the same equation; the Black–Scholes equation in finance is, for instance, related to the heat equation.
+
+\paragraph{Resources}
+
+\begin{itemize}
+    \item \href{https://mathresearch.utsa.edu/wikiFiles/MAT1193/Differential\%20Equations\%20(Mathematical\%20Modeling}{Setting up Differential Equations}/Presentation17_Setting\%20Up\%20Differential\%20Equations.pptx). PowerPoint file created by Professor Cynthia Roberts, UTSA.
+\end{itemize}
+
+\paragraph{Licensing}
+
+Content obtained and/or adapted from:
+\begin{itemize}
+    \item \href{https://en.wikibooks.org/wiki/A-level_Mathematics/MEI/DE/Introduction_to_Differential_Equations/Using_Differential_Equations_in_Modelling}{Using Differential Equations in Modelling, Wikibooks: Introduction to Differential Equations (A-level Mathematics)} under a CC BY-SA license
+    \item \href{https://en.wikibooks.org/wiki/Ordinary_Differential_Equations/Separable_2}{Separable equations, Wikibooks: Ordinary Differential Equations} under a CC BY-SA license
+    \item \href{https://en.wikibooks.org/wiki/Ordinary_Differential_Equations/Simple_Harmonic_Motion}{Simple Harmonic Motion, Wikibooks: Ordinary Differential Equations} under a CC BY-SA license
+\end{itemize}
+
+\subsection{Learning Objectives}
+
+\begin{enumerate}
+    \item Demonstrate how to take information to set up a mathematical model
+    \item Examine the basic parts of differential equations
+\end{enumerate}
+
+%%===============================================================
+\section{Differential Equations}
+\label{sec:differential-equations}
+%%===============================================================
+
+\paragraph{Ordinary Differential Equations}
+
+
+\textbf{Ordinary differential equations} involve equations containing:
+\begin{itemize}
+    \item Variables
+    \item Functions
+    \item Their derivatives
+\end{itemize}
+and their solutions.
+
+In studying integration, you \textbf{already} have considered solutions to very simple differential equations. For example, when you look to solving
+$\int f(x) \,dx = g(x)$
+for $g(x)$, you are really solving the differential equation
+$g''(x) = f(x) \,$
+
+\paragraph{Notations and Terminology}
+
+The notations we use for solving differential equations will be crucial in the ease of solubility for these equations.
+
+This document will be using \textbf{three} notations primarily:
+\begin{itemize}
+    \item $f''$ to denote the derivative of $f$
+    \item $D f$ to denote the derivative of $f$
+    \item $\frac{df}{dx}$ to denote the derivative of $f$ (for separable equations).
+\end{itemize}
+
+\paragraph{Terminology}
+
+Consider the differential equation
+$$3 f^{\prime \prime}(x) + 5x f(x) = 11$$
+
+Since the equation''s highest derivative is 2, we say that the differential equation is of \textbf{order} 2.
+
+\paragraph{Some Simple Differential Equations}
+
+A key idea in solving differential equations will be that of integration.
+
+Let us consider the second-order differential equation (remember that a function acts on a value):
+$$f''''(x) = 2 \,$$
+
+How would we go about solving this? It tells us that on differentiating twice, we obtain the constant 2, so if we integrate twice, we should obtain our result.
+
+Integrating once first of all:
+
+$$\int f''''(x) \,dx = \int 2 \,dx$$
+$$f''(x) = 2x + C\_1 \,$$
+
+We have transformed the apparently difficult second-order differential equation into a rather simpler one, viz.
+
+$$f''(x) = 2x + C\_1 \,$$
+
+This equation tells us that if we differentiate a function once, we get $2x + C\_1$. If we integrate once more, we should find the solution.
+
+$$\int f''(x) \,dx = \int 2x + C\_1 \,dx$$ 
+$$f(x) = x^2 + C\_1 x + C\_2 \,$$
+
+This is the \textbf{solution} to the differential equation. We will get $f'''' = 2 \,$ for \textbf{all} values of $C\_1$ and $C\_2$.
+
+The values $C\_1$ and $C\_2$ are related to quantities known as \textbf{initial conditions}.
+
+Why are initial conditions useful? ODEs (ordinary differential equations) are useful in modeling physical conditions. We may wish to model a certain physical system which is initially at rest (so one initial condition may be zero), or wound up to some point (so an initial condition may be nonzero, say 5 for instance) and we may wish to see how the system reacts under such an initial condition.
+
+When we solve a system with given initial conditions, we substitute them after our process of integration.
+
+\paragraph{Example}
+
+When we solved $f''''(x) = 2 \,$, say we had the initial conditions $f''(0) = 3 \,$ and $f(0) = 2 \,$. (Note, initial conditions need not occur at $f(0)$).
+
+After we integrate, we make substitutions:
+$$f''(0) = 2(0) + C\_1$$
+$$3 = C\_1$$
+$$\int f''(x) \,dx = \int 2x + 3 \,dx$$
+$$f(x) = x^2 + 3x + C\_2$$
+$$f(0) = 0^2 + 3(0) + C\_2$$
+$$2 = C\_2$$
+$$f(x) = x^2 + 3x + 2$$
+
+Without initial conditions, the answer we obtain is known as the \textbf{general solution} or the solution to the \textbf{family of equations}. With them, our solution is known as a \textbf{specific solution}.
+
+\paragraph{Basic First Order DEs}
+
+In this section, we will consider \textbf{four} main types of differential equations:
+\begin{itemize}
+    \item Separable
+    \item Homogeneous
+    \item Linear
+    \item Exact
+\end{itemize}
+
+There are many other forms of differential equations, however, and these will be dealt with in the next section.
+
+\paragraph{Separable Equations}
+
+A \textbf{separable} equation is in the form (using $\frac{dy}{dx}$ notation which will serve us greatly here):
+$$\frac{dy}{dx} = \frac{f(x)}{g(y)}$$
+
+Previously we have only dealt with simple differential equations with $g(y) = 1$. How do we solve such a separable equation as above?
+
+We group $x$ and $dx$ terms together, and $y$ and $dy$ terms together as well.
+$$g(y)\, dy = f(x)\, dx$$
+
+Integrating both sides with respect to $y$ on the left-hand side and $x$ on the right-hand side:
+$$\int g(y)\,dy = \int f(x)\,dx + C$$
+
+we will obtain the solution.
+
+\paragraph{Worked Example}
+
+Here is a worked example illustrating the process.
+
+We are asked to solve:
+$$\frac{dy}{dx} = 3x^2y$$
+
+Separating:
+$$\frac{dy}{y} = 3x^2\, dx$$
+
+Integrating:
+$$\int \frac{dy}{y} = \int 3x^2\, dx$$
+$$\ln{y} = x^3 + C \,$$
+$$y = e^{x^3 + C}$$
+
+Letting $k = e^C$ where $k$ is a constant, we obtain:
+$$y = ke^{x^3}$$
+
+which is the general solution.
+
+\paragraph{Verification}
+
+This step does not need to be part of your work, but if you want to check your solution, you can verify your answer by differentiation.
+
+We obtained:
+$$y = ke^{x^3}$$
+
+as the solution to:
+$$\frac{dy}{dx} = 3x^2y$$
+
+Differentiating our solution with respect to $x$:
+$$\frac{dy}{dx} = 3kx^2e^{x^3}$$
+
+And since $y = ke^{x^3}$, we can write:
+$$\frac{dy}{dx} = 3x^2y$$
+
+We see that we obtain our original differential equation, thus our work must be correct.
+
+\paragraph{Homogeneous Equations}
+
+A \textbf{homogeneous} equation is in the form:
+$$\frac{dy}{dx} = f(y/x)$$
+
+This looks difficult as it stands, however, we can utilize the substitution:
+$$v = \frac{y}{x}$$
+
+so that we are now dealing with $F(v)$ rather than $F(y/x)$.
+
+Now we can express $y$ in terms of $v$, as $y = xv$ and use the product rule.
+
+The equation above then becomes, using the product rule:
+$$\frac{dy}{dx} = v + x\frac{dv}{dx}$$
+
+Then:
+$$v + x\frac{dv}{dx} = f(v)$$
+$$x\frac{dv}{dx} = f(v) - v$$
+$$\frac{dv}{dx} = \frac{f(v) - v}{x}$$
+
+which is a separable equation and can be solved as above.
+
+However, let''s look at a worked example to see how homogeneous equations are solved.
+
+\paragraph{Worked Example}
+
+We have the equation:
+$$\frac{dy}{dx} = \frac{y^2 + x^2}{yx}$$
+
+This does not appear to be immediately separable, but let us expand to get:
+$$\frac{dy}{dx} = \frac{y^2}{yx} + \frac{x^2}{yx}$$
+$$\frac{dy}{dx} = \frac{x}{y} + \frac{y}{x}$$
+
+Substituting $y = xv$ which is the same as substituting $v = \frac{y}{x}$:
+$$\frac{dy}{dx} = \frac{1}{v} + v$$
+
+Now:
+$$v + x\frac{dv}{dx} = \frac{1}{v} + v$$
+
+Canceling $v$ from both sides:
+$$x\frac{dv}{dx} = \frac{1}{v}$$
+
+Separating:
+$$v\, dv = \frac{dx}{x}$$
+
+Integrating both sides:
+$$\frac{1}{2}v^2 + C = \ln(x) \,$$
+$$\frac{1}{2}\left(\frac{y}{x}\right)^2 = \ln(x) - C$$
+$$y^2 = 2x^2 \ln(x) - 2Cx^2 \,$$
+$$y = x\sqrt{2 \ln(x) - 2C}$$
+
+which is our desired solution.
+
+\paragraph{Linear Equations}
+
+A linear first-order differential equation is a differential equation in the form:
+$$a(x)\frac{dy}{dx} + b(x)y = c(x)$$
+
+Multiplying or dividing this equation by any non-zero function of $x$ makes no difference to its solutions so we could always divide by $a(x)$ to make the coefficient of the differential 1, but writing the equation in this more general form may offer insights.
+
+At first glance, it is not possible to integrate the left-hand side, but there is one special case. If $b$ happens to be the differential of $a$, then we can write:
+
+$$a(x)\frac{dy}{dx} + b(x)y = a(x)\frac{dy}{dx} + y\frac{da}{dx}
+= \frac{d}{dx}a(x)y$$
+
+and integration is now straightforward.
+
+Since we can freely multiply by any function, let''s see if we can use this freedom to write the left-hand side in this special form.
+
+We multiply the entire equation by an arbitrary, $I(x)$, getting:
+
+$$aI\frac{dy}{dx} + bIy = cI$$
+
+then impose the condition:
+
+$$\frac{d}{dx}(aI) = bI$$
+
+If this is satisfied, the new left-hand side will have the special form. Note that multiplying $I$ by any constant will leave this condition still satisfied.
+
+Rearranging this condition gives:
+
+$$\frac{1}{I}\frac{dI}{dx} = \frac{b - \frac{da}{dx}}{a}$$
+
+We can integrate this to get:
+
+$$\ln I(x) = \int \frac{b(z)}{a(z)}dz - \ln a(x) + c \quad
+I(x) = \frac{k}{a(x)}e^{\int \frac{b(z)}{a(z)}dz}$$
+
+We can set the constant $k$ to be 1, since this makes no difference.
+
+Next, we use $I$ on the original differential equation, getting:
+
+$$e^{\int \frac{b(z)}{a(z)}dz}\frac{dy}{dx} +
+e^{\int \frac{b(z)}{a(z)}dz} \frac{b(x)}{a(x)}y
+= e^{\int \frac{b(z)}{a(z)}dz}\frac{c(x)}{a(x)}$$
+
+Because we''ve chosen $I$ to put the left-hand side in the special form we can
+rewrite this as:
+
+$$\frac{d}{dx}(ye^{\int \frac{b(z)}{a(z)}dz}) = 
+e^{\int \frac{b(z)}{a(z)}dz}\frac{c(x)}{a(x)}$$
+
+Integrating both sides and dividing by $e^I$, we obtain the final result:
+
+$$y = e^{-\int \frac{b(z)}{a(z)}dz}
+\left(\int e^{\int \frac{b(z)}{a(z)}dz}\frac{c(x)}{a(x)}dx + C\right)$$
+
+We call $I$ an \textbf{integrating factor}. Similar techniques can be used on some other calculus problems.
+
+\paragraph{Example}
+
+Consider:
+
+$$\frac{dy}{dx} + y \tan x = 1 \quad y(0) = 0$$
+
+First, we calculate the integrating factor:
+
+$$I = e^{\int \tan x \,dx} = e^ {\ln \sec x} = \sec x$$
+
+Multiplying the equation by this gives:
+
+$$\sec x \frac{dy}{dx} + y \sec x \tan x = \sec x$$
+
+or
+
+$$\frac{d}{dx} y\sec x = \sec x$$
+
+We can now integrate:
+
+$$y = \cos x \int_0^x \sec z \, dz = \cos x \ln (\sec x + \tan x)$$
+
+\paragraph{Exact Equations}
+
+An exact equation is in the form:
+$$f(x, y) \,dx + g(x, y) \,dy = 0$$
+and has the property that:
+$$D_x f = D_y g$$
+(If the differential equation does not have this property, then we can''t proceed any further).
+
+As a result of this, if we have an exact equation, then there exists a function $h(x, y)$ such that:
+$$D\_y h = f$ and $D\_x h = g$$
+
+So then the solutions are in the form:
+$$h(x, y) = c$$
+by using the fact of the total differential.
+We can then find $h(x, y)$ by integration.
+
+\paragraph{Basic Second and Higher Order ODEs}
+
+
+The generic solution of an $n^{th}$ order ODE will contain $n$ constants of integration. To calculate them, we need $n$ more equations.
+Most often, we have either:
+\begin{itemize}
+    \item Boundary conditions: the values of $y$ and its derivatives take for two different values of $x$
+    \item or Initial conditions: the values of $y$ and its first $n-1$ derivatives take for one particular value of $x$.
+\end{itemize}
+
+\paragraph{Reducible ODEs}
+
+
+1.  If the independent variable, $x$, does not occur in the differential equation, then its order can be lowered by one. This will reduce a second-order ODE to first-order.
+
+Consider the equation:
+$$F\left(y,\frac{dy}{dx},\frac{d^2y}{dx^2}\right) = 0$$
+Define:
+$$u = \frac{dy}{dx}$$
+Then:
+$$\frac{d^2y}{dx^2} = \frac{du}{dx} = \frac{du}{dy} \cdot \frac{dy}{dx} = \frac{du}{dy} \cdot u$$
+Substitute these two expressions into the equation, and we get:
+$$F\left(y,u,\frac{du}{dy} \cdot u\right) = 0$$
+which is a first-order ODE.
+
+\paragraph{Example}
+
+Solve:
+$$1 + 2y^2\operatorname{D}^2y = 0$$
+if at $x = 0$, $y = D y = 1$
+
+First, we make the substitution, getting:
+$$1 + 2y^2 u \frac{du}{dy} = 0$$
+This is a first-order ODE.
+By rearranging terms, we can separate the variables:
+$$udu = -\frac{dy}{2y^2}$$
+Integrating this gives:
+$$u^2/2 = c + 1/2y$$
+We know the values of $y$ and $u$ when $x = 0$, so we can find $c$:
+$$c = u^2/2 - 1/2y = 1^2/2 - 1/(2 \cdot 1) = 1/2 - 1/2 = 0$$
+Next, we reverse the substitution:
+$$\frac{dy}{dx}^2 = u^2 = \frac{1}{y}$$
+and take the square root:
+$$\frac{dy}{dx} = \pm \frac{1}{\sqrt{y}}$$
+To find out which sign of the square root to keep, we use the initial condition, $D y = 1$ at $x = 0$, again, and rule out the negative square root.
+We now have another separable first-order ODE:
+$$\frac{dy}{dx} = \frac{1}{\sqrt{y}}$$
+Its solution is:
+$$\frac{2}{3}y^{\frac{3}{2}} = x + d$$
+Since $y = 1$ when $x = 0$, $d = 2/3$, and:
+$$y = \left(1 + \frac{3x}{2} \right)^{\frac{2}{3}}$$
+
+2.  If the dependent variable, $y$, does not occur in the differential equation, then it may also be reduced to a first-order equation.
+
+Consider the equation:
+$$F\left(x,\frac{dy}{dx},\frac{d^2y}{dx^2}\right) = 0$$
+Define:
+$$u = \frac{dy}{dx}$$
+Then:
+$$\frac{d^2y}{dx^2} = \frac{du}{dx}$$
+Substitute these two expressions into the first equation, and we get:
+$$F\left(x,u,\frac{du}{dx}\right) = 0$$
+which is a first-order ODE.
+
+\paragraph{Linear ODEs}
+
+An ODE of the form:
+$$\frac{d^n y}{dx^n} + a\_1(x)\frac{d^{n-1}y}{dx^{n-1}} + \cdots + a\_n y = F(x)$$
+is called \textbf{linear}. Such equations are much simpler to solve than typical non-linear ODEs. Though only a few special cases can be solved exactly in terms of elementary functions, there is much that can be said about the solution of a generic linear ODE. A full account would be beyond the scope of this book.
+
+If $F(x) = 0$ for all $x$, the ODE is called \textbf{homogeneous}.
+
+Two useful properties of generic linear equations are:
+1. Any linear combination of solutions of a homogeneous linear equation is also a solution.
+2. If we have a solution of a non-homogeneous linear equation and we add any solution of the corresponding homogeneous linear equation, we get another solution of the non-homogeneous linear equation.
+
+\paragraph{Variation of Constants}
+
+Suppose we have a linear ODE:
+$$\frac{d^n y}{dx^n} + a\_1(x)\frac{d^{n-1}y}{dx^{n-1}} + \cdots + a_n y = 0$$
+and we know one solution, $y = w(x)$.
+
+The other solutions can always be written as $y = wz$. This substitution in the ODE will give us terms involving every differential of $z$ up to the $n^{th}$, no higher, so we''ll end up with an $n^{th}$-order linear ODE for $z$.
+
+We know that $z = \text{constant}$ is one solution, so the ODE for $z$ must not contain a $z$ term, which means it will effectively be an $(n-1)^{th}$-order linear ODE. We will have reduced the order by one.
+
+Let''s see how this works in practice.
+
+\paragraph{Example}
+
+Consider:
+$$\frac{d^2 y}{dx^2} + \frac{2}{x} \frac{dy}{dx} - \frac{6}{x^2} y = 0$$
+
+One solution of this is $y = x^2$, so substitute $y = zx^2$ into this equation.
+
+$$\left( x^2\frac{d^2 z}{dx^2} + 4x\frac{dz}{dx} + 2z\right) + \frac{2}{x} \left( x^2\frac{dz}{dx} + 2xz \right) - \frac{6}{x^2}x^2 z = 0$$
+
+Rearrange and simplify:
+$$x^2 D^2 z + 6xD z = 0$$ 
+This is first order for $D z$. We can solve it to get:
+$$z = A x^{-5} \quad y = A x^{-3}$$
+
+Since the equation is linear, we can add this to any multiple of the other solution to get the general solution:
+
+$$y = A x^{-3} + B x^2$$
+
+\paragraph{Linear Homogeneous ODEs with Constant Coefficients}
+
+Suppose we have an ODE:
+$$(D^n + a\_1 D^{n-1} + \cdots + a\_{n-1} D + a\_0) y = 0$$
+we can take an inspired guess at a solution (motivate this):
+$$y = e^{px}$$
+
+For this function $D^n y = p^n y$, so the ODE becomes:
+$$(p^n + a\_1 p^{n-1} + \cdots + a\_{n-1} p + a\_0) y = 0$$
+
+$y = 0$ is a trivial solution of the ODE, so we can discard it. We are then left with the equation:
+$$(p^n + a\_1 p^{n-1} + \cdots + a\_{n-1} p + a\_0) = 0$$
+This is called the \textbf{characteristic} equation of the ODE.
+
+It can have up to $n$ roots, $p\_1$, $p\_2$ … $p\_n$, each root giving us a different solution of the ODE.
+
+Because the ODE is linear, we can add all those solutions together in any linear combination to get a general solution:
+$$y = A\_1 e^{p\_1 x} + A\_2 e^{p\_2 x} + \cdots + A\_n e^{p\_n x}$$
+
+To see how this works in practice, we will look at the second-order case. Solving equations like this of higher order uses exactly the same principles; only the algebra is more complex.
+
+\paragraph{Second Order}
+
+If the ODE is second order:
+$$D^2 y + b D y + c y = 0$$
+then the characteristic equation is a quadratic:
+$$p^2 + b p + c = 0$$
+with roots:
+$$p\_{\pm} = \frac{-b \pm \sqrt{b^2 - 4c}}{2}$$
+
+What these roots are like depends on the sign of $b^2 - 4c$, so we have three cases to consider.
+
+\textbf{1) $b^2 > 4c$}
+
+In this case, we have two different real roots, so we can write down the solution straight away:
+$$y = A\_{+}e^{p\_{+}x} + A\_{-}e^{p\_{-}x}$$
+
+\textbf{2) $b^2 < 4c$}
+
+In this case, both roots are imaginary. We could just put them directly in the formula, but if we are interested in real solutions, it is more useful to write them another way.
+
+Defining $k^2 = 4c - b^2$, then the solution is:
+$$y = A\_{+}e^{ikx - \frac{bx}{2}} + A\_{-}e^{-ikx - \frac{bx}{2}}$$
+
+For this to be real, the $A$s must be complex conjugates:
+$$A\_{\pm} = A e^{\pm ia}$$
+
+Make this substitution, and we can write:
+$$y = A e^{-bx/2} \cos (kx + a)$$
+
+If $b$ is positive, this is a damped oscillation.
+
+\textbf{3) $b^2 = 4c$}
+
+In this case, the characteristic equation only gives us one root, $p = -b/2$. We must use another method to find the other solution.
+
+We''ll use the method of variation of constants. The ODE we need to solve is:
+$$D^2 y - 2p D y + p^2 y = 0$$
+rewriting $b$ and $c$ in terms of the root. From the characteristic equation, we know one solution is $y = e^{px}$, so we make the substitution $y = z e^{px}$, giving:
+$$(e^{px} D^2 z + 2p e^{px} D z + p^2 e^{px} z) - 2p(e^{px} D z + p e^{px} z) + p^2 e^{px} z = 0$$
+This simplifies to $D^2 z = 0$, which is easily solved. We get:
+$$z = A x + B \quad y = (A x + B)e^{px}$$
+so the second solution is the first multiplied by $x$.
+
+Higher-order linear constant coefficient ODEs behave similarly: an exponential for every real root of the characteristic and an exponent multiplied by a trig factor for every complex conjugate pair, both being multiplied by a polynomial if the root is repeated.
+
+For example, if the characteristic equation factors to:
+$$(p - 1)^4(p - 3)(p^2 + 1)^2 = 0$$
+the general solution of the ODE will be:
+$$y = (A + Bx + Cx^2 + Dx^3)e^x + Ee^{3x} + F \cos (x + a) + Gx \cos(x + b)$$
+
+The most difficult part is finding the roots of the characteristic equation.
+
+\paragraph{Linear Nonhomogeneous ODEs with Constant Coefficients}
+
+First, let''s consider the ODE:
+$$Dy - y = x$$
+a nonhomogeneous first-order ODE, which we know how to solve.
+
+Using the integrating factor $e^{-x}$, we find:
+$$y = c e^{-x} + 1 - x$$
+
+This is the sum of a solution of the corresponding homogeneous equation, and a polynomial.
+
+Nonhomogeneous ODEs of higher order behave similarly.
+
+If we have a single solution, $y\_p$, of the nonhomogeneous ODE, called a \textbf{particular} solution:
+$$(D^n + a\_1 D^{n-1} + \cdots + a\_n)y = F(x)$$
+then the general solution is $y = y\_p + y\_h$, where $y\_h$ is the general solution of the homogeneous ODE.
+
+Finding $y\_p$ for an arbitrary $F(x)$ requires methods beyond the scope of this chapter, but there are some special cases where finding $y\_p$ is straightforward.
+
+Remember that in the first-order problem $y_p$ for a polynomial $F(x)$ was itself a polynomial of the same order. We can extend this to higher orders.
+
+\textbf{Example:}
+$$D^2 y + y = x^3 - x + 1$$
+Consider a particular solution:
+$$y\_p = b\_0 + b\_1 x + b\_2 x^2 + x^3$$
+Substitute for $y$ and collect coefficients:
+$$x^3 + b\_2 x^2 + (6 + b\_1)x + (2b\_2 + b\_0) = x^3 - x + 1$$
+So $b\_2 = 0$, $b\_1 = -7$, $b\_0 = 1$, and the general solution is:
+$$y = a \sin x + b \cos x + 1 - 7x + x^3$$
+
+This works because all the derivatives of a polynomial are themselves polynomials.
+
+Two other special cases are:
+$$F(x) = P\_n e^{kx} \quad y\_p(x) = Q\_n e^{kx}$$
+$$F(x) = A\_n \sin kx + B\_n \cos kx \quad y\_p(x) = P\_n \sin kx + Q\_n \cos kx$$
+where $P\_n$, $Q\_n$, $A\_n$, and $B\_n$ are all polynomials of degree $n$.
+
+Making these substitutions will give a set of simultaneous linear equations for the coefficients of the polynomials.
+
+\paragraph{Licensing}
+
+Content obtained and/or adapted from:
+\begin{itemize}
+    \item \href{https://en.wikibooks.org/wiki/Calculus/Ordinary_differential_equations}{Ordinary Differential Equations, Wikibooks} under a CC BY-SA license.
+\end{itemize}
