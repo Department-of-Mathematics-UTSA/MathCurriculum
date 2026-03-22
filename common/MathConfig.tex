@@ -81,7 +81,6 @@
 
 %********** Footnotes **********
 \renewcommand{\footnoterule}{\rule{5cm}{0.2mm} \vspace{0.3cm}} %increases the distance of footnotes from the text
-%\deffootnote[1em]{1em}{1em}{\textsuperscript{\normalfont\thefootnotemark}} %some more formattion on footnotes
 
 %Make section number before figure number.
 \renewcommand{\thefigure}{\thesection-\arabic{figure}}
@@ -92,7 +91,6 @@
 
 %################ End Preferences #####################
 
-%********** Begin Frontmatter **********
 
 \pagestyle{plain} % on headers or footers on the first page
 
@@ -100,8 +98,6 @@
 %########################### MACROS #################################
 
 
-%\usepackage[margin=1.2in,headsep=.5in]{geometry}
-%
 \usepackage[pages=some]{background}
 \backgroundsetup{
 	scale=1.0,color=black,opacity=1,angle=0,
@@ -188,9 +184,17 @@
 \newcommand{\A}{\textbf{A}}
 \newcommand{\Sbb}{\textbf{S}}
 \newcommand\bb{\textbf{b}}
-
 \newcommand\vs{\vspace{0.1in} \noindent}
-%\newcommand{\vs}{\vspace*{0.1in}\noindent}
+
+\newcommand{\ChapterWarning}{
+  \begin{warningbox}[title=WARNING: Content under development]
+  When you see this warning in a chapter, it indicates that the 
+  content is still being developed. Please use it with caution, 
+  as it may contain errors of various types. This warning will 
+  be replaced by a blue note once the content has been verified.
+  \end{warningbox}
+}
+
 
 \newcounter{example}[section]
 \newenvironment{example}[1][]{\refstepcounter{example}\par\medskip
@@ -386,10 +390,3 @@
   title=Information,
   #1
 }
-
-%\newcommand\s{\color{Input}\ttfamily} % Code snippet. Use: {\s code here}
-
-
-%\newcommand\BeginCode{\medskip\begin{minipage}{0.9\textwidth} \color{Input} \begin{verbatim}} % \vspace{0.1cm}
-%\newcommand\EndCode{\vspace{0.01cm}\end{minipage}} % \vspace{0.01cm}
-
