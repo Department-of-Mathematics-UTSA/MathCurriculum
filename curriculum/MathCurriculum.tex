@@ -8,19 +8,26 @@
 %-----------------------------
 \input{../common/MathConfig}
 
+% Project name command -- use in prose; keep literal identifiers unchanged
+\newcommand{\ProjectName}{Math Curriculum}
+\newcommand{\ProjectGit}{https://github.com/Department-of-Mathematics-UTSA/MathCurriculum}
+\newcommand{\ProjectFolder}{MathCurriculum}
+
 \begin{document}
 	\input{../common/MathFrontMatter.tex}
 	\setcounter{page}{1}
 	\tableofcontents \newpage
 
+    \input{Introduction}
     \input{Environment_Setup}
     \input{CLI}
     \input{ChapterIntroProg}
-    \input{ChapterNumericalOps}
     \input{PythonEnvironments}
+    \input{ChapterNumericalOps}
     \input{LaTeX}
     \input{GIT}
-    \input{LLM}    
+    \input{LLM}
+    \input{Assessment}
 
     % Compiling: 
 
