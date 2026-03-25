@@ -5,20 +5,24 @@
 
 \begin{Form}
 
-This chapter is a fillable PDF form. Each section corresponds to one
-category of prerequisite: Required, Essential, Desirable, and Optional.
-Checkboxes record binary completion; text fields record written
-responses. Use this chapter to track your progress through the program.
+This chapter is a fillable PDF form intended for faculty and staff
+who are onboarding as contributors to the Department of Mathematics
+curriculum repository. Each section corresponds to one category of
+readiness: Required, Essential, Desirable, and Optional. Checkboxes
+record binary completion of verification steps; text fields record
+short written responses that demonstrate conceptual understanding.
+Use this chapter as a running checklist during onboarding.
 
 \vs
 \noindent
-\textbf{Saving your responses requires Adobe Acrobat Reader} (free for
-Windows, macOS, and Linux; available at
-\url{https://get.adobe.com/reader/}). Other viewers behave as follows:
+\textbf{Saving your responses requires Adobe Acrobat Reader} (free
+for Windows, macOS, and Linux; available at
+\url{https://get.adobe.com/reader/}). Other viewers behave as
+follows:
 
 \begin{itemize}
-    \item \textbf{macOS Preview:} displays form fields and allows you
-          to type in them, but \emph{does not save the entered data}.
+    \item \textbf{macOS Preview:} displays form fields and allows
+          typing in them, but \emph{does not save the entered data}.
           If you close and reopen the file in Preview, your responses
           will be lost.
     \item \textbf{Google Chrome (built-in PDF viewer):} displays and
@@ -38,86 +42,92 @@ Windows, macOS, and Linux; available at
 \textbf{How to interpret the four categories:}
 
 \begin{description}
-    \item[Required] Items directly related to the Data Challenge.
-          These must be completed to participate in the program.
-    \item[Essential] Environment setup items: Python, Visual Studio
-          Code, Git, the required libraries, and a successful API
-          call to a commercial LLM. These must be completed before
-          the first session.
-    \item[Desirable] Technical understanding of tools covered in the
-          prerequisite chapters (CLI, programming, virtual
-          environments, Git, \LaTeX{}). Completing these demonstrates
-          readiness to work independently.
-    \item[Optional] LLM infrastructure setup (Ollama). Not required
-          for the data challenge; relevant for students who want to
-          run local models.
+    \item[Required] Core repository tasks. These must be completed
+          before a contributor can make any changes to the curriculum
+          document.
+    \item[Essential] Local environment setup: \LaTeX{}, Python, Git,
+          and Visual Studio Code. These must be working correctly
+          before beginning any authoring or scripting work.
+    \item[Desirable] Conceptual understanding of the tools introduced
+          in the infrastructure chapters. Completing these
+          demonstrates readiness to work independently on the
+          repository.
+    \item[Optional] Local LLM infrastructure (Ollama). Not required
+          for curriculum authoring; relevant for contributors who
+          wish to use local language models in their workflow.
 \end{description}
 \vs
 
 %================================================================
-\section{Required: Data Challenge}
+\section{Required: Repository Onboarding}
 \label{sec:assess-required}
 %================================================================
 
-The following items require engaging directly with the NCHS vital
-statistics dataset. Items R3 and R4 require running Python code.
-See Chapter~\ref{ch:analysis-activities} for the analysis context.
+The following items verify that you can retrieve, compile, and
+contribute to the curriculum repository. All items must be
+completed before editing any source file.
 
 \vs
 
-\noindent\textbf{R1.} Why is the date and time of birth no longer
-recorded in NCHS data after 1988? What does this decision tell us
-about how data governance priorities can change over time?
-(See Chapter~\ref{ch:analysis-activities}.)\\[4pt]
-\TextField[name=r1,width=\linewidth,height=3cm,multiline=true,
-           bordercolor=black]{}
+\noindent\CheckBox[name=r1,width=0.4cm,height=0.4cm]{}~\textbf{R1.}
+\texttt{git clone} of the repository completes without errors and
+the local working copy contains the \texttt{curriculum/} folder.
+(See Chapter~\ref{ch:git}, Section~\ref{subsec:multiple-remotes}.)
 
 \vs
 
-\noindent\textbf{R2.} Why was the flat file format used for NCHS
-birth records? What are the tradeoffs of this format compared to a
-relational database or a structured format like CSV with a header?
-(See Chapter~\ref{ch:analysis-activities}.)\\[4pt]
-\TextField[name=r2,width=\linewidth,height=3cm,multiline=true,
-           bordercolor=black]{}
+\noindent\CheckBox[name=r2,width=0.4cm,height=0.4cm]{}~\textbf{R2.}
+Running \texttt{pdflatex MathCurriculum.tex} from inside the
+\texttt{curriculum/} folder produces \texttt{MathCurriculum.pdf}
+with no fatal errors.
+(See Chapter~\ref{ch:latex}, Section~\ref{sec:first-latex-doc}.)
 
 \vs
 
-\noindent\textbf{R3.} How many live births occurred in Texas in 1969
-from mothers residing in Texas? State your count and describe the
-filtering logic you used.
-(See Chapter~\ref{ch:analysis-activities}.)\\[4pt]
-\TextField[name=r3,width=\linewidth,height=3cm,multiline=true,
-           bordercolor=black]{}
+\noindent\CheckBox[name=r3,width=0.4cm,height=0.4cm]{}~\textbf{R3.}
+Running \texttt{gh} (or \texttt{gh.bat} on Windows) with a commit
+message successfully stages, commits, and pushes a change to the
+repository, and \texttt{VERSION.txt} is updated with the new hash.
+(See Chapter~\ref{ch:git}.)
 
 \vs
 
-\noindent\textbf{R4.} What socioeconomic variable in the NCHS dataset
-shows the strongest relationship with birth weight in your analysis?
-Briefly describe how you identified this relationship.
-(See Chapter~\ref{ch:analysis-activities}.)\\[4pt]
-\TextField[name=r4,width=\linewidth,height=3cm,multiline=true,
+\noindent\CheckBox[name=r4,width=0.4cm,height=0.4cm]{}~\textbf{R4.}
+The commit hash in \texttt{VERSION.txt} matches the value returned
+by \texttt{git rev-parse --short HEAD} in your local repository.
+(See Chapter~\ref{ch:git}.)
+
+\vs
+
+\noindent\textbf{R5.} Describe the two-part structure of the
+curriculum document. What is contained in the infrastructure
+chapters, and what is contained in the course-unit chapters? How
+are unit chapters identified in the source tree?
+(See the Introduction.)\\[4pt]
+\TextField[name=r5,width=\linewidth,height=3cm,multiline=true,
            bordercolor=black]{}
 
 %================================================================
-\section{Essential: Environment and API Setup}
+\section{Essential: Environment and Toolchain Setup}
 \label{sec:assess-essential}
 %================================================================
 
 Check each box when the corresponding verification step succeeds.
-All six items should be checked before the first program session.
+All items in this section should be checked before beginning any
+authoring or scripting work on the repository.
 
 \vs
 
 \noindent\CheckBox[name=e1,width=0.4cm,height=0.4cm]{}~\textbf{E1.}
-\texttt{python --version} returns a version number in the terminal.
-(See Chapter~\ref{ch:environment-setup}, Section~\ref{sec:python}.)
+\texttt{pdflatex --version} returns a version number in the
+terminal.
+(See Chapter~\ref{ch:environment-setup}.)
 
 \vs
 
 \noindent\CheckBox[name=e2,width=0.4cm,height=0.4cm]{}~\textbf{E2.}
-\texttt{code .} opens Visual Studio Code from a terminal window.
-(See Chapter~\ref{ch:environment-setup}, Section~\ref{sec:vscstart}.)
+\texttt{python --version} returns a version number in the terminal.
+(See Chapter~\ref{ch:environment-setup}, Section~\ref{sec:python}.)
 
 \vs
 
@@ -128,98 +138,103 @@ All six items should be checked before the first program session.
 \vs
 
 \noindent\CheckBox[name=e4,width=0.4cm,height=0.4cm]{}~\textbf{E4.}
-The five required libraries (\texttt{numpy}, \texttt{pandas},
-\texttt{matplotlib}, \texttt{scipy}, \texttt{jupyter}) import
-without errors in your virtual environment.
+\texttt{code .} opens Visual Studio Code from a terminal window.
+(See Chapter~\ref{ch:environment-setup}, Section~\ref{sec:vscstart}.)
+
+\vs
+
+\noindent\CheckBox[name=e5,width=0.4cm,height=0.4cm]{}~\textbf{E5.}
+The Python virtual environment activates without errors, and the
+packages listed in \texttt{pyproject.toml} (or
+\texttt{requirements.txt}) import cleanly in that environment.
 (See Chapter~\ref{ch:python-environments},
 Section~\ref{sec:project-libraries}.)
 
 \vs
 
-\noindent\CheckBox[name=e5,width=0.4cm,height=0.4cm]{}~\textbf{E5.}
-Running \texttt{agentClaude.py}, \texttt{agentGPT.py}, or
-\texttt{agentGroq.py} from \texttt{resources/unit\_7/FOO/} returns
-a response from a commercial LLM.
-(See Chapter~\ref{ch:ollama-infrastructure},
-Section~\ref{sec:apikeys}.)
-
-\vs
-
 \noindent\CheckBox[name=e6,width=0.4cm,height=0.4cm]{}~\textbf{E6.}
-Running \texttt{pdflatex hello.tex} produces a \texttt{hello.pdf}
-file.
-(See Chapter~\ref{ch:latex}, Section~\ref{sec:first-latex-doc}.)
+Running \texttt{latexmk -pdf MathCurriculum.tex} produces a
+correctly paginated PDF with a table of contents and all
+cross-references resolved.
+(See Chapter~\ref{ch:latex}.)
 
 %================================================================
-\section{Desirable: Technical Skills}
+\section{Desirable: Technical Understanding}
 \label{sec:assess-desirable}
 %================================================================
 
-These items demonstrate working understanding of the tools introduced
-in the prerequisite chapters. Written responses need not be long;
-two or three sentences each are sufficient.
+These items demonstrate working understanding of the tools
+introduced in the infrastructure chapters. Written responses need
+not be long; two or three sentences each are sufficient.
 
 \vs
 
 \noindent\textbf{D1.} What is the current working directory when you
 first open a terminal? Write the command you would use to navigate
-to a folder named \texttt{DAIR3-Workshop} on your Desktop.
-(See Chapter~\ref{ch:cli-scripting}, Section~\ref{sec:what-is-a-file}.)\\[4pt]
+to the \texttt{curriculum/} folder inside the cloned repository.
+(See Chapter~\ref{ch:cli-scripting},
+Section~\ref{sec:what-is-a-file}.)\\[4pt]
 \TextField[name=d1,width=\linewidth,height=2.5cm,multiline=true,
            bordercolor=black]{}
 
 \vs
 
-\noindent\textbf{D2.} What happens when you type \texttt{hello.py}
-in a terminal without \texttt{python} in front of it? Why does
-this happen, and how do you fix it?
-(See Chapter~\ref{ch:intro-prog}, Section~\ref{sec:plaintext-first}.)\\[4pt]
+\noindent\textbf{D2.} What is the difference between a Python
+virtual environment and the global Python installation? Give one
+scenario in the context of this repository where you would need
+a separate virtual environment.
+(See Chapter~\ref{ch:python-environments}.)\\[4pt]
 \TextField[name=d2,width=\linewidth,height=2.5cm,multiline=true,
            bordercolor=black]{}
 
 \vs
 
-\noindent\textbf{D3.} Why does adding 0.1 ten times in Python not
-equal exactly 1.0? What underlying technical limitation causes this?
-(See Chapter~\ref{ch:intro-prog}.)\\[4pt]
+\noindent\textbf{D3.} Why does \texttt{git push} require a prior
+\texttt{git commit}? What is the conceptual difference between
+the two operations, and why does the \texttt{gh.bat} script
+perform both in sequence?
+(See Chapter~\ref{ch:git}.)\\[4pt]
 \TextField[name=d3,width=\linewidth,height=2.5cm,multiline=true,
            bordercolor=black]{}
 
 \vs
 
-\noindent\textbf{D4.} What is the difference between a Python virtual
-environment and the global Python installation? Give one scenario
-where you would need more than one virtual environment.
-(See Chapter~\ref{ch:python-environments}.)\\[4pt]
+\noindent\textbf{D4.} In \LaTeX{}, what is the practical difference
+between \verb|\[...\]| and \verb|$$...$$|? Which form should be
+used in new curriculum source files, and why?
+(See Chapter~\ref{ch:latex}, Section~\ref{sec:latex-math}.)\\[4pt]
 \TextField[name=d4,width=\linewidth,height=2.5cm,multiline=true,
            bordercolor=black]{}
 
 \vs
 
-\noindent\textbf{D5.} Why does \texttt{git push} require a prior
-\texttt{git commit}? What is the conceptual difference between
-the two operations?
-(See Chapter~\ref{ch:git}.)\\[4pt]
+\noindent\textbf{D5.} What does the \texttt{regen.py} script do
+when run for a given course unit? Describe the input it reads,
+the output it produces, and the role of the \texttt{ASSESSMENTS}
+dictionary in controlling the output.
+(See the repository \texttt{Script/} folder and associated
+documentation.)\\[4pt]
 \TextField[name=d5,width=\linewidth,height=2.5cm,multiline=true,
            bordercolor=black]{}
 
 \vs
 
-\noindent\textbf{D6.} In \LaTeX{}, what is the practical difference
-between \verb|\[...\]| and \verb|$$...$$|? Which should be used in
-new documents, and why?
-(See Chapter~\ref{ch:latex}, Section~\ref{sec:latex-math}.)\\[4pt]
+\noindent\textbf{D6.} Explain the label scheme used for
+cross-references in the curriculum source files. What is the
+format of a section label, how is the four-character mnemonic
+derived, and how is the hash suffix computed?
+(See the curriculum pipeline documentation.)\\[4pt]
 \TextField[name=d6,width=\linewidth,height=2.5cm,multiline=true,
            bordercolor=black]{}
 
 %================================================================
-\section{Optional: LLM Infrastructure (Ollama)}
+\section{Optional: Local LLM Infrastructure (Ollama)}
 \label{sec:assess-optional}
 %================================================================
 
-These items apply only to students who install and configure the
-local Ollama LLM infrastructure. They are not required for the data
-challenge.
+These items apply only to contributors who install and configure
+the local Ollama LLM infrastructure. They are not required for
+curriculum authoring or repository maintenance.
 
 \vs
 
@@ -232,15 +247,16 @@ Section~\ref{sec:install}.)
 \vs
 
 \noindent\CheckBox[name=o2,width=0.4cm,height=0.4cm]{}~\textbf{O2.}
-\texttt{connectivity\_test.py} passes all four checks (TCP
-handshake, model list, inference).
+\texttt{connectivity\_test.py} passes all verification checks
+(TCP handshake, model list, inference).
 (See Chapter~\ref{ch:ollama-infrastructure}.)
 
 \vs
 
 \noindent\textbf{O3.} Explain the tradeoff between context window
-size and memory consumption in Ollama. Why is \texttt{OLLAMA\_NUM\_CTX=8192}
-a safe default for large models on hardware with limited memory?
+size and memory consumption in Ollama. Why is
+\texttt{OLLAMA\_NUM\_CTX=8192} a safe default for large models on
+hardware with limited VRAM?
 (See Chapter~\ref{ch:ollama-infrastructure},
 Section~\ref{sec:memory}.)\\[4pt]
 \TextField[name=o3,width=\linewidth,height=3cm,multiline=true,

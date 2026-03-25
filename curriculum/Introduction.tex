@@ -4,40 +4,32 @@
 \markboth{Introduction}{Introduction}
 %================================================================
 
-This document is a companion reference for participants in the
-\ProjectName{} project. It covers the software environment, programming
-foundations, and data challenge materials needed to perform tasks 
-related to the project. It is \emph{not} intended to be read cover to cover.
-Think of it as a reference manual: use the routing table on the next
-page to identify which chapters apply to your background, complete
-those chapters before the first session, and return to the others as
-needed during the program.
+This document is the official curriculum reference for the Department of
+Mathematics at The University of Texas at San Antonio (UTSA). It serves two
+complementary purposes: it catalogues the mathematics courses offered by
+the department together with their learning objectives and assessment
+strategies, and it provides the technical infrastructure guide needed to
+contribute to, maintain, and extend the curriculum repository. Vertical
+alignment (the progression of concepts across successive courses) and
+horizontal alignment (the coordination of content within a common tier)
+are the central concerns of the document.
 
 \noindent
-%This document is version-locked to the \TheDate{} cohort and is
-%planned for obsolescence on \TheObsolescenceDate{}. After that date,
-You can retrieve the current edition from the program repository at:\\
+You can retrieve the current edition from the department repository at:\\
 \url{\ProjectGit}. \\
 
-\begin{infobox}%[title=This document is a reference, not a reading list]
-You are \textbf{not} expected to read this document from cover to cover.
-Identify the chapters relevant to your background using the routing
-table on the next page, complete those before the first session, and
-return to the remaining chapters only as the need arises during the
-program. Most participants will skip at least two or three chapters
-entirely.
+\begin{infobox}
+This document is \textbf{not} intended to be read from cover to cover.
+Faculty and staff who are already comfortable with \LaTeX{}, Git, and
+Python may proceed directly to the course-unit chapters. Those new to
+one or more of the supporting tools should consult the relevant
+infrastructure chapter first. Use the routing table on the following
+pages to identify which chapters apply to your background.
 \end{infobox}
 
 %================================================================
 \section*{Conventions Used in This Document}
 %================================================================
-
-\textbf{Inline Q\&A prompts.} Throughout the chapters, red prompts
-marked \textcolor{HW}{\textbf{Record your explanation as answer
-\#k.}} appear at key points. These are classroom discussion prompts
-that do not require a written response here; use the fillable form in
-Chapter~\ref{ch:assessment} to record responses to the curated subset
-of questions selected for the progress record.
 
 \noindent
 \textbf{Callout boxes.} Four types of callout box appear in the text:
@@ -66,81 +58,85 @@ hyperlink. References to chapters, sections, figures, and tables are
 also clickable in the PDF.
 
 %================================================================
+\section*{How This Document Is Organized}
+%================================================================
+
+The document is divided into two parts. The first part covers the
+technical infrastructure required to work with the curriculum
+repository: setting up the software environment, using the
+command-line interface, writing in \LaTeX{}, managing versions with
+Git and GitHub, and working with local language-model tools. These
+chapters are written for faculty and staff who may not have a
+background in software development; experienced contributors may skim
+or skip them entirely.
+
+The second part contains the course-unit chapters. Each unit
+corresponds to one course in the department catalog and documents the
+course title, student learning outcomes (SLOs), topical outline, and
+assessment strategy. Units are numbered by their catalog identifier
+(for example, unit 1023 corresponds to \textsc{Math 1023}). The
+chapters within each part are independent; a reader interested only
+in a specific course need not read any other unit chapter.
+
+%================================================================
 \section*{Chapter Dependencies}
 %================================================================
 
       \renewcommand{\thefigure}{\arabic{figure}}
       \setcounter{figure}{0}
       Figure~\ref{fig:dependencies} shows the dependency structure of the
-      chapters. A solid arrow indicates a hard dependency: the target chapter
-      requires the source to be completed first. A dashed arrow indicates
-      recommended order only.
+      infrastructure chapters. A solid arrow indicates a hard dependency:
+      the target chapter requires the source to be completed first. A
+      dashed arrow indicates recommended order only.
 
-      \begin{figure}[htbp]
-      \centering
-      \begin{tikzpicture}[
-      node distance = 0.55cm and 1.8cm,
-      every node/.style = {
-            rectangle, rounded corners=4pt,
-            minimum width=3.8cm, minimum height=0.7cm,
-            align=center, font=\small\sffamily,
-            text=white
-      },
-      harrow/.style  = {-Latex, thick},
-      darrow/.style  = {-Latex, dashed, thick}
-      ]
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    node distance=1.6cm and 2.4cm,
+    every node/.style={font=\small},
+    req/.style={rectangle, rounded corners, draw=colorRequired,
+                fill=colorRequired!15, text width=3.2cm, align=center,
+                minimum height=0.9cm},
+    ess/.style={rectangle, rounded corners, draw=colorEssential,
+                fill=colorEssential!15, text width=3.2cm, align=center,
+                minimum height=0.9cm},
+    des/.style={rectangle, rounded corners, draw=colorDesirable,
+                fill=colorDesirable!15, text width=3.2cm, align=center,
+                minimum height=0.9cm},
+    opt/.style={rectangle, rounded corners, draw=colorOptional,
+                fill=colorOptional!15, text width=3.2cm, align=center,
+                minimum height=0.9cm},
+    hardarrow/.style={->, thick},
+    softarrow/.style={->, dashed}
+]
+% Row 1
+\node[req] (env)  {Environment Setup};
+\node[req, right=of env] (cli) {CLI};
+\node[req, right=of cli] (prog) {Intro to Programming};
 
+% Row 2
+\node[ess, below=of env] (pyenv) {Python Environments};
+\node[des, below=of cli] (numops) {Numerical Operations};
+\node[req, below=of prog] (latex) {\LaTeX{}};
 
+% Row 3
+\node[req, below=of pyenv] (git) {Git and GitHub};
+\node[opt, below=of numops] (llm) {Local LLM};
 
-% ---- Nodes ----
-% Column A: main prerequisite spine
-\node[fill=colorEssential]  (env)  {Ch.1 Environment Setup};
-\node[fill=colorDesirable,  below=of env]  (cli)  {Ch.2 CLI \& Scripting};
-\node[fill=colorDesirable,  below=of cli]  (prog) {Ch.3 Intro to Programming};
-\node[fill=colorEssential,  below=of prog] (pyenv){Ch.4 Python Environments};
-\node[fill=colorDesirable,  below=of pyenv](numop){Ch.5 Numerical Operations};
-\node[fill=colorDesirable,  below=of numop](git)  {Ch.7 Git \& GitHub};
-\node[fill=colorOptional,   below=of git]  (llm)  {Ch.8 LLM Infrastructure};
-
-% Column B: lateral branches from PythonEnvironments
-\node[fill=colorDesirable,
-      right=of pyenv]                       (latex){Ch.6 \LaTeX{}};
-
-% Data challenge track (left column)
-\node[fill=colorRequired,
-      left=of numop]                        (dc)   {Ch.9 Data Challenge};
-\node[fill=colorRequired,
-      below=of dc]                          (anal) {Ch.10 Analysis Activities};
-
-% Assessment (bottom, spanning both tracks)
-\node[fill=colorRequired,
-      below=2.0cm of llm,
-      minimum width=9.0cm]                  (asm)  {Ch.11 Assessment \& Progress Record};
-
-% ---- Arrows: main spine (hard dependencies) ----
-\draw[harrow] (env)   -- (cli);
-\draw[harrow] (cli)   -- (prog);
-\draw[harrow] (prog)  -- (pyenv);
-\draw[harrow] (pyenv) -- (numop);
-\draw[harrow] (numop) -- (git);
-\draw[harrow] (git)   -- (llm);
-
-% ---- Arrows: lateral branches ----
-\draw[darrow] (pyenv) -- (latex);     % recommended after environments
-\draw[harrow] (pyenv.west) to[out=200,in=90] (dc.north);  % env needed for data challenge
-
-% ---- Arrows: data challenge track ----
-\draw[harrow] (dc) -- (anal);
-
-% ---- Arrows: Assessment references everything ----
-\draw[darrow] (llm)  -- (asm);
-\draw[darrow] (anal.south) |- (asm.west);
-
+% Arrows
+\draw[hardarrow] (env) -- (cli);
+\draw[hardarrow] (cli) -- (prog);
+\draw[hardarrow] (env) -- (pyenv);
+\draw[hardarrow] (prog) -- (pyenv);
+\draw[softarrow] (pyenv) -- (numops);
+\draw[hardarrow] (pyenv) -- (git);
+\draw[softarrow] (cli) -- (latex);
+\draw[softarrow] (numops) -- (llm);
+\draw[softarrow] (git) -- (llm);
 \end{tikzpicture}
-
-\caption{Chapter dependency structure. Solid arrows indicate hard
-dependencies; dashed arrows indicate recommended order. Node color
-encodes category: \textcolor{colorRequired}{\textbf{Required}},
+\caption{Dependency graph for the infrastructure chapters. Solid arrows
+indicate hard dependencies; dashed arrows indicate recommended order. Node
+color encodes category: \textcolor{colorRequired}{\textbf{Required}},
 \textcolor{colorEssential}{\textbf{Essential}},
 \textcolor{colorDesirable}{\textbf{Desirable}},
 \textcolor{colorOptional}{\textbf{Optional}}.}
@@ -153,18 +149,18 @@ encodes category: \textcolor{colorRequired}{\textbf{Required}},
 \section*{Which Chapters Do You Need?}
 %================================================================
 
-Use Table~\ref{tab:routing} to identify your reading path based on
-your prior experience. Chapters marked \textbf{Required} must be
-completed; \textbf{Skim} means read the section headings and run the
-exercises but skip the explanatory prose; \textbf{Skip} means the
-chapter is optional for you.
+Use Table~\ref{tab:routing} to identify your reading path based on your
+familiarity with the supporting tools. Chapters marked \textbf{Required}
+must be completed before working with the repository. \textbf{Skim} means
+read the section headings and run the exercises but skip the explanatory
+prose. \textbf{Skip} means the chapter is optional for your profile.
 
 \begin{table}[htbp]
 \centering
-\caption{Recommended reading path by prior experience.}
+\caption{Recommended reading path by prior experience with the toolchain.}
 \label{tab:routing}
 \footnotesize
-\begin{tabular}{l*{10}{c}}
+\begin{tabular}{l*{8}{c}}
 \toprule
 \textbf{Profile}
   & \rotatebox{70}{Env.\ Setup}
@@ -174,75 +170,71 @@ chapter is optional for you.
   & \rotatebox{70}{Numerical Ops.}
   & \rotatebox{70}{\LaTeX{}}
   & \rotatebox{70}{Git}
-  & \rotatebox{70}{LLM}
-  & \rotatebox{70}{Data Challenge}
-  & \rotatebox{70}{Analysis} \\
+  & \rotatebox{70}{LLM} \\
 \midrule
-New to programming
+New to all tools
   & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$
-  & $\bullet$ & $\bullet$ & S* & $\bullet$ & $\bullet$ \\
-Know Python, new to Linux/CLI
-  & $\bullet$ & $\bullet$ & S & $\bullet$ & S
-  & $\bullet$ & $\bullet$ & S* & $\bullet$ & $\bullet$ \\
-Experienced programmer
-  & $\bullet$ & S & -- & $\bullet$ & --
-  & $\bullet$ & S & S* & $\bullet$ & $\bullet$ \\
+  & $\bullet$ & $\bullet$ & S \\
+Familiar with \LaTeX{}, new to Python and Git
+  & $\bullet$ & $\bullet$ & $\bullet$ & $\bullet$ & S
+  & -- & $\bullet$ & S \\
+Familiar with Python and Git, new to \LaTeX{}
+  & $\bullet$ & S & S & S & --
+  & $\bullet$ & -- & S \\
+Experienced with all tools
+  & S & -- & -- & S & --
+  & -- & -- & S \\
 \bottomrule
 \end{tabular}
-\end{table}
 
-\noindent\footnotesize $\bullet$ = Required \quad S = Skim \quad
--- = Skip \quad
-*Chapter~\ref{ch:ollama-infrastructure}: all profiles complete
-Section~\ref{sec:apikeys} only; infrastructure sections are optional.
+\bigskip
+\noindent\footnotesize
+$\bullet$ = Required \quad S = Skim \quad -- = Skip
 \normalsize
-
+\end{table}
 
 %================================================================
 \section*{Progress Record}
 %================================================================
 
-The final chapter, Chapter~\ref{ch:assessment} (Assessment and
-Progress Record), is a fillable PDF form. It organizes the key
-completion items from all chapters into four categories: Required,
-Essential, Desirable, and Optional. Open it in Adobe Acrobat Reader
-to fill and save your responses. Refer to it throughout the program
-as a checklist for readiness.
-
+The final chapter, Chapter~\ref{ch:assessment} (Assessment and Progress
+Record), organizes the key completion items from all infrastructure chapters
+into four categories: Required, Essential, Desirable, and Optional. Open
+the fillable PDF form in Adobe Acrobat Reader to record and save your
+responses. Use it throughout onboarding as a readiness checklist.
 
 \newpage
 %================================================================
 \section*{Estimated Completion Times}
 %================================================================
 
-Table~\ref{tab:times} shows estimated completion times per chapter.
-Times assume no prior exposure to the topic; students with background
-in a given area will complete it faster.
+Table~\ref{tab:times} shows estimated completion times per infrastructure
+chapter. Times assume no prior exposure to the topic; contributors with
+background in a given area will complete it faster. Course-unit chapters
+are read as reference material and are not included in this table; reading
+time for a single unit is approximately 20 to 30 minutes.
 
 \begin{table}[htbp]
 \centering
-\caption{Estimated completion time per chapter.}
+\caption{Estimated completion time per infrastructure chapter.}
 \label{tab:times}
 \begin{tabular}{clr}
 \toprule
 \textbf{Chapter} & \textbf{Title} & \textbf{Estimated Time} \\
 \midrule
-1  & Environment Setup & 2 hours \\
-2  & Command-Line Interfaces and Shell Scripting & 2 hours \\
-3  & Introduction to Programming Environments & 2 hours \\
+1  & Environment Setup                              & 2 hours \\
+2  & Command-Line Interfaces and Shell Scripting    & 2 hours \\
+3  & Introduction to Programming Environments       & 2 hours \\
 4  & Python Virtual Environments and Workflow Automation & 1.5 hours \\
-5  & Numerical Operations with NumPy & 2 hours \\
-6  & Introduction to \LaTeX{} & 1.5 hours \\
-7  & Version Control with Git and GitHub & 1.5 hours \\
-8  & Local LLM Infrastructure with Ollama & 1 hour (students) / 3 hours (instructors) \\
-9  & Data Challenge & 1 hour (reading) \\
-10 & Analysis Activities & 4--6 hours \\
-11 & Assessment and Progress Record & Ongoing \\
+5  & Numerical Operations with NumPy                & 2 hours \\
+6  & Introduction to \LaTeX{}                       & 1.5 hours \\
+7  & Version Control with Git and GitHub            & 1.5 hours \\
+8  & Local LLM Infrastructure with Ollama           & 1 hour (contributors) / 3 hours (administrators) \\
+9  & Assessment and Progress Record                 & Ongoing \\
 \midrule
-   & \textbf{Total (student path)} & \textbf{$\approx$ 19--21 hours} \\
+   & \textbf{Total (full path)}                     & \textbf{$\approx$ 13.5--15.5 hours} \\
 \bottomrule
 \end{tabular}
 \end{table}
 
 \end{landscape}
-
